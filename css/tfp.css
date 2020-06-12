@@ -1,0 +1,543 @@
+/* colors used 
+    background: #444;
+    color: white;
+    color:rgb(223, 149, 141);
+    font-weight: 300, 400
+    background: white;
+    color: #303030;
+    font-size 
+    h1 3rem;
+    h2 2.25rem
+    h3 1.25rem
+    body 1 rem
+    
+    */
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+/*custom properties update how to put them in the root check this 
+:root*/
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.25rem
+}
+
+h3 {
+    font-size: 2.5rem
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0.25em 0.75em 0.75em rgba(0, 0, 0, .25);
+}
+
+body {
+    font-size: 1rem;
+}
+
+@media (min-width: 800px) {
+    /*:root */
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 3.75rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        body {
+            font-size: 1.25rem;
+        }
+    
+}
+
+/* general styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: white;
+    color: #303030;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* will change later */
+
+section {
+    padding: 5em 2em;
+}
+
+/* gets rid of posssible issues*/
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
+/* need to fix */
+:focus {
+    outline: 3px solid color #303030;
+    outline-offset: 3px;
+}
+
+/* buttons */
+.btn {
+    display: inline-block;
+    padding: .5em 2.5em;
+    background:rgb(223, 149, 141);
+    color: #303030;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    transition: transform 200ms ease-in-out;
+    margin-bottom: 1em;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/* typography */
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.section-title {
+    margin-bottom: .25em;
+}
+
+.section-title-intro {
+    font-weight: 300;
+    
+}
+
+.section-title-intro  strong {
+    display: block;
+   
+}
+
+.section-subtitle {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.section-subtitle-intro,
+.section-subtitle-about {
+    background:rgb(223, 149, 141);
+    margin-bottom: 1em;
+    padding: .25em 1em;
+}
+
+.secttion-subtitle-intro {
+    font-size: 1em;
+}
+
+.section-subtitle-work {
+    color :rgb(223, 149, 141);
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.nav {
+    position: fixed;
+    background: #444;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(.5,0,.5,1)
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: inherit;
+    font-weight: 900;
+    font-size: 2.25rem;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color:rgb(223, 149, 141);
+}
+/* the padding property allows you to click in that area as well*/
+.nav-toggle {
+    padding: 1em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+    
+}
+
+.nav-open  .nav{
+    transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::before {
+    transform: rotate(90deg) translateX(-6px);
+}
+
+.nav-open .hamburger::after {
+    opacity: 0;
+}
+
+.hamburger {
+    /* background: #303030; */
+    /* width: 2em; */
+    /* height: 3px; */
+    /* border-radius: 1em; */
+
+    display: block;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    background:rgb(223, 149, 141);
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.hamburger::before { top: 6px;}
+.hamburger::after {bottom: 6px;}
+   
+.intro--image {
+    /* border-radius: 50%; */
+    border: 1px solid rgb(223, 149, 141);
+}
+
+/* intro section*/
+.intro {
+    position: relative;
+}  
+/*change this to .intro--img lets see if this is different */
+.intro--image {
+    box-shadow: 0.25em 0.75em 0.75em rgba(0, 0, 0, .25),
+0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+}
+/* for media queries 300 600 900 and up 
+grid column gap does not exist */
+@media (min-width: 600px) {
+.intro {
+    display: grid;
+    grid-column-gap: 1em;
+    width: min-content;
+    margin: 0 auto;
+    grid-template-areas: 
+    "img title"
+    "img subtitle";
+    grid-template-columns: min-content max-content;
+}
+
+.intro--image {
+    grid-area: img;
+    min-width: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.section-subtitle-intro {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    /* position: absolute; */
+    /* left: -3.5; */
+    /* right: 0; */
+    position: relative;
+    left: -2em;
+    width: cal(100% + 2.5em);
+    
+}
+
+}
+
+/* my service section add a background img here */
+.my-services {
+    background: #303030;
+    background-image: url();
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #fff;
+    text-align: center;
+}
+
+.section-title-services {
+    color:rgb(223, 149, 141);
+    position: relative;
+}
+
+.section-title-services::after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background:rgb(223, 149, 141);
+    opacity: 0.25;
+}
+
+.services {
+    margin-bottom: 1em;
+}
+
+.service {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media(min-width: 800px) {
+    .services {
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service + .service {
+        margin-left: 2em;
+    }
+}
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-me-image {
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+}
+
+
+
+@media(min-width: 600px) {
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-areas: 
+            "title img"
+            "subtitle img"
+            "text img";
+            grid-column-gap: 2em;
+             
+    }
+
+    .about-me-image {
+        grid-row: 1 / -1;
+        grid-column: 2;
+    }
+
+/* check to see if you have this placed in more than one space */
+    .section-title-about,
+    .section-subtitle-about {
+        grid-column: 1;
+        
+    }
+
+    .section-title-about {
+        grid-area: title;
+    }
+/*  the padding inside needs to be corrected*/
+    .section-subtitle-about {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: cal(100% + 4em);
+        padding-left: 1em;
+        padding-right: cal(200px + 4em);
+        
+    }
+
+    .about-me-image {
+        grid-area: img;
+        position: relative;
+        z-index: 2;
+    }
+    
+.section-title-intro {
+    font-size: 3rem;
+}
+}
+
+/* my work */
+
+.my-work {
+    background:#303030;
+    color: white;
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 0 auto;
+}
+
+.portfolio-item {
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+ 
+.portfolio-img {
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
+    opacity 250ms linear;
+    width: 100%;
+    object-fit: contain;
+}
+
+.portfolio-img:hover,
+.portfolio-item:focus .portfolio-img {
+    transform: scale(1.2);
+    opacity: .5;
+}
+
+iframe {
+    border: 15px solid rgb(223, 149, 141);
+    
+}
+
+/* footer */
+.footer {
+    background: #444;
+    color:rgb(223, 149, 141);
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: 1.5rem;
+}
+.footer a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.footer-link {
+    font-weight: 400;
+}
+
+.footer-link:hover,
+.social-list--link:hover {
+    opacity: .7;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.social-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+.social-list-item {
+    margin: 0 .5em;
+}
+.social-list-link {
+    padding: .5em;
+}
+
+/* individual portfolio itme styles */
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
