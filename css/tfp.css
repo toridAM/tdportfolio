@@ -172,7 +172,7 @@ strong {
     padding: .25em 1em;
 }
 
-.secttion-subtitle-intro {
+.section-subtitle-intro {
     font-size: 1em;
 }
 
@@ -400,10 +400,7 @@ grid column gap does not exist */
              
     }
 
-/*     .about-me-image { */
-/*         grid-row: 1 / -1; */
-/*         grid-column: 2; */
-/*     } */
+
 
 /* check to see if you have this placed in more than one space */
     .section-title-about,
