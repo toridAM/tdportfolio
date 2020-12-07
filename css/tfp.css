@@ -315,7 +315,7 @@ grid column gap does not exist */
     z-index: 2;
 }
 
-/* .section-subtitle-intro { 
+.section-subtitle-intro { 
     align-self: start;
     grid-column: -1 / 1;
     grid-row: 2;
@@ -323,7 +323,7 @@ grid column gap does not exist */
     position: relative;
     left: -2em;
     width: cal(100% + 2.5em);
-  */  
+    
 }
 
 }
@@ -375,7 +375,7 @@ grid column gap does not exist */
 }
 
 .about-me {
-/*     max-width: 1000px; */
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -398,14 +398,14 @@ grid column gap does not exist */
 
 
 /* check to see if you have this placed in more than one space */
-/*     .section-title-about, */
-/*     .section-subtitle-about { */
-/*         grid-column: 1; */
+    .section-title-about,
+    .section-subtitle-about {
+        grid-column: 1;
         
     }
 
-/*     .section-title-about { */
-/*         grid-area: title; */
+    .section-title-about {
+        grid-area: title;
     }
 /*  the padding inside needs to be corrected*/
     .section-subtitle-about {
@@ -419,11 +419,11 @@ grid column gap does not exist */
         
     }
 
-/*     .about-me-image { */
-/*         grid-area: img; */
-/*         position: relative; */
+    .about-me-image {
+        grid-area: img;
+        position: relative;
 /*         z-index: 2; */
-/*     } */
+    }
     
 .section-title-intro {
     font-size: 3rem;
@@ -448,7 +448,7 @@ grid column gap does not exist */
     height: 100vh;
     grid-gap: 1rem;
     grid-template-areas:
-        "box1 box2 box3"
+        "box3 box2 box1"
         "box4 box5 box6"
         
 }
