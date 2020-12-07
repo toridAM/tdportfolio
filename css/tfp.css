@@ -21,8 +21,7 @@
     margin: 0;
     
 }
-/*custom properties update how to put them in the root check this 
-:root*/
+
 h1 {
     font-size: 3rem;
 }
@@ -34,14 +33,13 @@ h2 {
 h3 {
     font-size: 2.5rem
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     box-shadow: 0.25em 0.75em 0.75em rgba(0, 0, 0, .25);
-}
-
-body {
     font-size: 1rem;
 }
+
 
 @media (min-width: 800px) {
     /*:root */
@@ -78,13 +76,11 @@ body {
     line-height: 1.6;
 }
 
-/* will change later */
-
 section {
     padding: 5em 2em;
 }
 
-/* gets rid of posssible issues*/
+
 img {
     display: block;
     max-width: 100%;
@@ -94,10 +90,10 @@ img {
     margin-bottom: 2em;
 }
 
-/* need to fix */
-:focus {
-    outline: 3px solid color #303030;
-    outline-offset: 3px;
+
+/* :focus { */
+/*     outline: 3px solid color #303030; */
+/*     outline-offset: 3px; */
 }
 
 /* buttons */
@@ -111,7 +107,7 @@ img {
     font-size: .8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 900;
+    font-weight: 700;
     transition: transform 200ms ease-in-out;
     margin-bottom: 1em;
 }
@@ -467,20 +463,20 @@ grid column gap does not exist */
 
 .portfolio-item {
     margin-bottom: 1em;
-    overflow: hidden;
+/*     overflow: hidden; */
 }
  
 .portfolio-img {
-    transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
-    opacity 250ms linear;
+/*     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), */
+/*     opacity 250ms linear; */
     width: 100%;
     object-fit: contain;
 }
 
-.portfolio-img:hover,
-.portfolio-item:focus .portfolio-img {
-    transform: scale(1.2);
-    opacity: .5;
+/* .portfolio-img:hover, */
+/* .portfolio-item:focus .portfolio-img { */
+/*     transform: scale(1.2); */
+/*     opacity: .5; */
 }
 
 iframe {
