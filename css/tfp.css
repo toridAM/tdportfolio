@@ -91,7 +91,10 @@ img {
 }
 
 
-
+a{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
 
 /* buttons */
 .btn {
@@ -455,17 +458,11 @@ grid column gap does not exist */
 }
  
 .portfolio-img {
-/*     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), */
-/*     opacity 250ms linear; */
-    width: 100%;
-    object-fit: contain;
+  width: 100%;
+  object-fit: contain;
 }
 
-/* .portfolio-img:hover, */
-/* .portfolio-item:focus .portfolio-img { */
-/*     transform: scale(1.2); */
-/*     opacity: .5; */
-}
+
 
 iframe {
     border: 15px solid rgb(223, 149, 141);
