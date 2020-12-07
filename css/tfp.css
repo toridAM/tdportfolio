@@ -91,10 +91,7 @@ img {
 }
 
 
-/* :focus { */
-/*     outline: 3px solid color #303030; */
-/*     outline-offset: 3px; */
-}
+
 
 /* buttons */
 .btn {
@@ -258,11 +255,6 @@ header {
 }
 
 .hamburger {
-    /* background: #303030; */
-    /* width: 2em; */
-    /* height: 3px; */
-    /* border-radius: 1em; */
-
     display: block;
     position: relative;
 }
@@ -289,8 +281,7 @@ header {
 .hamburger::after {bottom: 6px;}
    
 .intro--image {
-    /* border-radius: 50%; */
-    border: 1px solid rgb(223, 149, 141);
+   border: 1px solid rgb(223, 149, 141);
 }
 
 /* intro section*/
@@ -328,9 +319,6 @@ grid column gap does not exist */
     grid-column: -1 / 1;
     grid-row: 2;
     text-align: right;
-    /* position: absolute; */
-    /* left: -3.5; */
-    /* right: 0; */
     position: relative;
     left: -2em;
     width: cal(100% + 2.5em);
@@ -409,10 +397,10 @@ grid column gap does not exist */
              
     }
 
-    .about-me-image {
-        grid-row: 1 / -1;
-        grid-column: 2;
-    }
+/*     .about-me-image { */
+/*         grid-row: 1 / -1; */
+/*         grid-column: 2; */
+/*     } */
 
 /* check to see if you have this placed in more than one space */
     .section-title-about,
