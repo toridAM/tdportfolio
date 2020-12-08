@@ -6,8 +6,6 @@
     background: white; #444, #dbcf66
     color: black; #bcb256,  #444
     font-size 
-    
-h1 3rem;
     h2 2.25rem
     h3 1.25rem
     body 1 rem
@@ -23,14 +21,12 @@ h1 3rem;
     
 }
 
-
-
 h2 {
-    font-size: 2.25rem
+    font-size: 2.25rem;
 }
 
 h3 {
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 body {
@@ -482,7 +478,7 @@ grid column gap does not exist */
     color:#bcb256;
     text-align: center;
     padding: 2.5em 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .footer a {
     color: inherit;
@@ -517,15 +513,15 @@ grid column gap does not exist */
     padding: .5em;
 }
 
-/* individual portfolio itme styles */
+/* individual portfolio items styles
 .portfolio-item-individual {
     padding: 0 2em 2em;
     max-width: 1000;
     margin: 0 auto;
-}
+} */
 
-.portfolio-item-individual {
+/* .portfolio-item-individual { 
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
