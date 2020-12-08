@@ -35,23 +35,23 @@ body {
 }
 
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) { 
     /*:root */
        
 
-        h2 {
-            font-size: 3.75rem;
-        }
+/*         h2 { */
+/*             font-size: 3.75rem; */
+/*         } */
 
-        h3 {
-            font-size: 1.5rem;
-        }
+/*         h3 { */
+/*             font-size: 1.5rem; */
+/*         } */
 
-        body {
-            font-size: 1.25rem;
-        }
+/*         body { */
+/*             font-size: 1.25rem; */
+/*         } */
     
-}
+/* }*/ */
 
 /* general styles */
 
@@ -131,6 +131,7 @@ h3 {
 strong {
     font-weight: 800;
     color: #bcb256;
+    font-size: 3rem;
 }
 
 .section-title {
