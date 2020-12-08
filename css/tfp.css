@@ -341,11 +341,16 @@ grid column gap does not exist */
 }
 
 .service {
-    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bcb251;
+    
+    
 }
 
-.service {
-    max-width: 500px;
+.service > div{
+/*     max-width: 500px; */
+    width: 100%;
     margin: 0 auto;
 }
 
