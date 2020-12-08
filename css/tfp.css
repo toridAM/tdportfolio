@@ -1,12 +1,13 @@
 /* colors used 
     background: #444;
-    color: white;
-    color:rgb(223, 149, 141);
+    color: #bcb251;
+    font-family: roboto
     font-weight: 300, 400
-    background: white;
-    color: #303030;
+    background: white; #444, #dbcf66
+    color: black; #bcb256,  #444
     font-size 
-    h1 3rem;
+    
+h1 3rem;
     h2 2.25rem
     h3 1.25rem
     body 1 rem
@@ -35,7 +36,7 @@ h3 {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: roboto;
     box-shadow: 0.25em 0.75em 0.75em rgba(0, 0, 0, .25);
     font-size: 1rem;
 }
@@ -69,9 +70,9 @@ html {
 
 body {
     background: white;
-    color: #303030;
+    color: #000000;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: roboto;
     font-size: 1.25rem;
     line-height: 1.6;
 }
@@ -101,7 +102,7 @@ a{
     display: inline-block;
     padding: .5em 2.5em;
     background:rgb(223, 149, 141);
-    color: #303030;
+    color: #444;
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -112,9 +113,7 @@ a{
     margin-bottom: 1em;
 }
 
-.btn:hover{
-    transform: scale(1.1);
-}
+
 
 /* typography */
 
@@ -142,6 +141,7 @@ h3 {
 
 strong {
     font-weight: 700;
+    color: #bcb256;
 }
 
 .section-title {
@@ -191,7 +191,7 @@ header {
 .nav {
     position: fixed;
     background: #444;
-    color: white;
+    color: #bcb256;
     top: 0;
     bottom: 0;
     left: 0;
@@ -220,7 +220,7 @@ header {
 }
 
 .nav-link:hover {
-    color:rgb(223, 149, 141);
+    color:dbcf66;
 }
 /* the padding property allows you to click in that area as well*/
 .nav-toggle {
@@ -263,7 +263,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background:rgb(223, 149, 141);
+    background:#bcb256;
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -282,7 +282,7 @@ header {
 .hamburger::after {bottom: 6px;}
    
 .intro--image {
-   border: 1px solid rgb(223, 149, 141);
+   border-radius: 50%;
 }
 
 /* intro section*/
@@ -290,10 +290,7 @@ header {
     position: relative;
 }  
 /*change this to .intro--img lets see if this is different */
-.intro--image {
-    box-shadow: 0.25em 0.75em 0.75em rgba(0, 0, 0, .25),
-0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
-}
+
 /* for media queries 300 600 900 and up 
 grid column gap does not exist */
 @media (min-width: 600px) {
@@ -330,16 +327,17 @@ grid column gap does not exist */
 
 /* my service section add a background img here */
 .my-services {
-    background: #303030;
-/*     background-image: url(); */
+    
+  
     background-size: cover;
     background-blend-mode: multiply;
-    color: #fff;
+    color: #444;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .section-title-services {
-    color:rgb(223, 149, 141);
+    color:black;
     position: relative;
 }
 
@@ -433,7 +431,7 @@ grid column gap does not exist */
 /* my work */
 
 .my-work {
-    background:#303030;
+    background:#444;
     color: white;
     text-align: center;
 }
@@ -483,15 +481,12 @@ grid column gap does not exist */
 
 
 
-iframe {
-    border: 15px solid rgb(223, 149, 141);
-    
-}
+
 
 /* footer */
 .footer {
-    background: #444;
-    color:rgb(223, 149, 141);
+    background: white;
+    color:#bcb256;
     text-align: center;
     padding: 2.5em 0;
     font-size: 1.5rem;
