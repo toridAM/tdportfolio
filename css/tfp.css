@@ -531,3 +531,333 @@ grid column gap does not exist */
     margin-left: auto;
     margin-right: auto;
 }*/
+* {
+  box-sizing: border- box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  background-color: #444;
+
+
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-items {
+  margin: 1em;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #bcb251;
+}
+
+.intro {
+ display: grid;
+ grid-template-columns: auto auto auto;
+}
+
+.portfolio {
+  background-color: #444;
+  color: white;
+  letter-spacing: 0.2em;
+  padding-left: 40px;
+}
+
+.intro--image {
+  margin: 40% 0 0 60%;
+  border-radius: 50%;
+  
+}
+
+.aside {
+  position: relative;
+  top: -100px;
+  margin-left: 60px;
+  
+}
+
+span {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: uppercase;
+  position: relative;
+  top: -100px;
+
+}
+
+strong {
+  color: #bcb251;
+  font-size: 3rem;
+  position: relative;
+  top: -100px;
+
+}
+
+h2 {
+  background-color: #dbcf66;
+  padding: 0.5em;
+  width: 250px;
+  position: relative;
+  top: -100px;
+  font-size: 1em;
+  text-align: center;
+}
+
+h3 {
+  background-color: #bcb251;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding-top: 1em;
+  position: relative;
+  top: -80px;
+  left: 40px;
+}
+
+.aside-list {
+  background-color: #dbcf66;
+  width: 200px;
+  height: 200px;
+  list-style-type: none;
+  position: relative;
+  top: -250px;
+  left: 70px;
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
+.about-me {
+  margin: 0 auto;
+  padding-left: 50%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+  margin-top: 0px;
+ 
+}
+
+h4 {
+  color: #444;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1em;
+  background-color: #dbcf66;
+  margin: 1em;
+  
+  
+}
+
+
+
+.my-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #dbcf66;
+ 
+
+
+}
+
+.section-title-hello{
+  color: #dbcf66;
+  
+}  
+
+.section-title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #666;
+  text-transform: uppercase;
+  
+}
+.projects{
+  background-color: #dbcf66;
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ .section-title{
+  color: #444;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 1em;
+}* {
+  box-sizing: border- box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  background-color: #444;
+
+
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-items {
+  margin: 1em;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #bcb251;
+}
+
+.intro {
+ display: grid;
+ grid-template-columns: auto auto auto;
+}
+
+.portfolio {
+  background-color: #444;
+  color: white;
+  letter-spacing: 0.2em;
+  padding-left: 40px;
+}
+
+.intro--image {
+  margin: 40% 0 0 60%;
+  border-radius: 50%;
+  
+}
+
+.aside {
+  position: relative;
+  top: -100px;
+  margin-left: 60px;
+  
+}
+
+span {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: uppercase;
+  position: relative;
+  top: -100px;
+
+}
+
+strong {
+  color: #bcb251;
+  font-size: 3rem;
+  position: relative;
+  top: -100px;
+
+}
+
+h2 {
+  background-color: #dbcf66;
+  padding: 0.5em;
+  width: 250px;
+  position: relative;
+  top: -100px;
+  font-size: 1em;
+  text-align: center;
+}
+
+h3 {
+  background-color: #bcb251;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding-top: 1em;
+  position: relative;
+  top: -80px;
+  left: 40px;
+}
+
+.aside-list {
+  background-color: #dbcf66;
+  width: 200px;
+  height: 200px;
+  list-style-type: none;
+  position: relative;
+  top: -250px;
+  left: 70px;
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
+.about-me {
+  margin: 0 auto;
+  padding-left: 50%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+  margin-top: 0px;
+ 
+}
+
+h4 {
+  color: #444;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1em;
+  background-color: #dbcf66;
+  margin: 1em;
+  
+  
+}
+
+
+
+.my-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #dbcf66;
+ 
+
+
+}
+
+.section-title-hello{
+  color: #dbcf66;
+  
+}  
+
+.section-title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #666;
+  text-transform: uppercase;
+  
+}
+.projects{
+  background-color: #dbcf66;
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ .section-title{
+  color: #444;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 1em;
+}
+
+
+
