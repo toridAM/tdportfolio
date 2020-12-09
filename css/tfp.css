@@ -1,5 +1,5 @@
 * {
-  box-sizing: border- box;
+  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
@@ -22,6 +22,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #bcb251;
+  font-family: 800;
 }
 
 .intro {
