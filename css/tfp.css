@@ -32,6 +32,7 @@
   padding: 10px;
   background-color: #444;
   width: 30%;
+  height: 100vh;
 }
 
 .portfolio {
@@ -62,11 +63,13 @@ p strong{
   font-size: 3em;
 }
 
-h2{
-  background-color: #dbcf66;
-  width: 300px;
-  padding: 0.1em;
+
+h2 {
+  background-color: #bcb251;
+  width: 200px;
+  padding: 0.5em;
   text-align: center;
+  font-size: 1em;
 }
 
 .skill h3{
@@ -81,6 +84,7 @@ h2{
   padding-top: 1em;
 }
 
+
 .list{
   background-color: #bcb251;
   list-style-type: none;
@@ -94,43 +98,6 @@ h2{
 }
 
 
-
-strong {
-  color: #bcb251;
-  font-size: 3rem;
-  
-  
-
-}
-
-h2 {
-  background-color: #dbcf66;
-  padding: 0.5em;
-  width: 250px;
- 
-  
-  font-size: 1em;
-  text-align: center;
-}
-
-h3 {
-  background-color: #bcb251;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  padding-top: 1em;
- 
-}
-
-.aside-list {
-  background-color: #dbcf66;
-  width: 200px;
-  height: 200px;
-  list-style-type: none;
- 
-  padding: 0.5em;
-  font-size: 1rem;
-}
 
 .about-me {
   margin: 0 auto;
@@ -148,52 +115,30 @@ h3 {
   font-size: 3rem;
   color: #bcb251;
   padding: 0.5em;
-  
+ }
+
+.portfolio-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #bcb251;
 }
-/////////////////////////////////////pick up againg tomorrow
-h4 {
-  color: #444;
-  font-size: 3rem;
-  text-align: center;
+
+h4{
+  background-color: #bcb251;
   padding: 1em;
-  
-  margin: 1em;
- }
+}
 
-.my-work {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
- }
-
-.section-title-hello{
-  color: #dbcf66;
-  background-color: white;
- }  
-
-.section-title {
+ .section-title-project{
   text-align: center;
-  font-size: 1.5em;
-  color: #666;
-  text-transform: uppercase;
-  }
-
-.projects{
-  
-  color: #666;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
- .section-title{
+  font-size: 1.5rem;
   color: #444;
-  font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
-  margin-bottom: 1em;
 }
+
+
+
+ 
 
 /* footer */
 .footer {
@@ -205,8 +150,10 @@ h4 {
 }
 
 .footer a {
-   
-    text-decoration: none;
+   color: #444;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 1.5em;
 }
 
 .footer-link {
@@ -215,7 +162,7 @@ h4 {
 
 .footer-link:hover,
 .social-list--link:hover {
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .footer-link:hover {
@@ -234,6 +181,6 @@ h4 {
     margin: 0 .5em;
 }
 .social-list-link {
-    padding: .5em;
+    padding: 0.5em;
 }
 
