@@ -130,8 +130,11 @@ h2 {
   background-color: #bcb251;
 }
 .portfolio-item {
-  margin: .5em;
-  padding: 1em;
+  margin: 1em;
+  
+}
+.service {
+  padding-bottom: 2em;
 }
 
 h4{
