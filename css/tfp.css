@@ -128,14 +128,13 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #bcb251;
-}
-.portfolio-item {
-  margin: 1em;
-  
-}
-.service {
   padding-bottom: 2em;
 }
+.portfolio-item {
+  margin: 0.5em;
+  
+}
+
 
 h4{
   background-color: #bcb251;
