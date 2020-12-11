@@ -31,6 +31,7 @@
 .portfolio {
   letter-spacing: 0.5em;
   padding: 2em;
+  font-weight: 800;
  }
 
 .intro--image{
@@ -71,9 +72,7 @@ h2 {
   font-weight: normal;
 }
 
-.skill h3{
- 
-}
+
 
 
 .list{
@@ -116,7 +115,9 @@ h2 {
   margin: 0.1em;
   }
 
-
+h3 {
+  padding: 1em;
+}
 
 h4{
   background-color: #bcb251;
