@@ -45,7 +45,7 @@
 
 .aside-skills{
  display: flex;
- justify-content: space-around;
+ justify-content: center;
   width: 100%;
 }
 
@@ -72,27 +72,12 @@ h2 {
   font-weight: normal;
 }
 
-
-
-
-.list{
-  position: relative;
-  right: 100px;
-  top: 40px;
-  background-color: #bcb251;
-  list-style-type: none;
-  padding: 1.5em;
-  width: 150px;
-  height: 150px;
-  }
-
 .about-me {
   background-color: #444;
   color: white;
   margin: auto;
   padding: 2em;
   font-size: 1rem;
-  text-transform: uppercase;
   line-height: 1.5em;
   display: flex;
   justify-content: space-around;
@@ -159,7 +144,7 @@ aside ul li {
   aside li {
    position: relative;
    top: 50px;
-   left: 60px;
+   left: 70px;
    font-weight: 800;
    color: #444;
   }
