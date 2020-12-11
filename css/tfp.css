@@ -46,10 +46,9 @@
  display: flex;
  justify-content: space-around;
   width: 100%;
-
 }
+
 span{
-  color: white;
   font-size: 1.5em;
 }
 
@@ -96,23 +95,21 @@ h2 {
   }
 
 .about-me {
-  margin: 0 auto;
-  padding-left: 50%;
-  font-size: 1rem;
-  font-weight: 800;
+  background-color: #444;
   color: white;
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 1rem;
   text-transform: uppercase;
   line-height: 1.5em;
   display: flex;
   justify-content: space-around;
-  background-color: #444;
-  }
+ }
 
 .section-title {
   font-size: 3rem;
   color: #bcb251;
-  
- }
+  }
 
 .portfolio-work {
   display: flex;
