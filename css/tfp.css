@@ -132,6 +132,37 @@ h4{
   padding: 1em;
 }
 
+aside {
+  width: 200px;
+  height: 200px;
+  background-color: #bcb251;
+  position: relative;
+  animation-name: list;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  border-radius: 50%;
+  
+}
+
+@keyframes list {
+  0%   {background-color:lightblue; left:0px; top:0px;}
+  25%  {background-color:lightgreen; left:100px; top:0px;}
+  50%  {background-color:lightblue; left:100px; top:100px;}
+  75%  {background-color:lightgreen; left:0px; top:100px;}
+  100% {background-color: #bcb251; left:0px; top:0px;}
+}
+aside ul li {
+  list-style-type: none;
+ 
+  }
+  
+  aside li {
+   position: relative;
+   top: 50px;
+   left: 60px;
+   font-weight: 800;
+   color: #444;
+  }
 
  .section-title-project{
   text-align: center;
