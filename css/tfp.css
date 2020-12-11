@@ -80,7 +80,6 @@ h2 {
   background-color: #dbcf66; 
   width: 150px;
   height: 150px;
-  text-align: center;
   margin: 0;
 }
 
@@ -109,7 +108,7 @@ h2 {
 .section-title {
   font-size: 3rem;
   color: #bcb251;
-  padding: 0.5em;
+  
  }
 
 .portfolio-work {
@@ -125,6 +124,7 @@ h2 {
   }
 
 
+
 h4{
   background-color: #bcb251;
   padding: 1em;
@@ -138,9 +138,7 @@ h4{
   padding: 1em;
 }
 
-.header-text {
-  padding: 1em;
-}
+
  .section-title-project{
   text-align: center;
   font-size: 1.5rem;
