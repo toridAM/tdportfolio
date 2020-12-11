@@ -36,29 +36,25 @@
 }
 
 .portfolio {
-  color: white;
   letter-spacing: 0.5em;
   padding: 2em;
  }
 
 .intro--image{
   border-radius: 50%;
-  position: relative;
-  top: 80px;
-  left:250px;
+  margin: auto;
+  padding: 2em;
 }
 
 .aside {
- position: relative;
- top: -200px;
- left: 30px;
+ padding: 5em;
  }
 
 .aside-skills{
-  background-color: #444;
-  width: 30%;
-  position: relative;
-  top: -120px;
+ display: flex;
+  justify-content: space-around;
+  width: 100%;
+
 }
 span{
   color: white;
@@ -78,6 +74,7 @@ h1 {
   text-align: center;
   font-size: 1em;
 }
+
 h2 {
   background-color: #bcb566;
   width: 150px;
@@ -97,14 +94,10 @@ h2 {
 
 
 .list{
-  background-color: #bcb251;
-  list-style-type: none;
-  padding: 1.5em;
-  width: 150px;
-  height: 150px;
-  position: relative;
-  top: -110px;
-  left: 60px;
+ position: relative;
+  right: 100px;
+  top: 40px;
+  
 }
 
 .about-me {
