@@ -147,8 +147,10 @@ ul li{
   padding-top: 1em;
   
 }
-body{
+second{
   background-color: #666;
+  display: flex;
+  
 }
 
   .section-title-project{
