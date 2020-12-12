@@ -30,15 +30,14 @@
 }
 
 .a:hover {
-   opacity: 0.7;
-  text-decoration: underline;
+   opacity: 1.0;
+   font-weight: bold;
 }
 
 
 .portfolio {
   letter-spacing: 0.5em;
   padding: 2em;
-  font-weight: 800;
   color: white;
   background-color: #444;
  }
@@ -55,7 +54,7 @@
 .aside-skills{
  display: flex;
  justify-content: center;
-  width: 100%;
+ width: 100%;
 }
 
 span{
@@ -156,7 +155,7 @@ ul li{
   
 }
 .second{
-  background-color: #444;
+  
   display: flex;
   justify-content: space-around;
   
@@ -167,8 +166,7 @@ ul li{
   font-size: 1.5rem;
   color: #444;
   text-transform: uppercase;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
+ 
 }
 
 /* footer */
@@ -193,7 +191,7 @@ ul li{
     opacity: 0.7;
 }
 
-.footer-link:hover {
+.footer-link, a:hover {
     text-decoration: underline;
 }
 
