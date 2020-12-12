@@ -10,7 +10,7 @@
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .nav-items {
@@ -32,6 +32,7 @@
   letter-spacing: 0.5em;
   padding: 2em;
   font-weight: 800;
+  color: white;
  }
 
 .intro--image{
@@ -55,7 +56,7 @@ span{
 
 p strong{
   color: #bcb251;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 
@@ -95,7 +96,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #bcb251;
+  background-color: #ccc;
   padding: 2em;
 }
 
@@ -166,15 +167,15 @@ second{
 
 /* footer */
 .footer {
-    background: white;
-    color:#bcb256;
+    background: #666;
+    
     text-align: center;
     padding: 2.5em 0;
     font-size: 1rem;
 }
 
 .footer a {
-   color: #444;
+   color: white;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.5em;
