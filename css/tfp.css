@@ -29,8 +29,9 @@
   font-size: 1em;
 }
 
-.nav-link:hover{
+.a:hover {
    opacity: 0.7;
+  text-decoration: underline;
 }
 
 
