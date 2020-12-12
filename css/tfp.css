@@ -4,12 +4,10 @@
   padding: 0px;
   
 }
-body{
-  background-color: #666;
-}
+
 
 .nav {
-  background-color: #444;
+  background-color: #666;
   
 }
 
@@ -31,6 +29,9 @@ body{
   font-size: 1em;
 }
 
+.nav-link:hover{
+   opacity: 0.7;
+}
 
 
 .portfolio {
@@ -38,8 +39,7 @@ body{
   padding: 2em;
   font-weight: 800;
   color: white;
-  
-  
+  background-color: #666;
  }
 
 .intro--image{
