@@ -7,7 +7,7 @@
 
 
 .nav {
-  background-color: #666;
+  background-color: #444;
   
 }
 
@@ -39,7 +39,7 @@
   padding: 2em;
   font-weight: 800;
   color: white;
-  background-color: #666;
+  background-color: #444;
  }
 
 .intro--image{
@@ -63,7 +63,7 @@ span{
 
 p strong{
   color: #bcb251;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 
@@ -82,7 +82,6 @@ h2 {
 }
 
 .about-me {
-  
   color: white;
   margin: auto;
   padding: 2em;
@@ -165,26 +164,18 @@ ul li{
   .section-title-project{
   text-align: center;
   font-size: 1.5rem;
-  color: white;
-    
+  color: #444;
   text-transform: uppercase;
-     background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
 }
-
-
-
- 
 
 /* footer */
 .footer {
     text-align: center;
     padding: 2.5em 0;
     font-size: 1rem;
-    
-    
-}
-
+ }
 .footer a {
    color: white;
    text-transform: uppercase;
