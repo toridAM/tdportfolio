@@ -120,39 +120,38 @@ h4{
   padding: 1em;
 }
 
-aside {
+.circle{
   width: 200px;
   height: 200px;
-  background-color: #bcb251;
-  position: relative;
-  animation-name: list;
-  animation-duration: 4s;
-  animation-delay: 2s;
+  background-color: #bcb566;
   border-radius: 50%;
-  
+  position: relative;
+  top: -100px;
+  left: 50px;
+  z-index: -1;
 }
 
-@keyframes list {
-  0%   {background-color:lightblue; left:0px; top:0px;}
-  25%  {background-color:lightgreen; left:100px; top:0px;}
-  50%  {background-color:lightblue; left:100px; top:100px;}
-  75%  {background-color:lightgreen; left:0px; top:100px;}
-  100% {background-color: #bcb251; left:0px; top:0px;}
+.blur {
+  border-radius: 5px;
+  width: 200px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
 }
-aside ul li {
+
+ul li{
   list-style-type: none;
- 
-  }
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: auto;
+  padding-top: 1em;
   
-  aside li {
-   position: relative;
-   top: 50px;
-   left: 70px;
-   font-weight: 800;
-   color: #444;
-  }
+}
+body{
+  background-color: #666;
+}
 
- .section-title-project{
+  .section-title-project{
   text-align: center;
   font-size: 1.5rem;
   color: #444;
