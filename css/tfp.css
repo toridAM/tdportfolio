@@ -63,8 +63,7 @@ p strong{
 
 
 h1 {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
+ 
   width: 250px;
   padding: 0.5em;
   text-align: center;
@@ -93,7 +92,6 @@ h2 {
 
 .section-title {
   font-size: 3rem;
-  
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
   }
@@ -117,10 +115,8 @@ h3 {
 }
 
 h4{
+ padding: 1em;
   
-  padding: 1em;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
 }
 
 .header {
@@ -129,6 +125,8 @@ h4{
 
 .header, .section-title {
   padding: 1em;
+   background: rgba(255, 255, 255, 0.4);
+   backdrop-filter: blur(10px);
 }
 
 .circle{
