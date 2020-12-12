@@ -5,7 +5,9 @@
 }
 
 .nav {
-  background-color: #444;
+  
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
 }
 
 .nav-list {
@@ -61,7 +63,8 @@ p strong{
 
 
 h1 {
-  background-color: #bcb251;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
   width: 250px;
   padding: 0.5em;
   text-align: center;
@@ -69,9 +72,10 @@ h1 {
 }
 
 h2 {
-  
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
   font-weight: normal;
-  background-color: #bcb251;
+  
   padding: 0.2em;
   width: 250px;
 }
@@ -89,7 +93,9 @@ h2 {
 
 .section-title {
   font-size: 3rem;
-  color: #bcb251;
+  
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
   }
 
 .portfolio-work {
@@ -106,11 +112,15 @@ h2 {
 
 h3 {
   padding: 1em;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
 }
 
 h4{
-  background-color: #bcb251;
+  
   padding: 1em;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
 }
 
 .header {
@@ -132,7 +142,7 @@ h4{
   z-index: -1;
 }
 
-.blur .nav{
+.blur{
   border-radius: 5px;
   width: 200px;
   height: 300px;
@@ -167,15 +177,15 @@ second{
 
 /* footer */
 .footer {
-    background: #666;
-    
     text-align: center;
     padding: 2.5em 0;
     font-size: 1rem;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
 }
 
 .footer a {
-   color: white;
+   color: #666;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.5em;
