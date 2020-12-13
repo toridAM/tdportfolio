@@ -5,6 +5,11 @@
   
 }
 
+body{
+
+  background-color: #666;
+
+}
 
 .nav {
   background-color: #444;
@@ -39,7 +44,7 @@
   letter-spacing: 0.5em;
   padding: 2em;
   color: white;
-  background-color: #444;
+  
   
  }
 
@@ -97,7 +102,7 @@ h2 {
   line-height: 1.5em;
   display: flex;
   justify-content: center;
-  background-color: #444;
+  
   letter-spacing: 0.5em;
   
  }
@@ -111,7 +116,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #444;
+ 
   padding: 2em;
 }
 
@@ -177,7 +182,7 @@ ul li{
   font-size: 1rem;
   color: white;
   text-transform: uppercase;
-  background-color: #444;
+  
   letter-spacing: 0.5em;
   }
 
