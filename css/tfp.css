@@ -50,7 +50,7 @@
 
 .aside {
  padding: 5em;
- background-color: #444;
+
  }
 
 .aside-skills{
@@ -61,6 +61,7 @@
 
 span{
   font-size: 1.5em;
+  color: white;
  
   letter-spacing: 0.2em;
 }
@@ -69,6 +70,7 @@ p strong{
   color: #bcb251;
   font-size: 3em;
   padding: 1em;
+  
  
 }
 
