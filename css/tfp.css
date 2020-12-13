@@ -47,10 +47,13 @@ a:hover {
   padding: 2em;
 }
 
-/* .aside { */
-/*  padding: 5em; */
+.aside {
+ padding: 5em;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
 
-/*  } */
+ }
 
 /* .aside-skills{ */
 /*  display: flex; */
@@ -64,20 +67,17 @@ a:hover {
   color: white;
   letter-spacing: 0.1em;
  }
-strong {
-  font-size: 3em;
-  letter-spacing: 0.2em;
-  color: #bcb251;
-  
-}
+p {
+  font-size: 2em;
+  color: white;
+ }
 
-/* p strong{ */
-/*   color: #bcb251; */
-/*   font-size: 3em; */
-/*   padding: 1em; */
-  
- 
-}
+p strong{
+  color: #bcb251;
+  font-size: 3em;
+  padding: 1em;
+  margin: 0 auto;
+  }
 
 
 h1 {
