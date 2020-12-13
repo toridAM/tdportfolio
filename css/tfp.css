@@ -40,8 +40,8 @@ a:hover {
 .portfolio {
   letter-spacing: 0.5em;
   padding: 0.5em;
-  color: #666;
-  background-color: white;
+  color: white;
+  
   }
 
 .intro--image{
@@ -53,6 +53,7 @@ a:hover {
 
 .aside {
   padding: 10px;
+  margin-left: 30px;
 }
 .aside span{
   font-size: 1em;
@@ -153,7 +154,7 @@ h4{
   height: 300px;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(5px);
-  margin: 10px;
+  margin: 20px;
 }
 
 ul li{
