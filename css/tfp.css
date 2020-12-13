@@ -30,8 +30,8 @@
 }
 
 .a:hover {
-   color: #bcb266;
-   font-weight: bold;
+   color: #white;
+  
 }
 
 
@@ -40,8 +40,7 @@
   padding: 2em;
   color: white;
   background-color: #444;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
+  
  }
 
 .intro--image{
@@ -94,6 +93,7 @@ h2 {
   line-height: 1.5em;
   display: flex;
   justify-content: space-around;
+  background-color: #ccc;
  }
 
 .section-title {
@@ -160,16 +160,16 @@ ul li{
   
 }
 .second{
-  
-  background-color: #444;
+  background-color: #ccc;
   
 }
 
   .section-title-project{
   text-align: center;
-  font-size: 1.5rem;
-  color: #444;
+  font-size: 1rem;
+  color: white;
   text-transform: uppercase;
+  background-color: #444;
   }
 
 /* footer */
