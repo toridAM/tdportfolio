@@ -39,7 +39,7 @@ a:hover {
 
 .portfolio {
   letter-spacing: 0.5em;
-  padding: 1em;
+  padding: 0.5em;
   color: white;
   }
 
@@ -173,10 +173,7 @@ ul li{
   padding-top: 1em;
   
 }
-.second{
-  
-  
-}
+
 
   .section-title-project{
   text-align: center;
