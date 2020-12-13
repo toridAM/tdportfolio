@@ -49,23 +49,25 @@ a:hover {
   position: absolute;
   right: -300px;
   bottom: 150px;
+  border-radius: 50%;
 }
 
 
 
 .aside-skills{
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  width: 100%;
  background-color: white;
 }
 
 
 .aside span{
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
   letter-spacing: 0.1em;
  }
+
 p {
   font-size: 1em;
   color: white;
@@ -99,7 +101,7 @@ h2 {
   color: white;
   margin: 0 auto;
   padding: 2em;
-  font-size: 1.5em;
+  font-size: 1em;
   display: flex;
   justify-content: center;
   
