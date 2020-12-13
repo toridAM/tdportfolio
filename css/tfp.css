@@ -139,7 +139,8 @@ h4{
   background-color: #bcb566;
   border-radius: 50%;
   position: relative;
-  
+  top: -100px;
+  left: 50px;
   z-index: -1;
 }
 
@@ -160,7 +161,7 @@ ul li{
   
 }
 .second{
-  background-color: #ccc;
+  background-color: #444;
   
 }
 
