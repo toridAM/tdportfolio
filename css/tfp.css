@@ -66,8 +66,9 @@ span{
 p strong{
   color: #bcb251;
   font-size: 3em;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
+  background-color: #666;
+  padding: 1em;
+ 
 }
 
 
