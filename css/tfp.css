@@ -61,12 +61,13 @@
 
 span{
   font-size: 1.5em;
+  background-color: #bcb566;
+  letter-spacing: 0.2em;
 }
 
 p strong{
   color: #bcb251;
   font-size: 3em;
-  background-color: #666;
   padding: 1em;
  
 }
@@ -93,8 +94,8 @@ h2 {
   font-size: 1rem;
   line-height: 1.5em;
   display: flex;
-  justify-content: space-around;
-  background-color: #ccc;
+  justify-content: center;
+  
  }
 
 .section-title {
@@ -121,6 +122,7 @@ h3 {
 
 h4{
  padding: 1em;
+  letter-spacing: 0.5em;
    
 }
 
