@@ -40,7 +40,8 @@ a:hover {
 .portfolio {
   letter-spacing: 0.5em;
   padding: 0.5em;
-  color: white;
+  color: #666;
+  background-color: white;
   }
 
 .intro--image{
@@ -50,15 +51,6 @@ a:hover {
   right: -300px;
   bottom: 150px;
   border-radius: 50%;
-}
-
-
-
-.aside-skills{
- display: flex;
- justify-content: space-between;
- width: 100%;
- background-color: white;
 }
 
 
