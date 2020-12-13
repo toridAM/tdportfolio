@@ -33,18 +33,22 @@ background-color: #666;
 
 a:hover {
    color: white;
+  
   }
 
 
 .portfolio {
   letter-spacing: 0.5em;
-  padding: 2em;
+  padding: 1em;
   color: white;
   }
 
 .intro--image{
   margin: auto;
   padding: 2em;
+  position: absolute;
+  right: -300px;
+  bottom: 150px;
 }
 
 
@@ -63,7 +67,7 @@ a:hover {
   letter-spacing: 0.1em;
  }
 p {
-  font-size: 2em;
+  font-size: 1em;
   color: white;
  }
 
