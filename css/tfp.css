@@ -11,12 +11,13 @@ background-color: #666;
 
 .nav {
   background-color: #444;
-  
+ 
 }
 
 .nav-list {
   display: flex;
   justify-content: center;
+  padding-top: 60px;
 }
 
 .nav-items {
@@ -161,15 +162,12 @@ ul li{
   font-size: 1.5em;
   text-transform: uppercase;
   margin: auto;
-/*   padding-top: 1em 0 0 0.5em; */
-  padding-top: 60px;
-  
-  
-  
-}
+  padding-top: 1em 0 0 0.5em;
+  }
+
 .skill-list ul li{
   margin: 10px 0 0 10px;
-  padding-left: 30px;
+  padding: 30px 20px;
 }
 
   .section-title-project{
