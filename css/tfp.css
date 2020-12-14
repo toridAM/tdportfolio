@@ -161,11 +161,15 @@ ul li{
   font-size: 1.5em;
   text-transform: uppercase;
   margin: auto;
-  padding-top: 1em 0 0 0.5em;
+/*   padding-top: 1em 0 0 0.5em; */
+  padding-top: 60px;
+  
+  
   
 }
 .skill-list ul li{
   margin: 10px 0 0 10px;
+  padding-left: 30px;
 }
 
   .section-title-project{
