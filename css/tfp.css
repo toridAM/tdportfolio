@@ -11,7 +11,8 @@ background-color: #666;
 
 .nav {
   background-color: #444;
-  height: 70px;
+  padding: 20px;
+  
  
 }
 
@@ -166,8 +167,9 @@ ul li{
   
   }
 
-.skill-list ul li{
+.blur, .skill-list ul li{
   margin: 10px 0;
+  padding: 10px;
   
 }
 
