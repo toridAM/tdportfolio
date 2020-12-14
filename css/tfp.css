@@ -4,7 +4,7 @@
   padding: 0px;
   }
 
-body{
+body {
 background-color: #666;
 }
 
@@ -128,6 +128,7 @@ h4{
 
 .header {
   padding: 1em;
+  background-color: #444;
   
 }
 
@@ -165,7 +166,7 @@ ul li{
   padding-top: 1em 0 0 0.5em;
   
 }
-.skill-list{
+.skill-list ul li{
   margin: 10px 0 0 10px;
 }
 
