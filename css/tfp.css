@@ -165,7 +165,9 @@ ul li{
   padding-top: 1em 0 0 0.5em;
   
 }
-
+.skill-list{
+  margin: 10px 0 0 10px;
+}
 
   .section-title-project{
   text-align: center;
