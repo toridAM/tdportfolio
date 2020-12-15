@@ -19,12 +19,12 @@ background-color: #666;
 .nav-list {
   display: flex;
   justify-content: center;
-  padding: 2em;
+  padding: 4em;
  
 }
 
 .nav-items {
-  margin: 1em;
+  margin: 2em;
   list-style-type: none;
 }
 
