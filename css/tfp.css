@@ -43,7 +43,19 @@ a:hover {
   letter-spacing: 0.5em;
   padding: 0.5em;
   color: white;
-  }
+}
+
+  .portfolio::after {
+   content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background:#bcb566;
+    opacity: 0.25;
+}
+  
+  
 
 .aside {
   padding: 10px;
