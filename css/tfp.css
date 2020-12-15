@@ -50,13 +50,12 @@ a:hover {
   .portfolio::after {
    content: '';
     display: block;
-    width: 4em;
-    height: 1px;
-    margin: 0.5em auto 1em;
+    width: 8em;
+    height: 3px;
+    margin: 0.8em 1em;
     background:#bcb566;
     opacity: 0.25;
-    position: relative;
-    left: 200px;
+    
 }
   
   
