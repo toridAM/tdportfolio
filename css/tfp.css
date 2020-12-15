@@ -7,11 +7,11 @@
 
 
 body {
-background-color: #666;
+background-color: #cfdeba;
 }
 
 .nav {
-  background-color: #444;
+  background-color: #7c877a;
   
   
 }
@@ -43,7 +43,7 @@ a:hover {
 
 .portfolio {
   letter-spacing: 0.5em;
-  padding: 2em;
+  padding: 4em;
   color: white;
 }
 
@@ -195,7 +195,7 @@ ul li{
     text-align: center;
     padding: 2.5em 0;
     font-size: 1rem;
-    background-color: #444;
+    background-color: #7c877a;
  }
 .footer a {
    color: white;
