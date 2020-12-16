@@ -33,7 +33,7 @@ background-color: #7c877a;
   text-transform: uppercase;
   color: white;
   font-family: 700;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 a:hover {
@@ -166,11 +166,12 @@ h4 {
 .list li {
   list-style-type: none;
   font-size: 1em;
+  text-transform: uppercase;
 }
 
 .list ul li{
   list-style-type: none;
-  font-size: 1.5em;
+  font-size: 1em;
   text-transform: uppercase;
   margin: auto;
   }
