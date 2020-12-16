@@ -12,9 +12,7 @@ background-color: #7c877a;
 
 .nav {
   background-color: #444;
-  
-  
-}
+  }
 
 .nav-list {
   display: flex;
@@ -60,16 +58,16 @@ a:hover {
   
   
 
-.aside {
-  padding: 10px;
-  position: relative;
-  left: 200px;
-}
-.aside span{
-  font-size: 1em;
-  color: white;
-  letter-spacing: 0.1em;
- }
+/* .aside { */
+/*   padding: 10px; */
+/*   position: relative; */
+/*   left: 200px; */
+/* } */
+/* .aside span{ */
+/*   font-size: 1em; */
+/*   color: white; */
+/*   letter-spacing: 0.1em; */
+/*  } */
 
 p {
   font-size: 1em;
@@ -138,15 +136,12 @@ h4 {
 
 .header {
   padding: 1em;
-  
-  
-}
+ }
 
 .header, .section-title {
   padding: 1em;
   letter-spacing: 0.5em;
-   
-}
+  }
 
 .circle{
   width: 200px;
@@ -154,18 +149,31 @@ h4 {
   background-color: #bcb566;
   border-radius: 50%;
   position: relative;
-  top: -120px;
-  left: 100px;
+  bottom: 60px;
+  left: 20px;
   z-index: -1;
 }
 
 .blur{
   border-radius: 5px;
-  width: 300px;
+  width: 80%;
   height: 200px;
   background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(5px);
-  padding: 10px;
+  backdrop-filter: blur(10px);
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.list{
+  list-sytle-type: none;
+  text-decoration: uppercase;
+  letter-spacing: 0.2em;
+  color: #444;
+}
+
+.list li {
+  list-style-type: none;
+  font-size: 1em;
 }
 
 ul li{
@@ -173,14 +181,8 @@ ul li{
   font-size: 1.5em;
   text-transform: uppercase;
   margin: auto;
-  
   }
 
-.blur, .skill-list ul li{
-  margin: 10px 0;
-  padding: 10px;
-  
-}
 
   .section-title-project{
   text-align: center;
