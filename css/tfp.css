@@ -56,9 +56,9 @@ a:hover {
 }
   
  p {
-  font-size: 1em;
+  font-size: 1.3em;
   color: #444;
-  letter-spacing: none;
+  letter-spacing: normal;
  }
 
 p strong{
