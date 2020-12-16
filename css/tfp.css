@@ -17,7 +17,9 @@ background-color: #7c877a;
 .nav-list {
   display: flex;
   justify-content: center;
-  padding: 4em;
+  padding: 3em;
+  margin: 1em;
+  
  
 }
 
