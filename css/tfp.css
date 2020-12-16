@@ -18,10 +18,7 @@ background-color: #7c877a;
   display: flex;
   justify-content: center;
   padding: 3em;
-  margin: 1em;
-  
- 
-}
+ }
 
 .nav-items {
   margin: 2em;
@@ -160,7 +157,7 @@ h4 {
   text-decoration: uppercase;
   letter-spacing: 0.2em;
   color: #444;
-  padding: 1em;
+  
 }
 
 .list li {
