@@ -57,7 +57,8 @@ a:hover {
   
  p {
   font-size: 1em;
-  color: white;
+  color: #444;
+  letter-spacing: none;
  }
 
 p strong{
