@@ -225,4 +225,33 @@ h4 {
 .social-list-link {
     padding: 0.5em;
 }
+/*  case study for tictoc project box1*/
 
+        .flexbox-container{
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        .flexbox-item {
+            width: 200px;
+            margin: 10px;
+            border: 1px solid #444;
+        }
+        .box1{
+            min-height: 200px;
+
+        }
+        .box2{
+            min-height: 200px;
+            
+        }
+        .box3{
+            min-height: 200px;
+            
+        }
+        .box4{
+            min-height: 200px;
+            
+        }
