@@ -179,13 +179,13 @@ h4 {
   border-radius: 50%;
   position: relative;
   bottom: 60px;
-  left: 20px;
+  left: 40px;
   z-index: -1;
 }
 /*see if this is not in the way of drop down list when open  */
 .blur{
   border-radius: 5px;
-  width: 80%;
+  width: 70%;
   height: 200px;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
@@ -217,7 +217,7 @@ h4 {
   .section-title-project{
   text-align: center;
   font-size: 1rem;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   }
