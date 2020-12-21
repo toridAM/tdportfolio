@@ -202,7 +202,7 @@ h4 {
 
 @media(min-width: 800px)
  .blur {
-  visibility: hidden;
+  backdrop-filter: none;
   
 }
 
