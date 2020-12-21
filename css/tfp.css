@@ -206,13 +206,11 @@ h4 {
   
 }
   .portfolio-img {
-    width:49.99999%;
+    width:100%
     margin: 6px 0;
 
 }
-  @media(max-width: 500px) {
-    width: 100%;
-  }
+}
 
 .list{
   list-sytle-type: none;
