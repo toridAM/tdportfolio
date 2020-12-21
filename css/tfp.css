@@ -140,7 +140,7 @@ h2 {
    background-color: #444;
   }
 
-/* here is where class has been changed from .portfolio-work to .web-design*/
+
 .web-design, .portfolio-work{
   display: flex;
   flex-wrap: wrap;
@@ -179,10 +179,10 @@ h4 {
   border-radius: 50%;
   position: relative;
   bottom: 60px;
-  left: 40px;
+  left: 60px;
   z-index: -1;
 }
-/*see if this is not in the way of drop down list when open  */
+
 .blur{
   border-radius: 5px;
   width: 70%;
@@ -231,10 +231,11 @@ h4 {
     margin-top: 2em;
  }
 .footer a {
-   color: white;
+   color: #fff;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1em;
+   margin: auto;
 }
 
 .footer-link {
@@ -264,34 +265,3 @@ h4 {
 .social-list-link {
     padding: 0.5em;
 }
-/*  case study for tictoc project box1*/
-
-/*         .flexbox-container{ 
-            display: flex;
-            justify-content: space-around;
-            align-content: center;
-            flex-wrap: wrap;
-        }
-
-        .flexbox-item {
-            width: 100%;
-            margin: auto;
-            
-        }
-        .box1{
-            min-height: 200px;
-
-        }
-        .box2{
-            min-height: 200px;
-            
-        }
-        .box3{
-            min-height: 200px;
-            
-        }
-        .box4{
-            min-height: 200px;
-            
-        }
-*/
