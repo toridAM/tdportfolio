@@ -76,7 +76,7 @@ body{
   letter-spacing: 0.5em;
   }
 
-.mega_menu .sub_menu, .col, p {
+.mega_menu .sub_menu, .col p {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
