@@ -200,7 +200,7 @@ h4 {
   margin: 1em auto;
 }
 
-@media(min-width: 800px) {
+@media(max-width: 800px) {
  .blur {
  visibility: collapse;
   
