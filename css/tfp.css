@@ -76,6 +76,10 @@ body{
   }
 
 /* media query for figma images */
+@media (max-width: 675px) 
+.mega_menu ul li .sub_menu p {
+  flex-direction: column;
+}
 
 
   
@@ -184,7 +188,7 @@ h4 {
   border-radius: 50%;
   position: relative;
   bottom: 60px;
-  margin-left: 200px;
+  margin-left: 170px;
   z-index: -1;
 }
 
@@ -209,6 +213,8 @@ h4 {
   list-style-type: none;
   font-size: 1em;
   text-transform: uppercase;
+  margin: 0.5em;
+  padding: 0.5em;
 }
 
 .list ul li{
