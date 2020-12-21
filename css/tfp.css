@@ -82,7 +82,7 @@ background-color: #7c877a;
 .portfolio {
   letter-spacing: 0.5em;
   padding: 4em;
-  color: white;
+  color: #fff;
 }
 
   .portfolio::after {
@@ -91,7 +91,7 @@ background-color: #7c877a;
     width: 8em;
     height: 2.5px;
     margin: 0.8em;
-    background:white;
+/*     background:#fff; */
     opacity: 0.25;
   }
   
@@ -126,7 +126,7 @@ h2 {
   }
 
 .about-me {
-  color: white;
+  color: #fff;
   margin: 0 auto;
   padding: 4em;
   font-size: 1em;
@@ -141,7 +141,7 @@ h2 {
   }
 
 /* here is where class has been changed from .portfolio-work to .web-design*/
-.web-design .portfolio-work{
+.web-design, .portfolio-work{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -182,7 +182,7 @@ h4 {
   left: 20px;
   z-index: -1;
 }
-
+/*see if this is not in the way of drop down list when open  */
 .blur{
   border-radius: 5px;
   width: 80%;
@@ -190,7 +190,7 @@ h4 {
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
   padding: 2em;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 .list{
@@ -226,7 +226,7 @@ h4 {
 .footer {
     text-align: center;
     padding: 2.5em 0;
-    font-size: 1em;
+    font-size: 1.2em;
     background-color:#444; 
     margin-top: 2em;
  }
