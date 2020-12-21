@@ -205,8 +205,14 @@ h4 {
  visibility: collapse;
   
 }
+  .portfolio-img {
+    width:49.99999%;
+    margin: 6px 0;
 
 }
+  @media(max-width: 500px) {
+    width: 100%;
+  }
 
 .list{
   list-sytle-type: none;
