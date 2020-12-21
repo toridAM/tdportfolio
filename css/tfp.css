@@ -77,7 +77,7 @@ body{
 
 /* media query for figma images */
 
-@media (min-width: 675px) {
+@media (max-width: 940px) {
   .sub_menu{
     flex-direction: column;
   }
