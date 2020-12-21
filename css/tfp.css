@@ -76,11 +76,12 @@ body{
   letter-spacing: 0.5em;
   }
 
-/* media query for figma images */
+.mega_menu .sub_menu, .col p {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
 
-
-  
-  
 body {
 background-color: #7c877a;
 }
