@@ -47,6 +47,7 @@ body{
   justify-content: space-around;
   line-height: 24px;
   visibility: hidden;
+  flex-wrap: wrap;
 }
 
 .mega_menu ul li:hover {
@@ -76,10 +77,6 @@ body{
   }
 
 /* media query for figma images */
-@media (max-width: 675px) 
-.mega_menu ul li .sub_menu p {
-  flex-direction: column;
-}
 
 
   
