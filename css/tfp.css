@@ -201,8 +201,9 @@ h4 {
 }
 
 @media(min-width: 800px)
-.circle .blur {
-  visibility: hidden;
+div.circle .blur {
+/*   visibility: hidden; */
+  margin-top: 40%;
 }
 
 .list{
