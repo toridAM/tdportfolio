@@ -200,10 +200,14 @@ h4 {
   margin: 1em auto;
 }
 
-@media(min-width: 800px)
+@media(min-width: 800px) {
  .blur {
-  backdrop-filter: none;
+ visibility: collapse;
   
+}
+.portfolio::after {
+  visibility: collapse;
+}
 }
 
 .list{
