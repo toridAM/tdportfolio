@@ -75,16 +75,6 @@ body{
   text-transform: uppercase;
 }
 
-
-
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  font-family: roboto, sans-serif;
-  }
-
-
 body {
 background-color: #7c877a;
 }
@@ -103,8 +93,7 @@ background-color: #7c877a;
     margin: 0.8em;
     background:white;
     opacity: 0.25;
-    
-}
+  }
   
  p {
   font-size: 1.3em;
@@ -127,16 +116,14 @@ h1 {
   text-align: center;
   font-size: 1.5em;
   text-transform: uppercase;
-  
-}
+  }
 
 h2 {
   font-weight: normal;
   padding: 0.2em;
   width: 250px;
   background-color: #bcb566;
-  
-}
+  }
 
 .about-me {
   color: white;
@@ -152,8 +139,9 @@ h2 {
   font-size: 3rem;
    background-color: #444;
   }
+
 /* here is where class has been changed from .portfolio-work to .web-design*/
-.web-design {
+.web-design .portfolio-work{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -210,8 +198,7 @@ h4 {
   text-decoration: uppercase;
   letter-spacing: 0.2em;
   color: #444;
-  
-}
+  }
 
 .list li {
   list-style-type: none;
@@ -239,9 +226,9 @@ h4 {
 .footer {
     text-align: center;
     padding: 2.5em 0;
-    font-size: 1rem;
+    font-size: 1em;
     background-color:#444; 
-  margin-top: 2em;
+    margin-top: 2em;
  }
 .footer a {
    color: white;
@@ -279,7 +266,7 @@ h4 {
 }
 /*  case study for tictoc project box1*/
 
-        .flexbox-container{
+/*         .flexbox-container{ 
             display: flex;
             justify-content: space-around;
             align-content: center;
@@ -307,3 +294,4 @@ h4 {
             min-height: 200px;
             
         }
+*/
