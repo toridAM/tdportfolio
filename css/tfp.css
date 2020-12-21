@@ -72,15 +72,12 @@ body{
   color: #fff;
   margin-top: 15px;
   font-size: 14px;
-  text-transform: uppercase;
-}
+  letter-spacing: 0.5em;
+  }
 
 /* media query for figma images */
 
-@media (max-width: 940px) {
-  .sub_menu{
-    flex-direction: column;
-  }
+
   
   
 body {
@@ -187,7 +184,7 @@ h4 {
   border-radius: 50%;
   position: relative;
   bottom: 60px;
-  left: 200px;
+  margin-left: 200px;
   z-index: -1;
 }
 
@@ -221,10 +218,7 @@ h4 {
   margin: auto;
   }
 
-.subtitle-text {
-  text-transform: lowercase;
-  letter-spacing: 0.5em;
-}
+
   .section-title-project{
   text-align: center;
   font-size: 1rem;
