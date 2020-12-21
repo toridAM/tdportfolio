@@ -89,34 +89,6 @@ body {
 background-color: #7c877a;
 }
 
-.nav {
-  background-color: #444;
-  }
-
-.nav-list {
-  display: flex;
-  justify-content: center;
-  padding: 3em;
- }
-
-.nav-items {
-  margin: 2em;
-  list-style-type: none;
-}
-
-.nav-link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-family: 700;
-  font-size: 1.5em;
-}
-
-a:hover {
-   color: #ccc;
-  }
-
-
 .portfolio {
   letter-spacing: 0.5em;
   padding: 4em;
@@ -180,12 +152,12 @@ h2 {
   font-size: 3rem;
    background-color: #444;
   }
-
-.portfolio-work {
+/* here is where class has been changed from .portfolio-work to .web-design*/
+.web-design {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 2em;
+  justify-content: space-around;
+  
 }
 
 .portfolio-item {
@@ -275,7 +247,7 @@ h4 {
    color: white;
    text-transform: uppercase;
    text-decoration: none;
-   font-size: 1.5em;
+   font-size: 1em;
 }
 
 .footer-link {
