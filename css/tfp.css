@@ -75,6 +75,14 @@ body{
   text-transform: uppercase;
 }
 
+/* media query for figma images */
+
+@media (min-width: 675px) {
+  .sub_menu{
+    flex-direction: column;
+  }
+  
+  
 body {
 background-color: #7c877a;
 }
