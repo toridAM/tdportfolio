@@ -55,7 +55,7 @@ body{
   
 }
 .mega_menu ul li a:hover { 
- color: #bcb566;
+ color: #d93636;
 }
 
 .mega_menu ul li:hover .sub_menu  {
@@ -70,7 +70,7 @@ body{
   }
 
 .mega_menu ul li .sub_menu p {
-  color: #fff;
+  color: #d93636;
   margin-top: 15px;
   font-size: 14px;
   letter-spacing: 0.5em;
@@ -102,7 +102,7 @@ background-color: #e5e5e5;
     opacity: 0.25;
   }
 
-  .name {
+  img.name {
     width:200px;
     height: 200px;
 }
