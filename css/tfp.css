@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #e7e7e9;
+  background-color: #e5e5e5;
 }
 .wrapper{
   width: 100%;
@@ -83,13 +83,13 @@ body{
 }
 
 body {
-background-color: #7c877a;
+background-color: #e5e5e5;
 }
 
 .portfolio {
   letter-spacing: 0.5em;
   padding: 4em;
-  color: #fff;
+  color: #1d1a1a;
 }
 
   .portfolio::after {
@@ -98,19 +98,23 @@ background-color: #7c877a;
     width: 8em;
     height: 2.5px;
     margin: 0.8em;
-    background:#fff;
+    background:#1d1a1a;
     opacity: 0.25;
   }
-  
+
+  .name {
+    width:200px;
+    height: 200px;
+}
  p {
   font-size: 1.3em;
-  color: #444;
+  color: #1d1a1a;
   letter-spacing: normal;
   line-height: 1.6;
  }
 
 p strong{
-  color: #bcb251;
+  color: #d93636;
   font-size: 3em;
   padding: 1em;
   margin: 0 auto;
@@ -129,11 +133,11 @@ h2 {
   font-weight: normal;
   padding: 0.2em;
   width: 250px;
-  background-color: #bcb566;
+  background-color: #1d1a1a;
   }
 
 .about-me {
-  color: #fff;
+  color: #1d1a1a;
   margin: 0 auto;
   padding: 4em;
   font-size: 1em;
@@ -178,39 +182,6 @@ h4 {
   padding: 1em;
   letter-spacing: 0.5em;
   }
-
-.circle{
-  width: 200px;
-  height: 200px;
-  background-color: #bcb566;
-  border-radius: 50%;
-  position: relative;
-  bottom: 60px;
-  margin-left: 170px;
-  z-index: -1;
-}
-
-.blur{
-  border-radius: 5px;
-  width: 70%;
-  height: 200px;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-  padding: 2em;
-  margin: 1em auto;
-}
-
-@media(max-width:700px) {
- .blur .circle {
- visibility: collapse;
-  
-}
-  .portfolio-img {
-    width:100%
-    margin: 6px 0;
-
-}
-}
 
 .list{
   list-sytle-type: none;
