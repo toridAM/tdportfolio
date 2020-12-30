@@ -106,8 +106,8 @@ background-color: #fff;
 
   .name {
     max-width: 100%;
-    
-    padding: 10px;
+    height: auto;
+    margin: 0 auto;
     
 }
     
