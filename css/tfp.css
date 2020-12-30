@@ -88,10 +88,11 @@ body {
 background-color: #fff;
 }
 
-/* .intro { */
-/*   display: flex; */
-/*   justify-content: space-around; */
-/* } */
+.intro {
+   display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
 
 .portfolio {
   letter-spacing: 0.5em;
@@ -109,7 +110,7 @@ background-color: #fff;
     opacity: 0.25;
   }
 
-  img.name {
+  div img.name {
     width:100%;
     background-size: cover;
     
