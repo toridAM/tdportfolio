@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 .wrapper{
   width: 100%;
@@ -55,7 +55,8 @@ body{
   
 }
 .mega_menu ul li a:hover { 
- color: #d93636;
+ color: #fff;
+ font-weight: 900;
 }
 
 .mega_menu ul li:hover .sub_menu  {
@@ -70,7 +71,7 @@ body{
   }
 
 .mega_menu ul li .sub_menu p {
-  color: #d93636;
+  color: #ccc;
   margin-top: 15px;
   font-size: 14px;
   letter-spacing: 0.5em;
@@ -83,7 +84,7 @@ body{
 }
 
 body {
-background-color: #e5e5e5;
+background-color: #fff;
 }
 
 .portfolio {
@@ -103,8 +104,8 @@ background-color: #e5e5e5;
   }
 
   img.name {
-    width:200px;
-    height: 200px;
+    width:100%;
+    padding: 30px;
 }
  p {
   font-size: 1.3em;
@@ -171,6 +172,7 @@ h3 {
 h4 {
  padding: 1em;
   letter-spacing: 0.5em;
+  color: #d93636;
    
 }
 
@@ -209,7 +211,7 @@ h4 {
   .section-title-project{
   text-align: center;
   font-size: 1rem;
-  color: #fff;
+  color: #d93636;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   }
