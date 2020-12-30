@@ -55,8 +55,8 @@ body{
   
 }
 .mega_menu ul li a:hover { 
- color: #fff;
- font-weight: 900;
+ color: #ccc;
+
 }
 
 .mega_menu ul li:hover .sub_menu  {
@@ -87,10 +87,15 @@ body {
 background-color: #fff;
 }
 
+.intro {
+  display: flex;
+  justify-content: space-around;
+}
+
 .portfolio {
   letter-spacing: 0.5em;
   padding: 4em;
-  color: #1d1a1a;
+  color: #d93636;
 }
 
   .portfolio::after {
@@ -99,13 +104,13 @@ background-color: #fff;
     width: 8em;
     height: 2.5px;
     margin: 0.8em;
-    background:#1d1a1a;
+    background:#d93636;
     opacity: 0.25;
   }
 
   img.name {
     width:100%;
-    padding: 30px;
+    
 }
  p {
   font-size: 1.3em;
