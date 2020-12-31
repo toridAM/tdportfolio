@@ -114,9 +114,11 @@ background-color: #fff;
     
 }
  @media(max-width: 600px) {
-    p{
+    .header-text, p{
      display: flex;
      justify-content: space-around;
+     padding: 5px;
+     margin: 10px;
 }
 }
 
