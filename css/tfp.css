@@ -114,7 +114,7 @@ background-color: #fff;
     
 }
  @media(min-width: 500px) {
-   p{
+   div.header-text p{
      display: flex;
      justify-content: space-around;
 }
