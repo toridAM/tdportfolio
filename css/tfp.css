@@ -114,7 +114,7 @@ background-color: #fff;
     
 }
  @media(max-width: 600px) {
-     p{
+     .service{
      display: flex;
      justify-content: space-around;
      padding: 5px;
@@ -136,13 +136,6 @@ h1 {
   font-size: 3em;
   text-transform: uppercase;
   color: #d93636;
-  }
-
-h2 {
-  font-weight: normal;
-  padding: 0.2em;
-  width: 250px;
-  background-color: #1d1a1a;
   }
 
 .about-me {
@@ -172,17 +165,11 @@ h2 {
   margin: 0.1em;
   }
 
-h3 {
-  padding: 1em;
-  
-}
-
 h4 {
  padding: 1em;
   letter-spacing: 0.5em;
   color: #d93636;
-   
-}
+  }
 
 .header {
   padding: 1em;
