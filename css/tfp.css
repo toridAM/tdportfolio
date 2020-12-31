@@ -114,7 +114,7 @@ background-color: #fff;
     
 }
  @media(max-width: 600px) {
-     .service{
+     .col{
      display: flex;
      justify-content: space-around;
      padding: 5px;
