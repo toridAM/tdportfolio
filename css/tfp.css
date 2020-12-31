@@ -113,7 +113,12 @@ background-color: #fff;
     padding: 20px;
     
 }
-    
+ @media(min-width: 500px) {
+   p{
+     display: flex;
+     justify-content: space-around;
+}
+}
 
  p {
   font-size: 1.3em;
