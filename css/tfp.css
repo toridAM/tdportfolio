@@ -114,11 +114,12 @@ background-color: #fff;
     
 }
  @media(max-width: 600px) {
-     .service{
+     .flex-container, p{
      display: flex;
      justify-content: space-around;
      padding: 5px;
      margin: 10px;
+     width: 33.999%;
      
 }
    
@@ -208,7 +209,7 @@ h4 {
   .section-title-project{
   text-align: center;
   font-size: 1rem;
-  color: #a1bd2b;
+  color: #1d1a1a;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   }
