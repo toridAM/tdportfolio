@@ -114,14 +114,15 @@ background-color: #fff;
     
 }
  @media(max-width: 600px) {
-     .flex-container, p{
+     .flex-container{
      display: flex;
      justify-content: space-around;
      padding: 5px;
      margin: 10px;
-     width: 33.999%;
-     
-}
+     }
+   p {
+     width: 33%;
+   }
    
 }
 
@@ -130,6 +131,7 @@ background-color: #fff;
   color: #1d1a1a;
   letter-spacing: normal;
   line-height: 1.6;
+  width: 50%;
  }
 
 
