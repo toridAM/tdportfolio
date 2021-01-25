@@ -7,14 +7,11 @@
 
 body{
   background-color: #fff;
+  color: #1d1a1a;
 }
 
 .figma--projects{
- display: flex;
- justify-conent: center;
- flex-wrap: wrap;
- margin-top: 0px;
-}
+ 
 
 header {
   display: flex;
@@ -24,13 +21,12 @@ header {
 
 header ul li {
   display:inline;
-  margin: 1em;
+  margin: 2em 1em;
   list-style-type: none;
   font-size: 1em;
   }
 
 ul li a {
-  color: #1d1a1a;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -38,7 +34,7 @@ ul li a {
 }
   
   
-.skills {
+.skills p{
   word-spacing:1em;
   font-size: 1em;
   
@@ -46,55 +42,46 @@ ul li a {
 
  p {
   font-size: 1.3em;
-  color: #1d1a1a;
-  letter-spacing: normal;
   line-height: 1.6;
-  width: 90%;
+  width: 80%;
   margin-bottom: 1em;
  }
 
 h1 {
   font-size: 2em;
   text-transform: uppercase;
-  color: #1d1a1a;
+  padding: 1em;
+  margin: 0.5em;
   
   
   }
 
 h2 {
-  font-size: 3em;
+  font-size: 5em;
   text-transform: uppercase;
-  color: #1d1a1a;
   text-align: center;
 }
 
-h3{
-  color: #1d1a1a;
-  margin-bottom: 1em;
-}
+
 
 h4{
   color: #ffffff;
   text-transform: uppercase;
 }
 
-.about-me, .skills {
-  color: #1d1a1a;
+.about-me{
   margin: 0 auto;
   padding: 4em;
   font-size: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: 0px;
   }
 
 .section-title {
   font-size: 3rem;
-   background-color: #1d1a1a;
+   
   }
 
-/* .portfolio-work took this off */
+
 .web-design {
   display: flex;
   flex-wrap: wrap;
@@ -113,8 +100,7 @@ h4{
 
  .section-title-project{
   text-align: center;
-  font-size: 1rem;
-  color: #1d1a1a;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   }
@@ -122,10 +108,9 @@ h4{
 /* footer */
 .footer {
     text-align: center;
-    padding: 2.5em 0;
     font-size: 1.2em;
     background-color:#1d1a1a; 
-    margin-top: 2em;
+    
  }
 
 .footer a {
