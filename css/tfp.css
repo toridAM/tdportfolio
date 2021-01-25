@@ -11,6 +11,9 @@ body{
 }
 
 .figma--projects{
+  margin: 0 auto;
+  padding: 1em;
+}
  
 
 header {
