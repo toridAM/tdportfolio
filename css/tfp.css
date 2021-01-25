@@ -18,14 +18,14 @@ ul li {
   display-block;
   margin: 1em;
   list-style-type: none;
+  text-underline: none;
+  text-transform: uppercase;
   
 }
 
 ul li a {
   color: #444444;
-  text-transform: uppercase;
-  text-underline: none;
-  cursor: pointer
+  cursor: pointer;
 }
   
   
@@ -49,14 +49,14 @@ ul li a {
 
 
 h1 {
-  border: 1px solid #848484;
   font-size: 4em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #828282;
   }
 
 h2,h3{
-  color: #848484;
+  color: #828282;
+  margin-bottom: 1em;
 }
 
 h4{
@@ -76,7 +76,7 @@ h4{
 
 .section-title {
   font-size: 3rem;
-   background-color: #848484;
+   background-color: #828282;
   }
 
 
