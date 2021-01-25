@@ -7,9 +7,7 @@
 body{
   background-color: #fff;
 }
-.wrapper{
-  width: 100%;
-}
+
 .name {
     max-width: 100%;
     height: auto;
@@ -37,11 +35,17 @@ body{
 
 
 h1 {
-  outerborder: 1px solid #848484;
+  border: 1px solid #848484;
   font-size: 4em;
   text-transform: uppercase;
   color: #ffffff;
   }
+h2,h3{
+  color: #848484;
+}
+h4{
+  color: #ffffff;
+}
 
 .about-me {
   color: #1d1a1a;
