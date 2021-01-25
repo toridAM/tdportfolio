@@ -9,7 +9,7 @@ body{
   background-color: #fff;
 }
 
-.flex-container{
+.figma--projects{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -93,8 +93,8 @@ h4{
    background-color: #1d1a1a;
   }
 
-
-.web-design, .portfolio-work{
+/* .portfolio-work took this off */
+.web-design, {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
