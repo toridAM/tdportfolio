@@ -43,8 +43,10 @@ h1 {
 h2,h3{
   color: #848484;
 }
+
 h4{
   color: #ffffff;
+  margin-top: 1em;
 }
 
 .about-me {
@@ -98,7 +100,7 @@ h4{
     text-align: center;
     padding: 2.5em 0;
     font-size: 1.2em;
-    background-color:#848484; 
+    background-color:#444; 
     margin-top: 2em;
  }
 .footer a {
