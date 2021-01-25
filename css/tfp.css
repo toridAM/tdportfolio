@@ -9,11 +9,19 @@ body{
   background-color: #fff;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
 ul {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
 }
+
 ul li {
   display-inline;
   margin: 1em;
@@ -21,8 +29,7 @@ ul li {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1em;
-  
-}
+  }
 
 ul li a {
   color: #444444;
@@ -43,8 +50,6 @@ ul li a {
   width: 90%;
   margin-bottom: 1em;
  }
-
-
 
 h1 {
   font-size: 4em;
