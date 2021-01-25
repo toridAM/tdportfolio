@@ -54,12 +54,20 @@ ul li a {
  }
 
 h1 {
-  font-size: 4em;
+  font-size: 2em;
   text-transform: uppercase;
   color: #1d1a1a;
+  justify-content: flex-end;
   }
 
-h2,h3{
+h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #1d1a1a;
+  text-indent: center;
+}
+
+h3{
   color: #1d1a1a;
   margin-bottom: 1em;
 }
