@@ -10,10 +10,10 @@ body{
 }
 
 .figma--projects{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 0px;
+ display: flex;
+ justify-conent: center;
+ flex-wrap: wrap;
+ margin-top: 0px;
 }
 
 header {
@@ -22,8 +22,8 @@ header {
   flex-wrap: wrap;
 }
 
-ul li {
-  display-inline;
+header ul li {
+  display:inline;
   margin: 1em;
   list-style-type: none;
   font-size: 1em;
@@ -34,7 +34,7 @@ ul li a {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 600;
 }
   
   
@@ -54,9 +54,10 @@ ul li a {
  }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   text-transform: uppercase;
   color: #1d1a1a;
+  
   
   }
 
@@ -74,7 +75,6 @@ h3{
 
 h4{
   color: #ffffff;
-  padding: 0.5em;
   text-transform: uppercase;
 }
 
@@ -84,6 +84,7 @@ h4{
   padding: 4em;
   font-size: 1em;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 0px;
   }
@@ -94,7 +95,7 @@ h4{
   }
 
 /* .portfolio-work took this off */
-.web-design, {
+.web-design {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
