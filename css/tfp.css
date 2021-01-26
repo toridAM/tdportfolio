@@ -10,9 +10,9 @@ body{
   color: #1d1a1a;
 }
 
-div .col{
+.col{
   margin: 0 auto;
-  padding: 1em;
+  padding: 2em;
 }
  
 
@@ -71,7 +71,7 @@ h2 {
 }
 
 h2:hover{
-  color: #444;
+  color: #372f06;
 }
 
 h3 {
@@ -92,6 +92,9 @@ h4{
 
 .section-title {
   font-size: 3rem;
+  text-transform: uppercase;
+   padding: 1em;
+  letter-spacing: 0.5em;
    }
 
 .web-design {
@@ -104,16 +107,12 @@ h4{
   margin: 0.1em;
   }
 
- .section-title {
-  padding: 1em;
-  letter-spacing: 0.5em;
-  }
-
  .section-title-project{
   text-align: center;
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+  margin-bottom: 1em;
   }
 
 /* footer */
