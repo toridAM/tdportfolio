@@ -22,12 +22,15 @@ body{
    text-align: center;
 }
 
+header {
+  text-align: right;
+}
+
  ul li {
   margin: 2em 1em;
   list-style-type: none;
   font-size: 1em;
   display: inline;
-   text-align: right;
   }
 
 ul li a {
@@ -44,6 +47,7 @@ ul li a {
     height: 500px;
     left: 161px;
     top: 413px;
+    cusor: pointer;
 }
 
   .skills{
@@ -107,6 +111,11 @@ p.subtitle-text{
   font-size: 2em;
   margin-top: 1em;
 }
+
+.figma--projects{
+  margin-bottom: 3em;
+}
+
 .web-design {
   display: flex;
   flex-wrap: wrap;
