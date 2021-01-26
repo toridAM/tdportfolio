@@ -42,14 +42,24 @@ ul li a {
   color: #556062;
  }
 
-  .ellipse {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 161px;
-    top: 413px;
-    cusor: pointer;
+div {
+display: inline-block;
+margin-left: 5px;
+height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border:2px solid white;
+    background-color: white;
+    }
+
+div:hover + p {
+    display:block;
 }
+
+p {
+    display:none; 
+}
+  
 
   .skills{
   word-spacing:2em;
