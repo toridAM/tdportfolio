@@ -10,7 +10,7 @@ body{
   color: #1d1a1a;
 }
 
-div.col{
+div .col{
   margin: 0 auto;
   padding: 1em;
 }
@@ -60,7 +60,6 @@ h1 {
   }
 
 h2 {
-  
   text-transform: uppercase;
   text-align: center;
    color: white;
@@ -68,6 +67,14 @@ h2 {
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: black;
   font-size: 4em;
+}
+
+h2:hover{
+  color: #444;
+}
+
+h3 {
+  margin-bottom: 1em;
 }
 
 h4{
