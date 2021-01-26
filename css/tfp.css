@@ -6,8 +6,8 @@
 }
 
 body{
-  background-color: #fff;
   color: #314346;
+  background-color: #fffcf2;
 }
 
  .col{
@@ -62,7 +62,7 @@ h1 {
   text-transform: uppercase;
   padding: 1em;
   margin: 0.5em;
-  color: #f7a399;
+  color: #e86b5c;
   }
 
 h2 {
@@ -92,7 +92,6 @@ h4{
   margin-bottom: 1em;
   text-transform: capitalize;
   padding-top: 2em;
-  background-color:#fffcf2;
   }
 
 p.section-title {
@@ -118,7 +117,6 @@ p.subtitle-text{
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 2em;
-  background-color:#fffcf2;
   }
 
 .portfolio-item {
@@ -138,8 +136,7 @@ p.subtitle-text{
     text-align: center;
     font-size: 1em;
     padding: 1em;
-    background-color: #fffcf2;
-   }
+    }
 
 .footer a {
    color: #314346;
