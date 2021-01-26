@@ -62,7 +62,7 @@ h1 {
   text-transform: uppercase;
   padding: 1em;
   margin: 0.5em;
-  color: #556062;
+  color: #f83737;
   }
 
 h2 {
@@ -116,7 +116,7 @@ p.subtitle-text{
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 2em;
-  background-color: #464f51;
+  background-color: #faad65;
   }
 
 .portfolio-item {
@@ -136,11 +136,11 @@ p.subtitle-text{
     text-align: center;
     font-size: 1.2em;
     padding: 1em;
-    background-color: #464f51;
+    background-color: #faad65;
    }
 
 .footer a {
-   color: #ffffff;
+   color: #f83737;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1em;
