@@ -82,7 +82,6 @@ h4{
 
 .about-me,p{
   margin: 0 auto;
-  padding: 4em;
   font-size: 1em;
   margin-bottom: 1em;
   text-transform: capitalize;
@@ -100,7 +99,7 @@ p.section-title {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 1em;
+  padding-top: 2em;
   background-color: #464f51;
   }
 
