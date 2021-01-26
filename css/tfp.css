@@ -45,7 +45,7 @@ ul li a {
 
 .skills{
   word-spacing:2em;
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: center;
   margin: 3em auto;
 /*   visibility: hidden; */
@@ -88,14 +88,14 @@ h4{
 
 .about-me,p{
   margin: 0 auto;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 1em;
   text-transform: capitalize;
   padding-top: 2em;
   }
 
 p.section-title {
-  font-size: 2em;
+  font-size: 1.3em;
   text-transform: uppercase;
   padding: 1em;
   letter-spacing: 0.5em;
@@ -116,7 +116,7 @@ p.subtitle-text{
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 2em;
-  background-color:#fff1e6;
+  background-color:#fffcf2;
   }
 
 .portfolio-item {
@@ -134,16 +134,16 @@ p.subtitle-text{
 /* footer */
 .footer {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 1em;
-    background-color: #fff1e6;
+    background-color: #fffcf2;
    }
 
 .footer a {
    color: #556062;
    text-transform: uppercase;
    text-decoration: none;
-   font-size: 1em;
+   font-size: 1.3em;
    padding-left: 0.5em;
    text-align: center;
 }
