@@ -42,28 +42,13 @@ ul li a {
   color: #556062;
  }
 
-h1 .skills {
-display: inline-block;
-margin-left: 5px;
-height: 500px;
-    width: 500px;
-    border-radius: 100%;
-    border:2px solid white;
-    background-color: white;
-    }
 
-.skills:hover +  h2:hover{
-    display:block;
-}
-
-
-  
-
-  .skills{
+.skills{
   word-spacing:2em;
   font-size: 1em;
   align: center;
   margin: 3em auto;
+/*   visibility: hidden; */
    }
 
  p {
@@ -88,7 +73,7 @@ h2 {
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #556062;
   font-size: 5em;
-  
+/*   visibility: hidden; */
 }
 
 h3 {
@@ -103,7 +88,7 @@ h4{
 
 .about-me,p{
   margin: 0 auto;
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-bottom: 1em;
   text-transform: capitalize;
   padding-top: 2em;
