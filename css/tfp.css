@@ -10,7 +10,7 @@ body{
   color: #1d1a1a;
 }
 
-.col{
+.figma--projects, .col{
   margin: 0 auto;
   padding: 2em;
 }
