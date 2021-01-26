@@ -27,7 +27,7 @@ body{
   list-style-type: none;
   font-size: 1em;
   display: inline;
-  justify-content: flex-end;
+   text-align: right;
   }
 
 ul li a {
@@ -37,13 +37,20 @@ ul li a {
   font-weight: 600;
   color: #556062;
  }
-  
+
+  .ellipse {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 161px;
+    top: 413px;
+}
+
   .skills{
   word-spacing:2em;
   font-size: 1em;
   align: center;
-  width: 60%;
-  margin: 0 auto;
+  margin: 3em auto;
   }
 
  p {
@@ -85,6 +92,7 @@ h4{
   font-size: 1em;
   margin-bottom: 1em;
   text-transform: capitalize;
+  padding-top: 2em;
   }
 
 p.section-title {
@@ -95,6 +103,10 @@ p.section-title {
   text-align: center;
   }
 
+p.subtitle-text{
+  font-size: 2em;
+  margin-top: 1em;
+}
 .web-design {
   display: flex;
   flex-wrap: wrap;
