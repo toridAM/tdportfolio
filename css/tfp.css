@@ -42,7 +42,7 @@ ul li a {
   color: #556062;
  }
 
-h1, .skills {
+h1 .skills {
 display: inline-block;
 margin-left: 5px;
 height: 500px;
@@ -103,7 +103,7 @@ h4{
 
 .about-me,p{
   margin: 0 auto;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 1em;
   text-transform: capitalize;
   padding-top: 2em;
