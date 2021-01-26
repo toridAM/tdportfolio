@@ -43,10 +43,10 @@ ul li a {
  }
 
 
-div.skills{
+.skills{
   word-spacing:2em;
   font-size: 1em;
-  align: center;
+  text-align: center;
   margin: 3em auto;
 /*   visibility: hidden; */
    }
@@ -140,7 +140,7 @@ p.subtitle-text{
    }
 
 .footer a {
-   color: #1d1a1a;
+   color: #556062;;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1em;
