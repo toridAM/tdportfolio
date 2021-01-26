@@ -7,7 +7,7 @@
 
 body{
   background-color: #fff;
-  color: #556062;
+  color: #314346;
 }
 
  .col{
@@ -16,7 +16,7 @@ body{
   }
 
  p,a{
-   color: #556062;
+   color: #314346;
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
@@ -39,7 +39,7 @@ ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color: #556062;
+  color:#314346;
  }
 
 
@@ -78,11 +78,11 @@ h2 {
 
 h3 {
   margin-bottom: 1em;
-  color: #556062;
+  color: #314346;
 }
 
 h4{
-  color: #556062;
+  color: #314346;
   text-transform: uppercase;
 }
 
@@ -140,7 +140,7 @@ p.subtitle-text{
    }
 
 .footer a {
-   color: #556062;
+   color: #314346;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
