@@ -15,13 +15,13 @@ body{
   justify-content: center;
   
 }
- 
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+ p,a{
+   color: #556062;
+   text-decoration: none;
+   text-transform: uppercase;
 }
+
+
 
 header ul li {
   margin: 2em 1em;
@@ -38,7 +38,7 @@ ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color: #1d1a1a;
+  color: #556062;
   padding: 1em;
 }
   
@@ -46,6 +46,8 @@ ul li a {
 .skills{
   word-spacing:2em;
   font-size: 1em;
+  align: center;
+  width: 60%;
   
 }
 
@@ -69,7 +71,7 @@ h2 {
    color: white;
             font-size: 50px;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: black;
+            -webkit-text-stroke-color: #556062;
   font-size: 5em;
 }
 
@@ -78,7 +80,7 @@ h3 {
 }
 
 h4{
-  color: #1d1a1a;
+  color: #556062;
   text-transform: uppercase;
 }
 
@@ -86,7 +88,7 @@ h4{
   margin: 0 auto;
   padding: 4em;
   font-size: 1em;
-  margin-top: 0px;
+  margin-bottom: 1em;
   }
 
 p.section-title {
@@ -102,6 +104,7 @@ p.section-title {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 1em;
   }
 
 .portfolio-item {
@@ -121,10 +124,11 @@ p.section-title {
     text-align: center;
     font-size: 1.2em;
     padding: 1em;
+  background-color: #464f51;
    }
 
 .footer a {
-   color: #1d1a1a;
+   color: #ffffff;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1em;
