@@ -116,7 +116,7 @@ p.subtitle-text{
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 2em;
-  background-color: #f8ede8;
+  background-color:#fff1e6;
   }
 
 .portfolio-item {
@@ -136,11 +136,11 @@ p.subtitle-text{
     text-align: center;
     font-size: 1em;
     padding: 1em;
-    background-color: #f8ede8;
+    background-color: #fff1e6;
    }
 
 .footer a {
-   color: #556062;;
+   color: #556062;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1em;
