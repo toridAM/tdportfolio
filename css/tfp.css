@@ -27,6 +27,9 @@ header ul li {
   margin: 2em 1em;
   list-style-type: none;
   font-size: 1em;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
  
   }
 
@@ -40,8 +43,8 @@ ul li a {
 }
   
   
-.skills p{
-  word-spacing:1em;
+.skills{
+  word-spacing:2em;
   font-size: 1em;
   
 }
@@ -50,7 +53,7 @@ ul li a {
   font-size: 1.3em;
   line-height: 1.6;
   width: 70%;
-  margin-bottom: 1em;
+  
  }
 
 h1 {
@@ -71,7 +74,7 @@ h2 {
 }
 
 h2:hover{
-  color: #372f06;
+  color: #f83737;
 }
 
 h3 {
