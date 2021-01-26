@@ -10,9 +10,9 @@ body{
   color: #1d1a1a;
 }
 
-.figma--projects, .col{
-  margin: 0 auto;
-  padding: 2em;
+ .col{
+  display: flex;
+  padding: 1em;
 }
  
 
@@ -90,11 +90,13 @@ h4{
   margin-top: 0px;
   }
 
-.section-title {
-  font-size: 3rem;
+p.section-title {
+  font-size: 2em;
   text-transform: uppercase;
    padding: 1em;
   letter-spacing: 0.5em;
+  text-align: center;
+  
    }
 
 .web-design {
