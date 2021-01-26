@@ -92,6 +92,7 @@ h4{
   margin-bottom: 1em;
   text-transform: capitalize;
   padding-top: 2em;
+  background-color:#fffcf2;
   }
 
 p.section-title {
@@ -103,8 +104,9 @@ p.section-title {
   }
 
 p.subtitle-text{
-  font-size: 2em;
+  font-size: 1em;
   margin-top: 1em;
+  color:#fffcf2;
 }
 
 .figma--projects{
