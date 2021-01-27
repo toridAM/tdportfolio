@@ -1,40 +1,113 @@
-*{
+*
+{
   margin: 0px;
   padding: 0px;
   list-style-type: none;
   box-sizing: border-box;
+  font-family: 'popins', sans-serif;
 }
 
-body{
+body
+{
   color: #314346;
   background-color: #fffcf2;
 }
 
- .col{
+.skills
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.skills ul
+{
+  display: flex;
+}
+.skills ul li
+{
+  position: relative;
+  list-style-type: none;
+  width: 20px;
+  height: 20px;
+  background-color:#777;
+  margin: 0 20px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.skills ul li:hover
+{
+  background-color: #86ff3b;
+  box-shadow: 0 0 0 4px #333,
+              0 0 0 6px #86ff3b;
+}
+ .skills ul li .content
+{
+  position: absolute;
+  bottom: 55px;
+  width: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(-50%) translateY(-50px);
+}
+.skills ul li:before
+{
+  content:'';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  bottom: -15px;
+  left: 194px;
+  transform: rotate(45deg);
+}
+  .skills ul li:hover .content 
+{
+  visibility: visibile;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0px); 
+}
+
+
+
+
+ .col
+{
   display: flex;
   justify-content: center;
   }
 
- p,a{
+ p,a
+{
    color: #314346;
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
 }
 
-header {
+header 
+{
   text-align: right;
   margin: 2em;
 }
 
- ul li {
+ ul li 
+{
   margin: 2em 1em;
   list-style-type: none;
   font-size: 1em;
   display: inline;
   }
 
-ul li a {
+ul li a 
+{
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -43,21 +116,23 @@ ul li a {
  }
 
 
-.skills{
-  word-spacing:2em;
-  font-size: 1.5em;
-  text-align: center;
-  margin: 3em auto;
+/* .skills{ */
+/*   word-spacing:2em; */
+/*   font-size: 1.5em; */
+/*   text-align: center; */
+/*   margin: 3em auto; */
 /*   visibility: hidden; */
    }
 
- p {
+ p 
+{
   
   line-height: 1.6;
   width: 70%;
   }
 
-h1 {
+h1 
+{
   font-size: 2em;
   text-transform: uppercase;
   padding: 1em;
@@ -65,7 +140,8 @@ h1 {
   color: #e86b5c;
   }
 
-h2 {
+h2 
+{
   text-transform: uppercase;
   text-align: center;
    color: white;
@@ -73,20 +149,23 @@ h2 {
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #556062;
   font-size: 5em;
-/*   visibility: hidden; */
+
 }
 
-h3 {
+h3 
+{
   margin-bottom: 1em;
   color: #314346;
 }
 
-h4{
+h4
+{
   color: #314346;
   text-transform: uppercase;
 }
 
-.about-me,p{
+.about-me,p
+{
   margin: 0 auto;
   font-size: 1em;
   margin-bottom: 1em;
@@ -94,7 +173,8 @@ h4{
   padding-top: 2em;
   }
 
-p.section-title {
+p.section-title 
+{
   font-size: 1.3em;
   text-transform: uppercase;
   padding: 1em;
@@ -102,28 +182,33 @@ p.section-title {
   text-align: center;
   }
 
-p.subtitle-text{
+p.subtitle-text
+{
   font-size: 1em;
   margin-top: 1em;
   color:#fffcf2;
 }
 
-.figma--projects{
+.figma--projects
+{
   margin-bottom: 1.5em;
 }
 
-.web-design {
+.web-design 
+{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 2em;
   }
 
-.portfolio-item {
+.portfolio-item 
+{
   margin: 0.1em;
   }
 
- .section-title-project{
+ .section-title-project
+{
   text-align: center;
   font-size: 1em;
   text-transform: uppercase;
@@ -132,13 +217,15 @@ p.subtitle-text{
   }
 
 /* footer */
-.footer {
+.footer 
+{
     text-align: center;
     font-size: 1em;
     padding: 1em;
     }
 
-.footer a {
+.footer a 
+{
    color: #314346;
    text-transform: uppercase;
    text-decoration: none;
@@ -147,7 +234,8 @@ p.subtitle-text{
    text-align: center;
 }
 
-.footer-link {
+.footer-link 
+{
     font-weight: 400;
 }
 
@@ -156,11 +244,13 @@ p.subtitle-text{
     opacity: 0.25;
 }
 
-.footer-link, a:hover {
+.footer-link, a:hover 
+{
     text-decoration: underline;
 }
 
-.social-list{
+.social-list
+{
     list-style: none;
     display: flex;
     justify-content: center;
@@ -168,9 +258,11 @@ p.subtitle-text{
     padding: 0;
 }
 
-.social-list-item {
+.social-list-item 
+{
     margin: 0 .5em;
 }
-.social-list-link {
+.social-list-link 
+{
     padding: 0.5em;
 }
