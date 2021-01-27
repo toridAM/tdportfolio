@@ -10,75 +10,87 @@
 body
 {
   color: #314346;
-  background-color: #fffcf2;
+  background-color: #ffffff;
 }
-
-.skills
-{
+ .skills
+ {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #fff;
-}
-.skills ul
-{
+  height: 50vh;
+/*   background-color: #; */
+  }
+
+  ul
+  {
+  margin: 0;
+  padding: 0;
   display: flex;
-}
+  }
+ 
+ 
 .skills ul li
 {
   position: relative;
   list-style-type: none;
   width: 20px;
   height: 20px;
-  background-color:#777;
-  margin: 0 20px;
+  background-color: #777;
+  margin: 0 20px; 
   border-radius: 50%;
   transition: 0.5s;
   cursor: pointer;
 }
+  
 .skills ul li:hover
 {
-  background-color: #86ff3b;
-  box-shadow: 0 0 0 4px #333,
-              0 0 0 6px #86ff3b;
+  background-color: #e86b5c;
+  box-shadow: 0 0 0 4px #333, 0 0 0 6px #e86b5c;
 }
- .skills ul li .content
+
+  .skills ul li .content
 {
   position: absolute;
   bottom: 55px;
-  width: 40px;
-  background-color: #ffffff;
+  width: 400px;
+  background-color: #e86b5c;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 4px;
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
-  transform: translateX(-50%) translateY(-50px);
-}
-.skills ul li:before
-{
-  content:'';
+  transform: translateX(-50%) translateY(0px);
+  }
+  
+  .skills ul li .content::before
+  {
+     content: '';
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
+  background-color: #e86b5c;
   bottom: -15px;
   left: 194px;
   transform: rotate(45deg);
 }
+
   .skills ul li:hover .content 
-{
-  visibility: visibile;
+  {
+  visibility: visible;
   opacity: 1;
   transform: translateX(-50%) translateY(0px); 
+  } 
+
+.content p 
+{
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  text-align: center;
 }
 
-
-
-
- .col
+.col
 {
   display: flex;
   justify-content: center;
@@ -115,18 +127,8 @@ ul li a
   color:#314346;
  }
 
-
-/* .skills{ */
-/*   word-spacing:2em; */
-/*   font-size: 1.5em; */
-/*   text-align: center; */
-/*   margin: 3em auto; */
-/*   visibility: hidden; */
-   }
-
- p 
+p 
 {
-  
   line-height: 1.6;
   width: 70%;
   }
