@@ -18,10 +18,9 @@ body
   justify-content: center;
   align-items: center;
   height: 50vh;
-/*   background-color: #; */
-  }
+}
 
-  ul
+  .skills ul
   {
   margin: 0;
   padding: 0;
