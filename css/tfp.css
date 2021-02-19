@@ -215,6 +215,11 @@ p.subtitle-text
   margin: 0.1em;
   }
 
+.box1{
+  display: flex;
+  justify-content: center;
+}
+
  .section-title-project
 {
   text-align: center;
