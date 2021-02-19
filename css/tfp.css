@@ -93,6 +93,7 @@ body
 {
   display: flex;
   justify-content: center;
+  padding: 0 2em;
   }
 
  p,a
@@ -157,6 +158,9 @@ h2
  h2{
     font-size: 3em;
     
+  }
+  img {
+    width: 100%;
   }
 }
 
