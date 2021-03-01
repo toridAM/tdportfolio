@@ -105,14 +105,14 @@ body
 }
 
 
-header ul li,h1{
+header ul,h1{
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 header a{
-  display: block;
+  display: flex;
   text-align: right;
   text-decoration: none;
   font-weight: 400;
