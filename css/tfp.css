@@ -104,20 +104,28 @@ body
    text-align: center;
 }
 
-
-header ul,h1{
-  position: fixed;
-  top: 0;
-  width: 100%;
+h1 {
+  margin-left: 75%;
 }
 
-header a,h1{
+header h1{
+  position: fixed;
+}
+header ul {
   display: flex;
   justify-content: flex-end;
-  text-decoration: none;
-  font-weight: 400;
-  padding: 0.5em;
 }
+header ul li {
+  list-style-type: none;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
 
  ul li 
 {
