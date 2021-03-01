@@ -109,7 +109,7 @@ header
   text-align: right;
   margin: 2em;
 }
-header ul li a{
+header ul li a, h1{
   position: fixed;
 }
 
