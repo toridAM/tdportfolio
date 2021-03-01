@@ -10,7 +10,7 @@
 body
 {
   color: #ffffff;
-  background-color: #240805;
+  background-color: #909090;
 }
  .skills
  {
@@ -164,9 +164,9 @@ h2
   left: 0;
   width: 0;
   height: 100%;
-  color: #01fe87;
-  -webkit-text-stroke: 0vw #314346;;
-  border-right: 2px solid  #01fe87;
+  color: #e86b5c;
+  -webkit-text-stroke: 0vw #909090;
+  border-right: 2px solid  #e86b5c;
   overflow: hidden;
   animation: animate 6s linear infinite;
 }
@@ -196,12 +196,12 @@ h2
 h3 
 {
   margin-bottom: 1em;
-  color: #314346;
+  color: #ffffff;
 }
 
 h4
 {
-  color: #314346;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -227,7 +227,7 @@ p.subtitle-text
 {
   font-size: 1em;
   margin-top: 1em;
-  color:#314346;
+  color:#ffffff;
 }
 
 .figma--projects
