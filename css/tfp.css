@@ -98,7 +98,7 @@ body
 
  p,a
 {
-   color: #314346;
+   color: #ffffff;
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
@@ -124,7 +124,7 @@ ul li a
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color:#120403;
+  color:#ffffff;
  }
 
 p 
@@ -154,16 +154,9 @@ h2
   
 
 }
-h2
-{
-  position: relative;
-  font-size: 14vw;
-  color: #252839;
-  -webkit-text-stroke: 0.3vw #120403;
-  text-transform: uppercase;
-}
 
-h2::before
+
+/* h2::before 
 {
   content: attr(data-text);
   position: absolute;
@@ -187,7 +180,8 @@ h2::before
   {
     width: 100%;
   }
-}
+}*/
+
 @media only screen and (max-width: 600px) {
  
  h2{
