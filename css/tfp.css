@@ -105,11 +105,12 @@ body
 }
 
 
-header,h1{
+header ul li,h1{
   position: fixed;
   top: 0;
   width: 100%;
 }
+
 header a{
   display: block;
   text-align: right;
@@ -155,39 +156,9 @@ h2
   text-align: center;
    color: white;
             font-size: 50px;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #ffffff;
-  font-size: 5em;
-  
+            font-size: 5em;
+ }
 
-}
-
-
- h2::before 
-{
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  color: #e86b5c;
-  -webkit-text-stroke: 0vw #e86b5c;
-  border-right: 2px solid  #e86b5c;
-  overflow: hidden;
-  animation: animate 6s linear infinite;
-}
-@keyframes animate
-{
-  0%,10%, 100%
-  {
-    width: 0;
-  }
-  70%,90%
-  {
-    width: 100%;
-  }
-}
 
 @media only screen and (max-width: 600px) {
  
