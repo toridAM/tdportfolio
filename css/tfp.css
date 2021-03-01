@@ -109,6 +109,9 @@ header
   text-align: right;
   margin: 2em;
 }
+header ul li a{
+  position: fixed;
+}
 
  ul li 
 {
