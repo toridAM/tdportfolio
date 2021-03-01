@@ -162,9 +162,10 @@ h1
 h2 
 {
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   font-size: 50px;
   font-size: 5em;
+  text-align: center;
  }
 
 
