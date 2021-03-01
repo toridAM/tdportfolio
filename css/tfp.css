@@ -111,6 +111,8 @@ header
 }
 header ul li a, h1{
   position: fixed;
+  top: 0;
+  width: 100%;
 }
 
  ul li 
@@ -152,14 +154,14 @@ h2
    color: white;
             font-size: 50px;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #120403;
+            -webkit-text-stroke-color: #ffffff;
   font-size: 5em;
   
 
 }
 
 
-/* h2::before 
+ h2::before 
 {
   content: attr(data-text);
   position: absolute;
@@ -168,7 +170,7 @@ h2
   width: 0;
   height: 100%;
   color: #e86b5c;
-  -webkit-text-stroke: 0vw #909090;
+  -webkit-text-stroke: 0vw #e86b5c;
   border-right: 2px solid  #e86b5c;
   overflow: hidden;
   animation: animate 6s linear infinite;
@@ -183,7 +185,7 @@ h2
   {
     width: 100%;
   }
-}*/
+}
 
 @media only screen and (max-width: 600px) {
  
