@@ -99,7 +99,7 @@ body
 
  p,a
 {
-   margin: 1em;
+/*    margin: 1em; */
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
@@ -161,10 +161,10 @@ h2
 {
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 5em;
+  font-size: 10vw;
   font-weight: 100;
-  margin: 1em;
-  padding: 1em;
+/*   margin: 1em; */
+/*   padding: 1em; */
  }
 
 
@@ -219,7 +219,7 @@ p.subtitle-text
 
 .figma--projects
 {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .web-design 
@@ -260,12 +260,12 @@ p.subtitle-text
 
 .footer a 
 {
-   justify-content: center;
+   color: #ffffff;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
    padding-left: 0.5em;
-/*    text-align: center; */
+   text-align: center;
 }
 
 .footer-link 
