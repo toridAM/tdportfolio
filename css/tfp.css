@@ -119,22 +119,23 @@ header ul {
 }
 header ul li {
   list-style-type: none;
-   justify-content: flex-end;
-}
+   
 header ul li a {
   text-decoration: none;
   padding: 0.5em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #e86b5c;
   font-weight: 100;
   font-size: 1em;
+  justify-content: flex-end;
+
 }
 
 
 
  ul li 
 {
-  margin: 2em 1em;
+  margin: 1em;
   list-style-type: none;
   font-size: 1em;
   display: inline;
@@ -171,6 +172,7 @@ h2
   text-align: center;
   font-weight: 100;
   margin: 1em;
+  padding: 1em;
  }
 
 
@@ -194,7 +196,7 @@ h3
 
 h4
 {
-  color: #e86b5c;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -265,7 +267,7 @@ p.subtitle-text
 
 .footer a 
 {
-   color: #e86b5c;
+   color: #ffffff;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
