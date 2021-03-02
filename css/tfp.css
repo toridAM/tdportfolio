@@ -95,7 +95,7 @@ body
   margin-bottom: 1em;
   }
 
- a
+ a.btn, a.btn:hover
 {
    text-decoration: none;
    text-transform: uppercase;
@@ -165,7 +165,7 @@ h2
   margin: auto;
   padding 0 2em;
   text-align: center;
-  padding 2em;
+  padding:0.75em;
  }
 
 
