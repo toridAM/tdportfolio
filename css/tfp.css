@@ -131,6 +131,7 @@ header ul li a {
   color: #e86b5c;
   font-weight: 100;
   font-size: 1em;
+  padding: 1em;
   }
 
 ul li 
@@ -165,6 +166,7 @@ h2
   font-weight: 100;
   margin: auto;
   padding 0 2em;
+  text-align: center;
  }
 
 
