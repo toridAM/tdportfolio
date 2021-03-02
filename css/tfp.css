@@ -94,6 +94,7 @@ body
   display: flex;
   justify-content: center;
   padding: 0 2em;
+  margin-bottom: 1em;
   }
 
  p,a
@@ -116,7 +117,7 @@ h1 {
 }
 header ul {
   display: flex;
-  padding: 0.5em;
+  padding: 1em;
  
 }
 header ul li {
@@ -253,16 +254,17 @@ p.subtitle-text
     text-align: center;
     font-size: 1em;
     padding: 1em;
+    display: flex;
     }
 
 .footer a 
 {
-   
+   justify-content: center;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
    padding-left: 0.5em;
-   text-align: center;
+/*    text-align: center; */
 }
 
 .footer-link 
