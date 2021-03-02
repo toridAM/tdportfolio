@@ -83,8 +83,6 @@ body
 
 .content p 
 {
-  
-/*   text-transform: capitalize; */
   font-size: 1.5em;
   text-align: center;
 }
@@ -97,9 +95,8 @@ body
   margin-bottom: 1em;
   }
 
- p,a
+ a
 {
-
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
