@@ -122,7 +122,6 @@ header ul li {
    
 header ul li a {
   text-decoration: none;
-  padding: 0.5em;
   text-transform: uppercase;
   color: #e86b5c;
   font-weight: 100;
@@ -131,11 +130,8 @@ header ul li a {
 
 }
 
-
-
- ul li 
+ul li 
 {
-  margin: 1em;
   list-style-type: none;
   font-size: 1em;
   display: inline;
@@ -278,6 +274,7 @@ p.subtitle-text
 .footer-link 
 {
     font-weight: 400;
+    color: #ffffff;
 }
 
 .footer-link:hover,
