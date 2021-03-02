@@ -110,7 +110,7 @@ h1 {
   font-weight: 100;
   text-transform: uppercase;
   color: #e86b5c;
-  margin: auto;
+  padding 0 2em;
   }
 
  header {
@@ -163,8 +163,8 @@ h2
   color: #ffffff;
   font-size: 10vw;
   font-weight: 100;
-/*   margin: 1em; */
-/*   padding: 1em; */
+  margin: auto;
+  padding 0 2em;
  }
 
 
@@ -255,7 +255,7 @@ p.subtitle-text
     text-align: center;
     font-size: 1em;
     padding: 1em;
-    display: flex;
+    
     }
 
 .footer a 
