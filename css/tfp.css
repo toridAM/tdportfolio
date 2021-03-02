@@ -217,7 +217,14 @@ p.subtitle-text
   font-size: 1em;
   margin-top: 1em;
   color:#ffffff;
+  
 }
+p.subtitle-text:hover
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+  
 
 .figma--projects
 {
