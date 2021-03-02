@@ -9,8 +9,8 @@
 
 body
 {
-  color: #ffffff;
-  background-color: #434040;
+  color: #373126;
+  background-color: #343a40;
 }
  .skills
  {
@@ -189,7 +189,7 @@ h3
 
 h4
 {
-  color: #ffffff;
+  color: #373126;
   text-transform: uppercase;
 }
 
@@ -268,7 +268,7 @@ p.subtitle-text:hover
 
 .footer a 
 {
-   color: #ffffff;
+   color: #373126;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
