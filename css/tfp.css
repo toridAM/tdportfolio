@@ -92,7 +92,7 @@ body
   display: flex;
   justify-content: center;
   padding: 0 2em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   }
 
  a.btn, a.btn:hover
@@ -227,7 +227,7 @@ p.subtitle-text:hover
 
 .figma--projects
 {
-  margin-bottom: 1em;
+/*   margin-bottom: 1em; */
 }
 
 .web-design 
