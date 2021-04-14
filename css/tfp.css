@@ -169,6 +169,10 @@ h2
 .subtitle-text{
   text-transform: capitalized;
 }
+.portfolio{
+  text-transform: capitalized;
+}
+
 
 @media only screen and (max-width: 600px) {
  
