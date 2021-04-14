@@ -103,7 +103,7 @@ body
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 100;
   text-transform: uppercase;
   color: #e86b5c;
@@ -136,7 +136,7 @@ ul li
 {
   list-style-type: none;
   font-size: 1em;
-  display: inline;
+  display: block;
   }
 
 ul li a 
@@ -152,10 +152,7 @@ p
 {
   line-height: 1.6;
 }
-h1
-{
-  margin-left: 2em;
-}
+
 
 h2 
 {
