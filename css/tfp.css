@@ -17,8 +17,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-}
+  }
 
   .skills ul
   {
@@ -66,7 +65,7 @@ body
   {
      content: '';
   position: absolute;
-  width: 30px;
+  width: 40px;
   height: 30px;
   background-color: #e86b5c;
   bottom: -15px;
@@ -107,6 +106,7 @@ h1 {
   font-weight: 100;
   text-transform: lowercase;
   color: #e86b5c;
+  margin-left: 1em;
   }
 
  header {
@@ -166,6 +166,7 @@ h3{
   text-transform: capitalized;
   font-size: 5em;
   font-weight: 700;
+  margin-left: 1em;
   
 }
 
@@ -191,21 +192,23 @@ h3{
 
 
 
-h4
+.about-me,p
 {
   color: #e86b5c;
   text-transform: capitalized;
   font-family: pompiere;
+  font-size: 3em;
   
 }
 
-.about-me,p
+p
 {
   margin: 0 auto;
   font-size: 1em;
   margin-bottom: 1em;
   padding-top: 2em;
   width: 70%;
+  
   }
 
 p.section-title 
@@ -263,7 +266,6 @@ p.subtitle-text:hover
     display: block;
     font-size: 1em;
     padding: 2em;
-    
     margin-left: 2em;
     
     }
@@ -286,8 +288,8 @@ p.subtitle-text:hover
 .footer-link:hover,
 .social-list--link:hover {
     opacity: 0.25;
-  
-}
+    color: #e86b5c;
+  }
 
 .footer-link, a:hover 
 {
@@ -301,6 +303,7 @@ p.subtitle-text:hover
     margin: 2em;
     padding: 0;
     color: #434040;
+  
 }
 
 .social-list-item 
