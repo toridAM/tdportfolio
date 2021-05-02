@@ -9,8 +9,8 @@
 
 body
 {
-  color: #ffffff;
-  background-color: #434040;
+  color: #434040;
+  background-color: #ffffff;
 }
  .skills
  {
@@ -103,7 +103,7 @@ body
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 0.5em;
   font-weight: 100;
   text-transform: uppercase;
   color: #e86b5c;
@@ -111,11 +111,12 @@ h1 {
   }
 
  header {
-   position: fixed;
+/*    position: fixed; */
    margin: 1em;
 }
 header ul {
   display: flex;
+  justify-content: flex-end;
   padding: 1em;
  
 }
@@ -156,15 +157,23 @@ p
 
 h2 
 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 5em;
+  text-transform: capitalized;
+  color: #4304050;
+  font-size: 3em;
   font-weight: 100;
+  font-family: pompiere;
   margin: auto;
   padding 0 2em;
   text-align: center;
   padding:0.75em;
+  
  }
+
+h3{
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 700;
+}
 
 .subtitle-text{
   text-transform: capitalized;
@@ -194,8 +203,9 @@ h3
 
 h4
 {
-  color: #ffffff;
+  color: #e86b5c;
   text-transform: uppercase;
+  font-family: pompiere;
 }
 
 .about-me,p
@@ -220,12 +230,12 @@ p.subtitle-text
 {
   font-size: 1em;
   margin-top: 1em;
-  color:#ffffff;
+  color:#434040;
   
 }
 p.subtitle-text:hover
 {
-  color: #ffffff;
+  color: #434040;
   text-decoration: none;
 }
   
@@ -266,7 +276,7 @@ p.subtitle-text:hover
 /* footer */
 .footer 
 {
-    text-align: center;
+    display: block;
     font-size: 1em;
     padding: 1em;
     
@@ -274,7 +284,7 @@ p.subtitle-text:hover
 
 .footer a 
 {
-   color: #ffffff;
+   color: #8f8e8e;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
