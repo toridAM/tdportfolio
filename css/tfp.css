@@ -107,8 +107,7 @@ h1 {
   font-weight: 100;
   text-transform: lowercase;
   color: #e86b5c;
-  padding 0 2em;
- }
+  }
 
  header {
  margin: 1em;
@@ -161,10 +160,7 @@ h2
   font-size: 2em;
   font-family: pompiere;
   margin-left: 6em;
-  padding 0 2em;
-  padding:0.75em;
-  
- }
+  }
 
 h3{
   text-transform: capitalized;
@@ -239,7 +235,6 @@ p.subtitle-text:hover
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 2em;
   }
 
 .portfolio-item 
@@ -267,14 +262,15 @@ p.subtitle-text:hover
 {
     display: block;
     font-size: 1em;
-    padding: 1em;
-    color: #e86b5c;
+    padding: 2em;
+    
+    margin-left: 2em;
     
     }
 
 .footer a 
 {
-   color: #8f8e8e;
+   color: #e86b5c;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
@@ -302,7 +298,7 @@ p.subtitle-text:hover
 {
     list-style: none;
     display: block;
-    margin: 2em 0 0;
+    margin: 2em;
     padding: 0;
     color: #434040;
 }
