@@ -106,7 +106,7 @@ h1 {
   font-weight: 100;
   text-transform: lowercase;
   color: #e86b5c;
-  margin-left: 1em;
+  margin-left: 4em;
   }
 
  header {
@@ -163,7 +163,7 @@ h2
   }
 
 h3{
-  text-transform: capitalized;
+  text-transform: uppercase;
   font-size: 5em;
   font-weight: 700;
   margin-left: 1em;
@@ -288,7 +288,7 @@ p.subtitle-text:hover
 .footer-link:hover,
 .social-list--link:hover {
     opacity: 0.25;
-    color: #e86b5c;
+    
   }
 
 .footer-link, a:hover 
@@ -301,7 +301,7 @@ p.subtitle-text:hover
     list-style: none;
     display: block;
     margin: 2em;
-    padding: 0;
+    padding: 3em;
     color: #434040;
   
 }
