@@ -254,6 +254,8 @@ p.subtitle-text:hover
 .footer 
 {
   display: flex;
+  flex: wrap: wrap;
+  justify-content: center;
 }
 
 .footer a 
