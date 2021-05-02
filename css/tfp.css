@@ -112,9 +112,9 @@ h1 {
   }
 
  header {
-/*    position: fixed; */
-   margin: 1em;
+ margin: 1em;
 }
+
 header ul {
   display: flex;
   justify-content: flex-end;
@@ -169,7 +169,7 @@ h2
  }
 
 h3{
-  text-transform: uppercase;
+  text-transform: capitalized;
   font-size: 5em;
   font-weight: 700;
   color: #434040;
@@ -177,7 +177,7 @@ h3{
 
 .subtitle-text{
   text-transform: capitalized;
-  color: #ffffff;
+  color: #434040;
 }
 .portfolio{
   text-transform: capitalized;
@@ -275,6 +275,7 @@ p.subtitle-text:hover
     display: block;
     font-size: 1em;
     padding: 1em;
+    color: #e86b5c;
     
     }
 
@@ -291,9 +292,7 @@ p.subtitle-text:hover
 .footer-link 
 {
     font-weight: 400;
-    color: #8f8e8e;
-    
-}
+ }
 
 .footer-link:hover,
 .social-list--link:hover {
@@ -312,6 +311,7 @@ p.subtitle-text:hover
     display: block;
     margin: 2em 0 0;
     padding: 0;
+    color: #434040;
 }
 
 .social-list-item 
