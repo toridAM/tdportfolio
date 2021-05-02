@@ -103,11 +103,12 @@ body
 }
 
 h1 {
-  font-size: 0.5em;
+  font-size: 1.5em;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #e86b5c;
   padding 0 2em;
+  margin: 2em;
   }
 
  header {
@@ -127,7 +128,7 @@ header ul li {
 header ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #e86b5c;
+  color: #434040;
   font-weight: 100;
   font-size: 1em;
   padding: 1em;
@@ -146,7 +147,7 @@ ul li a
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color:#ffffff;
+  color:#e86b5c;
  }
 
 p 
@@ -158,13 +159,11 @@ p
 h2 
 {
   text-transform: capitalized;
-  color: #4304050;
-  font-size: 3em;
-  font-weight: 100;
+  color: #434040;
+  font-size: 2em;
   font-family: pompiere;
-  margin: auto;
+  margin-left: 2em;
   padding 0 2em;
-  text-align: center;
   padding:0.75em;
   
  }
@@ -173,10 +172,12 @@ h3{
   text-transform: uppercase;
   font-size: 5em;
   font-weight: 700;
+  color: #434040;
 }
 
 .subtitle-text{
   text-transform: capitalized;
+  color: #ffffff;
 }
 .portfolio{
   text-transform: capitalized;
@@ -206,6 +207,7 @@ h4
   color: #e86b5c;
   text-transform: uppercase;
   font-family: pompiere;
+  text-aling: center;
 }
 
 .about-me,p
@@ -239,12 +241,6 @@ p.subtitle-text:hover
   text-decoration: none;
 }
   
-
-.figma--projects
-{
-/*   margin-bottom: 1em; */
-}
-
 .web-design 
 {
   display: flex;
@@ -295,12 +291,14 @@ p.subtitle-text:hover
 .footer-link 
 {
     font-weight: 400;
+    color: #8f8e8e;
     
 }
 
 .footer-link:hover,
 .social-list--link:hover {
     opacity: 0.25;
+  
 }
 
 .footer-link, a:hover 
@@ -311,8 +309,7 @@ p.subtitle-text:hover
 .social-list
 {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    display: block;
     margin: 2em 0 0;
     padding: 0;
 }
