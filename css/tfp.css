@@ -176,9 +176,9 @@ h3{
   text-transform: uppercase;
   
 }
-.portfolio{
-  text-transform: uppercase;
-}
+/* .portfolio{ */
+/*   text-transform: uppercase; */
+/* } */
 
 
 @media only screen and (max-width: 600px) {
@@ -193,7 +193,7 @@ p
 {
   margin: 0 auto;
   font-size: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   padding-top: 2em;
   width: 70%;
   
@@ -225,18 +225,19 @@ p.subtitle-text:hover
   flex-wrap: wrap;
   justify-content: center;
   }
-
+.portfolio-work{
+  display: flex;
+  flex-wrap: wrap;
+}
 .portfolio-item 
 {
   margin: 0.1em;
   background-color: #434040;
   }
 
-/* .box1{ */
-/*   display: flex; */
-/*   justify-content: center; */
-/*   margin-bottom: 1em; */
-/* } */
+.box1{
+  padding: 1em;
+}
 
  .section-title-project
 {
