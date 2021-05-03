@@ -101,7 +101,10 @@ body
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
-   color: #fff;
+   }
+
+div#home.intro{
+  color: #fff;
 }
 
 h1 {
