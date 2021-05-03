@@ -232,11 +232,11 @@ p.subtitle-text:hover
   background-color: #434040;
   }
 
-.box1{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1em;
-}
+/* .box1{ */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   margin-bottom: 1em; */
+/* } */
 
  .section-title-project
 {
