@@ -225,6 +225,7 @@ p.subtitle-text:hover
 .portfolio-item 
 {
   margin: 0.1em;
+  background-color: #434040;
   }
 
 .box1{
@@ -284,7 +285,7 @@ p.subtitle-text:hover
     padding: 0.5em;
     display: inline;
   }
-  ul li a .social-list-item{
+   a .social-list-item{
     color: #434040;
   }
   
