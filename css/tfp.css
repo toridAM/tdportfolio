@@ -90,9 +90,7 @@ body
 {
   display: flex;
   justify-content: center;
-  padding: 0 2em;
-  margin-bottom: 1em;
-  }
+ }
 
  a.btn, a.btn:hover
 {
@@ -284,23 +282,16 @@ p.subtitle-text:hover
   }
   ul li .social-list-item{
     padding: 0.5em;
+    display: inline;
+  }
+  ul li a .social-list-item{
+    color: #434040;
   }
   
 .social-list
 {
     list-style: none;
-    display: inline;
-    margin: 1em;
-    padding: 1em;
-    
-}
+     margin: 1em;
+   }
 
-.social-list-item 
-{
-/*     margin: 0 .5em; */
- }
-  
-.social-list-link 
-{
-/*     padding: 0.5em; */
-}
+
