@@ -156,7 +156,7 @@ p
 
 h2 
 {
-  text-transform: capitalized;
+  text-transform: uppercase;
   font-size: 2em;
   font-family: pompiere;
   margin-left: 6em;
@@ -171,21 +171,17 @@ h3{
 }
 
 .subtitle-text{
-  text-transform: capitalized;
+  text-transform: uppercase;
   
 }
 .portfolio{
-  text-transform: capitalized;
+  text-transform: uppercase;
 }
 
 
 @media only screen and (max-width: 600px) {
  
- h2{
-    font-size: 3em;
-    
-  }
-  .col {
+.col {
     width: 100%;
   }
 }
@@ -214,13 +210,11 @@ p.subtitle-text
 {
   font-size: 1em;
   margin-top: 1em;
-  
-  
-}
+ }
+
 p.subtitle-text:hover
 {
-  
-  text-decoration: none;
+   text-decoration: none;
 }
   
 .web-design 
@@ -255,8 +249,6 @@ p.subtitle-text:hover
   text-align: center;
 {
   
-}
-
 .footer a 
 {
    color: #434040;
@@ -287,6 +279,7 @@ p.subtitle-text:hover
     display: flex;
     justify: content: space-between;
   }
+  
 .social-list
 {
     list-style: none;
@@ -294,7 +287,6 @@ p.subtitle-text:hover
     margin: 1em;
     padding: 1em;
     
-  
 }
 
 .social-list-item 
