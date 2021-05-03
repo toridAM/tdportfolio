@@ -244,6 +244,9 @@ p.subtitle-text:hover
   }
 
 /* footer */
+footer .footer{
+  text-align: center;
+}
 .footer{
   padding: 1em;
 }
