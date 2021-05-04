@@ -95,7 +95,7 @@ p.text
   transform: translateX(-50%) translateY(0px); 
   } 
  */
-.about
+.about-me
 {
   margin-bottom: 2em;
 }
@@ -307,7 +307,7 @@ footer .footer{
     text-decoration: underline;
 }
 
-  ul.social-list
+  ul .social-list
   {
     position: relative;
     bottom: 300px;
@@ -319,7 +319,7 @@ footer .footer{
     display: inline;
   }
   
-   a.social-list--link
+   a .social-list--link
   {
     font-size: 3em;
     color: #ccc;
