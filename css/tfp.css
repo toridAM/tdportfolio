@@ -101,11 +101,12 @@ body
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
+   color: #fff;
    }
 
-div#home.intro{
-  color: #fff;
-  text-align: center;
+div#home.intro
+{
+ text-align: center;
 }
 
 h1 {
@@ -228,7 +229,8 @@ p.subtitle-text:hover
   justify-content: center;
   }
 
-div.portfolio-work{
+div.portfolio-work
+{
   display: flex;
   flex-wrap: wrap;
 }
@@ -238,7 +240,8 @@ div.portfolio-work{
   background-color: #434040;
   }
 
-div.box1{
+div.box1
+{
   padding: 1em;
 }
 
@@ -272,10 +275,6 @@ footer .footer{
    text-align: center;
 }
 
-.footer-link 
-{
-    font-weight: 400;
- }
 
 .footer-link:hover,
 .social-list--link:hover {
@@ -288,16 +287,21 @@ footer .footer{
     text-decoration: underline;
 }
 
-  ul.social-list{
-    display: flex;
-    justify: content: center;
+  ul.social-list
+  {
+    position: relative;
+    bottom: 300px;
+    right: 450px;
   }
-  ul li .social-list-item{
+  ul li .social-list-item
+  {
     padding: 0.5em;
     display: inline;
   }
-   a .social-list-item{
-    color: #434040;
+  
+   li.social-list-item
+  {
+    padding: 0.5em;
   }
   
 .social-list
@@ -305,5 +309,10 @@ footer .footer{
     list-style: none;
      margin: 1em;
    }
+  i.fab.fa-linkendin-in,
+  {
+    font-size: 3em;
+    color: #ccc;
+  }
 
 
