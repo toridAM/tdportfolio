@@ -309,8 +309,8 @@ footer .footer{
     list-style: none;
      margin: 1em;
    }
-  i.fab fa-linkendin-in, i.fab fa-behance, i.fab fa-github,
-  i.fa fa-pintrest
+  i.fab.fa-linkendin-in, i.fab.fa-behance, i.fab.fa-github,
+  i.fa.fa-pintrest
   {
     font-size: 3em;
     color: #ccc;
