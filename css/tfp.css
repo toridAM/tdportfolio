@@ -95,6 +95,11 @@ p.text
   transform: translateX(-50%) translateY(0px); 
   } 
  */
+.about
+{
+  margin-bottom: 2em;
+}
+
 .content p 
 {
   font-size: 1.5em;
@@ -313,12 +318,10 @@ footer .footer{
     display: inline;
   }
   
-   li.social-list-item
+   a.social-list--link
   {
-   position: relative;
-    bottom: 300px;
-    right: 450px;
-    margin: 1em;
+    font-size: 3em;
+    color: #ccc;
   }
   
 .social-list
@@ -328,11 +331,7 @@ footer .footer{
    }
   
   
-  i.fab.fa-linkendin-in{font-size: 3em; color: #ccc;}
-  i.fab.fa-behance{font-size: 3em; color: #ccc;}
-  i.fab.fa-github{font-size: 3em; color: #ccc;}
-  i.fa.fa-pintrest{font-size: 3em; color: #ccc;}
-    
+ 
   
 
 
