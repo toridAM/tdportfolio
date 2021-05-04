@@ -181,7 +181,8 @@ p
 h2.text
 {
   position: relative;
-  bottom: 25px;
+  bottom: 20px;
+  padding-left: 1.5em;
 }
 
 h2 
