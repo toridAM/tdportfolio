@@ -19,6 +19,7 @@ body
 .text 
 {
   font-family:pompiere;
+  font-size: 3em;
 }
 
  .skills
@@ -316,7 +317,7 @@ footer .footer{
      margin: 1em;
    }
   
-  li.social-list-item
+  .social-list--link.
   i.fab.fa-linkendin-in, 
   i.fab.fa-behance,
   i.fab.fa-github,
