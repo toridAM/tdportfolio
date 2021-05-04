@@ -172,14 +172,18 @@ p
 {
   line-height: 1.6;
 }
-
+h2.text
+{
+  position: relative;
+  bottom: 25px;
+}
 
 h2 
 {
   text-transform: uppercase;
   font-size: 2em;
   font-family: pompiere;
-  margin-left: 6em;
+  margin-left: 5em;
   }
 
 h3{
