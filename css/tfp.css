@@ -125,7 +125,7 @@ a.content
    text-transform: uppercase;
    text-align: center;
    color: #fff;
-   curser: pointer;
+   cursor: pointer;
    }
 
 div#home.intro
@@ -334,6 +334,10 @@ div.box1
     list-style: none;
      margin: 1em;
    }
+.top--of--page
+{
+  margin-left: 0.5em;
+}
   
   
  
