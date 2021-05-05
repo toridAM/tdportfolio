@@ -103,6 +103,8 @@ p.text
 {
   font-size: 1.5em;
   text-align: center;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .col
