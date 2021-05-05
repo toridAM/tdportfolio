@@ -41,8 +41,7 @@ p.text
   display: flex;
   }
  
- 
-/* .skills ul li
+ .skills ul li 
 {
   position: relative;
   list-style-type: none;
@@ -307,7 +306,7 @@ footer .footer{
     text-decoration: underline;
 }
 
-  ul .social-list
+  ul.social-list
   {
     position: relative;
     bottom: 300px;
@@ -316,10 +315,10 @@ footer .footer{
   ul li.social-list-item
   {
     padding: 0.5em;
-    display: inline;
+/*     display: inline; */
   }
   
-   a .social-list--link
+   a.social-list--link
   {
     font-size: 3em;
     color: #ccc;
