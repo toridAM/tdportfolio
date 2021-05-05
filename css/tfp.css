@@ -133,7 +133,7 @@ h1 {
   margin-left: 4em;
   }
 
- header {
+header {
  margin: 1em;
 }
 
@@ -274,15 +274,11 @@ div.box1
   }
 
 /* footer */
-footer .footer{
-/*   text-align: center; */
-}
+
 .footer{
   padding: 1em;
 }
-.footer ul li{
-/*   text-align: center; */
-{
+
   
 .footer a 
 {
@@ -310,12 +306,13 @@ footer .footer{
   {
     position: relative;
     bottom: 300px;
-    right: 450px;
+    margin: 3em;
+/*     right: 450px; */
   }
   ul li.social-list-item
   {
     padding: 0.5em;
-/*     display: inline; */
+
   }
   
    a.social-list--link
