@@ -224,6 +224,12 @@ h3{
 .col {
     width: 100%;
   }
+  .ul.social-list
+  {
+    display:block;
+    font-size:1em;
+    width: 20%;
+  }
 }
 
 
