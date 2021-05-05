@@ -93,7 +93,7 @@ p.text
   opacity: 1;
   transform: translateX(-50%) translateY(0px); 
   } 
- */
+ 
 .about-me
 {
   margin-bottom: 2em;
@@ -275,13 +275,13 @@ div.box1
 
 /* footer */
 footer .footer{
-  text-align: center;
+/*   text-align: center; */
 }
 .footer{
   padding: 1em;
 }
 .footer ul li{
-  text-align: center;
+/*   text-align: center; */
 {
   
 .footer a 
