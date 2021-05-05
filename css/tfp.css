@@ -106,7 +106,8 @@ p.text
   color: #fff;
   text-transform: uppercase;
 }
-.content a
+
+a.content 
 {
   color: #fff;
 }
@@ -311,7 +312,7 @@ div.box1
   ul.social-list
   {
     position: relative;
-    bottom: 400px;
+    bottom: 450px;
     margin: 3em;
 }
 
