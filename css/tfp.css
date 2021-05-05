@@ -125,6 +125,7 @@ a.content
    text-transform: uppercase;
    text-align: center;
    color: #fff;
+   curser: pointer;
    }
 
 div#home.intro
