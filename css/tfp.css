@@ -299,9 +299,9 @@ div.box1
 }
 
 
-/* .footer-link:hover, */
-/* .social-list--link:hover { */
-/*     opacity: 0.25; */
+.footer-link:hover,
+.social-list--link:hover {
+    opacity: 0.25;
     
   }
 
@@ -326,7 +326,7 @@ div.box1
    a.social-list--link
   {
     font-size: 3em;
-    color: #ccc;
+    color: #e86b5c;
   }
   
 .social-list
