@@ -224,12 +224,6 @@ h3{
 .col {
     width: 100%;
   }
-  social-list
-  {
-    display: inline;
-    font-size: 1em;
-  }
-    
 }
 
 
@@ -322,12 +316,19 @@ div.box1
     text-decoration: underline;
 }
 
-  ul.social-list
+
+ul.social-list
+{
+  display: flex;
+  justify-content: center;
+}
+
+/*   ul.social-list */
   {
 /*     position: relative; */
 /*     bottom: 450px; */
 /*     margin: 3em; */
-}
+/* } */
 
   ul li.social-list-item
   {
@@ -349,6 +350,7 @@ div.box1
 .top--of--page
 {
   padding-left: 1.5em;
+  padding-top: 1em;
 }
   
   
