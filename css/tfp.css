@@ -324,9 +324,9 @@ div.box1
 
   ul.social-list
   {
-    position: relative;
-    bottom: 450px;
-    margin: 3em;
+/*     position: relative; */
+/*     bottom: 450px; */
+/*     margin: 3em; */
 }
 
   ul li.social-list-item
@@ -337,7 +337,7 @@ div.box1
   
    a.social-list--link
   {
-    font-size: 3em;
+    font-size: 2em;
     color: #e86b5c;
   }
   
