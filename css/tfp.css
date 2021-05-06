@@ -267,7 +267,7 @@ p.subtitle-text:hover
 }
 ul.social-list
 {
-  display: flex;
+  display: inline;
   justify-content: center;
 }
 ul li.social-list-item
