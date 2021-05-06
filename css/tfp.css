@@ -14,6 +14,11 @@ body
 .background{
   background:#666;
 }
+.container
+{
+  display:flex;
+  justify-content: space-around;
+}
 p.text 
 {
   font-family:pompiere;
@@ -265,11 +270,11 @@ p.subtitle-text:hover
 {
     text-decoration: underline;
 }
-ul.social-list
-{
-  display: flex;
-  justify-content: center;
-}
+/* ul.social-list */
+/* { */
+/*   display: flex; */
+/*   justify-content: center; */
+/* } */
 /*   ul.social-list */
   {
 /*     position: relative; */
