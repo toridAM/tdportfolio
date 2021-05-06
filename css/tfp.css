@@ -268,7 +268,7 @@ p.subtitle-text:hover
 ul.social-list
 {
   display: inline;
-  justify-content: center;
+/*   justify-content: center; */
 }
 ul li.social-list-item
   {
