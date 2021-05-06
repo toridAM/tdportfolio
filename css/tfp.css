@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'popins', sans-serif;
 }
-
 body
 {
   color: #434040;
@@ -15,32 +14,27 @@ body
 .background{
   background:#666;
 }
-
 p.text 
 {
   font-family:pompiere;
   font-size: 3em;
 }
-
 .text
 {
   font-family: pompiere;
 }
-
- .skills
+.skills
  {
   display: flex;
   justify-content: center;
   align-items: center;
   }
-
-  .skills ul
+.skills ul
   {
   margin: 0;
   padding: 0;
   display: flex;
   }
- 
  .skills ul li 
 {
   position: relative;
@@ -53,14 +47,12 @@ p.text
   transition: 0.5s;
   cursor: pointer;
 }
-  
 .skills ul li:hover
 {
   background-color: #e86b5c;
   box-shadow: 0 0 0 4px #333, 0 0 0 6px #e86b5c;
 }
-
-  .skills ul li .content
+.skills ul li .content
 {
   position: absolute;
   bottom: 55px;
@@ -74,7 +66,6 @@ p.text
   transition: 0.5s;
   transform: translateX(-50%) translateY(0px);
   }
-  
   .skills ul li .content::before
   {
      content: '';
@@ -86,19 +77,16 @@ p.text
   left: 194px;
   transform: rotate(45deg);
 }
-
-  .skills ul li:hover .content 
+.skills ul li:hover .content 
   {
   visibility: visible;
   opacity: 1;
   transform: translateX(-50%) translateY(0px); 
   } 
- 
-.about-me
+ .about-me
 {
   margin-bottom: 2em;
 }
-
 .content p 
 {
   font-size: 1em;
@@ -106,20 +94,17 @@ p.text
   color: #fff;
   text-transform: uppercase;
 }
-
 a.content 
 {
   color: #fff;
 }
-
 .col
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
  }
-
- a.btn, a.btn:hover
+a.btn, a.btn:hover
 {
    text-decoration: none;
    text-transform: uppercase;
@@ -127,17 +112,14 @@ a.content
    color: #fff;
    cursor: pointer;
    }
-
 .service.btn img
 {
   cursor:pointer;
 }
-
-div#home.intro
+#home.intro
 {
  text-align: center;
 }
-
 h1 {
   font-size: 1.5em;
   font-weight: 100;
@@ -145,21 +127,17 @@ h1 {
   color: #e86b5c;
   margin-left: 4em;
   }
-
 header {
  margin: 1em;
 }
-
 header ul {
   display: flex;
   justify-content: flex-end;
   padding: 1em;
- 
 }
 header ul li {
   list-style-type: none;
 }
-   
 header ul li a {
   text-decoration: none;
   text-transform: uppercase;
@@ -168,14 +146,12 @@ header ul li a {
   font-size: 1em;
   padding: 1em;
   }
-
 ul li 
 {
   list-style-type: none;
   font-size: 1em;
   display: block;
   }
-
 ul li a 
 {
   cursor: pointer;
@@ -184,19 +160,16 @@ ul li a
   font-weight: 600;
   color:#e86b5c;
  }
-
 p 
 {
   line-height: 1.6;
 }
-
 h2.text
 {
   position: relative;
   bottom: 20px;
   padding-left: 1.5em;
 }
-
 h2 
 {
   text-transform: uppercase;
@@ -204,36 +177,26 @@ h2
   font-family: pompiere;
   margin-left: 6em;
   }
-
 h3{
   text-transform: uppercase;
   font-size: 5em;
   font-weight: 700;
   margin-left: 1em;
-  
-}
-
+  }
 .subtitle-text{
   text-transform: uppercase;
-  
-}
-
-
+  }
 @media only screen and (max-width: 600px) {
- 
-.col {
+ .col {
     width: 100%;
   }
 }
-
-
 p
 {
   margin: 0 auto;
   font-size: 1em;
   width: 70%;
  }
-
 p.section-title 
 {
   font-size: 1.3em;
@@ -242,26 +205,22 @@ p.section-title
   letter-spacing: 0.5em;
   text-align: center;
   }
-
 p.subtitle-text
 {
   font-size: 1em;
   margin-top: 1em;
  }
-
 p.subtitle-text:hover
 {
    text-decoration: none;
 }
-  
 .web-design 
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   }
-
-div.portfolio-work
+.portfolio-work
 {
   display: flex;
   flex-wrap: wrap;
@@ -271,13 +230,11 @@ div.portfolio-work
   margin: 0.1em;
   background-color: #434040;
   }
-
-div.box1
+.box1
 {
   padding: 1em;
 }
-
- .section-title-project
+.section-title-project
 {
   text-align: center;
   font-size: 1em;
@@ -287,12 +244,9 @@ div.box1
   }
 
 /* footer */
-
 .footer{
   padding: 1em;
 }
-
-  
 .footer a 
 {
    color: #434040;
@@ -303,45 +257,34 @@ div.box1
    text-align: center;
    cursor: pointer;
 }
-
-
 .footer-link:hover,
 .social-list--link:hover {
     opacity: 0.25;
-    
-  }
-
+}
 .footer-link, a:hover 
 {
     text-decoration: underline;
 }
-
-
 ul.social-list
 {
   display: flex;
   justify-content: center;
 }
-
 /*   ul.social-list */
   {
 /*     position: relative; */
 /*     bottom: 450px; */
 /*     margin: 3em; */
 /* } */
-
-  ul li.social-list-item
+ul li.social-list-item
   {
     padding: 0.5em;
-
-  }
-  
-   a.social-list--link
+}
+a.social-list--link
   {
     font-size: 2em;
     color: #e86b5c;
   }
-  
 .social-list
 {
     list-style: none;
