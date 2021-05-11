@@ -105,7 +105,9 @@ a
   flex-wrap: wrap;
   justify-content: center;
  }
-/* a.btn, a.btn:hover */
+a {
+  color: #fff;
+}
 a.btn
 {
    text-decoration: none;
@@ -160,7 +162,7 @@ ul li a
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color:#e86b5c;
+  color:#fff;
  }
 p 
 {
@@ -246,7 +248,7 @@ p.subtitle-text:hover
 }
 .footer a 
 {
-   color: #434040;
+   color: #fff;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 1.3em;
