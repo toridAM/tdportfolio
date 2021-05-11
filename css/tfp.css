@@ -105,9 +105,6 @@ a
   flex-wrap: wrap;
   justify-content: center;
  }
-a {
-  color: #fff;
-}
 a.btn
 {
    text-decoration: none;
