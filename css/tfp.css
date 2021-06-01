@@ -246,8 +246,8 @@ p.subtitle-text:hover
 /*icons*/
 .footer{
 position: relative;
-top: -250px;
-right: 100px;
+top: -100px;
+right: 150px;
 }
 a.social-list--link{
   font-size: 1em;
