@@ -131,7 +131,7 @@ h1 {
 header {
   margin: auto;
   padding: 60px;
-  background-color: #000000;
+  background: #000000;
 }
 
 header ul {
@@ -162,7 +162,7 @@ ul li a
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color:#fff;
+  color:#ffffff;
  }
 p 
 {
