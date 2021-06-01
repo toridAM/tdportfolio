@@ -131,10 +131,6 @@ h1 {
 header {
   margin: auto;
   padding: 60px;
-/*  margin: 1em; */
-  background: #000000;
-  linear-gradient(45deg, black, transparent)
-  
 }
 
 header ul {
@@ -252,7 +248,7 @@ position: relative;
 top: -250px;
 right: 100px;
 }
-.footer a{}
+
 ul li.social-list-item{
    {
     padding: 0.5em;
@@ -271,50 +267,10 @@ display: flex;
 justify-content: flex-end;
  margin: 2em;
  } 
-a. li.social-list-link{
+ li.social-list--item{
   padding: 1em;
 }
 
-/* footer 
-.footer{
-  padding: 1em;
-}
-.footer a 
-{
-   color: #fff;
-   text-transform: uppercase;
-   text-decoration: none;
-   font-size: 1.3em;
-   padding-left: 0.5em;
-   text-align: center;
-   cursor: pointer;
-}
-.footer-link:hover,
-.social-list--link:hover {
-    opacity: 0.25;
-}
-.footer-link, a:hover 
-{
-    text-decoration: underline;
-}
-ul li.social-list-item
-  {
-    padding: 0.5em;
-  }
-a.social-list--link
-  {
-    font-size: 2em;
-    color: #434040;
-  }
-.social-list
-{
-    list-style: none;
-  }
-ul.social-list
-{
-  display:flex;
-  justify-content:center;
-}*/
 
   
   
