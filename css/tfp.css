@@ -129,11 +129,12 @@ h1 {
   margin-left: 4em;
   }
 header {
-/*  margin: 1em; */
-  background: #000000;
-  linear-gradient(45deg, black transparent)
   margin: auto;
   padding: 60px;
+/*  margin: 1em; */
+  background: #000000;
+  linear-gradient(45deg, black, transparent)
+  
 }
 
 header ul {
@@ -266,7 +267,11 @@ a.social-list--link{
 ul.social-list{
 display: flex;
 justify-content: flex-end;
+ margin: 2em;
  } 
+ul li.social-list-iteme{
+  padding: 1em;
+}
 
 /* footer 
 .footer{
