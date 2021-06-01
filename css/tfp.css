@@ -238,8 +238,28 @@ p.subtitle-text:hover
   letter-spacing: 0.5em;
   margin-bottom: 1em;
   }
+/*icons*/
+.footer{}
+.footer a{}
+ul li.social-list-item{
+   {
+    padding: 0.5em;
+  }
+}
+a.social-list--link{
+  font-size: 1em;
+    color: #000000;
+}
+.social-list
+{
+    list-style: none;
+  }
+ul.social-list{
+display: flex;
+justify-content: flex-end;
+ } 
 
-/* footer */
+/* footer 
 .footer{
   padding: 1em;
 }
@@ -278,7 +298,7 @@ ul.social-list
 {
   display:flex;
   justify-content:center;
-}
+}*/
 
   
   
