@@ -248,12 +248,6 @@ position: relative;
 top: -250px;
 right: 100px;
 }
-
-ul li.social-list-item{
-   {
-    padding: 0.5em;
-  }
-}
 a.social-list--link{
   font-size: 1em;
     color: #ffffff;
@@ -265,7 +259,7 @@ a.social-list--link{
 ul.social-list{
 display: flex;
 justify-content: flex-end;
- margin: 2em;
+margin: 2em;
  } 
  li.social-list-item{
   padding: 1em;
