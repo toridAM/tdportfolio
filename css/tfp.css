@@ -183,12 +183,14 @@ h2
   font-size: 2em;
   font-family: pompiere;
   margin-left: 6em;
+  color: #ffffff;
   }
 h3{
   text-transform: uppercase;
   font-size: 5em;
   font-weight: 700;
   margin-left: 1em;
+  color: #ffffff;
   }
 .subtitle-text{
   text-transform: uppercase;
