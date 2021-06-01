@@ -129,8 +129,13 @@ h1 {
   margin-left: 4em;
   }
 header {
- margin: 1em;
+/*  margin: 1em; */
+  background: #000000;
+  linear-gradient(45deg, black transparent)
+  margin: auto;
+  padding: 60px;
 }
+
 header ul {
   display: flex;
   justify-content: flex-end;
@@ -239,7 +244,11 @@ p.subtitle-text:hover
   margin-bottom: 1em;
   }
 /*icons*/
-.footer{}
+.footer{
+position: relative;
+top: -250px;
+right: 100px;
+}
 .footer a{}
 ul li.social-list-item{
    {
@@ -248,7 +257,7 @@ ul li.social-list-item{
 }
 a.social-list--link{
   font-size: 1em;
-    color: #000000;
+    color: #ffffff;
 }
 .social-list
 {
