@@ -91,12 +91,12 @@ p.text
 {
   font-size: 1em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
 }
 a 
 {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .col
@@ -110,7 +110,7 @@ a.btn
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
-   color: #fff;
+   color: #ffffff;
    cursor: pointer;
    }
 .service.btn img
@@ -131,6 +131,7 @@ h1 {
 header {
   margin: auto;
   padding: 60px;
+  background-color: #000000;
 }
 
 header ul {
