@@ -265,8 +265,17 @@ margin: 2em;
  li.social-list-item{
   padding: 1em;
 }
-h1.case1, h2.case1{
+h1.case1{
   color: #f86c07;
+  text-transform: capitalize;
+  font-size: 3em;
+}
+h2.case1{
+  font-weight: 100;
+  color: #f86c07;
+  text-transform: capitalize;
+}
+p."cs1"{
   text-transform: capitalize;
 }
 
