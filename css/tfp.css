@@ -11,9 +11,9 @@ body
   color: #434040;
   background-color: #ffffff;
 }
-.background{
-  background:#666;
-}
+/* .background{ */
+/*   background:#666; */
+/* } */
 p.text 
 {
   font-family:pompiere;
@@ -264,6 +264,14 @@ margin: 2em;
  } 
  li.social-list-item{
   padding: 1em;
+}
+.case1{
+  color: orange;
+  text-transform: capitalize;
+}
+.mylist{
+  display: flex;
+  justify-content: space-around;
 }
 
 
