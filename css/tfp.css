@@ -265,14 +265,16 @@ margin: 2em;
  li.social-list-item{
   padding: 1em;
 }
-.case1{
-  color: orange;
+h1.case1, h2.case1{
+  color: #f86c07;
   text-transform: capitalize;
 }
-.mylist{
+
+div.mylist{
   display: flex;
   justify-content: space-around;
 }
+
 
 
   
