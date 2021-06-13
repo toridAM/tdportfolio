@@ -220,12 +220,15 @@ p.subtitle-text:hover
 {
    text-decoration: none;
 }
-.web-design 
+/* .web-design  
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  }
+  }*/
+.portfolio-work{
+  display: flex;
+}
 .portfolio-item 
 {
   margin: 0.1em;
