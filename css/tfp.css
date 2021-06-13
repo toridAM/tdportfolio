@@ -269,8 +269,8 @@ h1.case1{
   color: #f86c07;
   text-transform: capitalize;
   font-size: 3em;
-  margin: auto;
-  padding: 2em;
+  margin: 2em auto;
+  
 }
 h2.case1{
   font-weight: 100;
