@@ -270,7 +270,7 @@ h1.case1{
   text-transform: capitalize;
   font-size: 3em;
   margin: auto;
-  padding-top: 1em;
+  padding: 2em;
 }
 h2.case1{
   font-weight: 100;
@@ -278,7 +278,7 @@ h2.case1{
   text-transform: capitalize;
   margin: 1em;
 }
-img.portfolio-int{
+img.portfolio-img{
   margin-top: 2em;
 }
 
