@@ -220,15 +220,18 @@ p.subtitle-text:hover
 {
    text-decoration: none;
 }
-/* .web-design */ 
-/* { */
-/*   display: flex; */
-/*   flex-wrap: wrap; */
-/*   justify-content: center; */
-/*   } */
-
-.portfolio-work{
+.web-design 
+{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.portfolio-work
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .portfolio-item 
 {
