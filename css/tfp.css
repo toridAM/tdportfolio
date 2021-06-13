@@ -276,14 +276,14 @@ h2.case1{
   font-weight: 100;
   color: #f86c07;
   text-transform: capitalize;
-  margin: 1em;
+  margin: 0.5em;
 }
 img.portfolio-img{
   margin-top: 2em;
 }
-.footer-btn{
+footer.footer-btn{
   color: #f86c07;
-  text-align: left;
+  margin: 2em;
 }
 
 
