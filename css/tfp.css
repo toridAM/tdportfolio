@@ -292,11 +292,24 @@ h2.case1{
   text-transform: capitalize;
   margin: 0.5em;
 }
+h1.case2{
+  color: #7b1e77;
+  text-transform: capitalize;
+  font-size: 3em;
+  margin: 2em auto;
+  
+}
+h2.case2{
+  font-weight: 100;
+  color: #7b1e77;
+  text-transform: capitalize;
+  margin: 0.5em;
+}
 img.portfolio-img{
   margin-top: 2em;
 }
 footer.footer-btn{
-  color: #f86c07;
+  color: #000;
   margin: 2em;
 }
 
