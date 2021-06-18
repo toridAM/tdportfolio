@@ -228,13 +228,6 @@ div#portfolio-work, div#figma--projects
   justify-content: center;
 }
 
-/* .web-design  */
-/* { */
-/*   display: flex; */
-/*   flex-wrap: wrap; */
-/*   justify-content: center; */
-/*   } */
-
 .portfolio-work
 {
   display: flex;
