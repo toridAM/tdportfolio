@@ -1,134 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tori Dumitrescu portfolio website</title>
-    <link rel="stylesheet" type="text/css" href="css/tfp.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/69c51c18cf.js" crossorigin="anonymous"></script>
+    <title>blog post</title>
 </head>
- <body>
-   <header>
-         <h1 id="top">dumitrescu</h1>
-   <hr>
-   <h2 class="text">UI DESIGNER</h2>
-   <h3>tori</h3>
-    <ul>
-     
-      <li><a href="#index.html"><font color="#e86b5c">home</font></a></li>
-      <li><a href="#about">about</a></li>
-      <li><a href="#figma--projects">figma</a></li>
-      <li><a href="#portfolio-work">web design</a></li>
-      
-    </ul>
-     
-   </header>
-  <!--footer-->
-     <div class="footer">
-        <ul class="social-list">
-                <li class="social-list-item">
-                          <a class="social-list--link" href="https://www.pinterest.com/moneytad/_saved/">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                          </a>
-                    </li>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap');
+     *{
+         margin: 0;
+         padding: 0;
+         border: 0;
+ }
+ body{
+     font-family: raleway;
+     border: 1px solid rgb(116, 114, 114);
+     font-size: 19px;
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 3%;
+ }
+ img{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+header{
+    width: 98%;
+}
+#logo{
+    max-width: 120px;
+    margin: 3% 0 3% 3%;
+    margin: auto;
+    padding-bottom: 2em;
 
-                 <li class="social-list-item">
-                          <a class="social-list--link" href="https://github.com/toridAM/tdportfolio">
-                            <i class="fab fa-github"></i>
-                          </a>
-                    </li>
+}
+h1,p{
+    margin: 3%;
+    text-transform: capitalize;
+}
+.btn{
+    
+   width: 200px;
+   display: flex;
+   justify-content:center;
+   margin: 0 2% 4% 0;
+   background-color: #2d6194;
+   color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: auto;
+        }
+        
+.col {
+   display: flex;
+   justify-content: space-between;
+   margin: 3%;
 
-
-                    <li class="social-list-item">
-                          <a class="social-list--link" href="https://www.linkedin.com/in/toridumitrescu/">
-                            <i class="fab fa-linkedin-in"></i>
-                          </a>
-                    </li>
-
-                    <li class="social-list-item">
-                          <a class="social-list--link" href="https://behance.net/herestohavin">
-                            <i class="fab fa-behance"></i>
-                          </a>
-                    </li>
-        </ul>
-   </div>
-      <div class="skills">
-                 <ul>
-                  <li>
-                     <div class="content">
-                       <p>first row figma projects - view more on my pintrest UI board</p>
-                     </div>
-                   
-                   </li>
-                   <li>
-                     <div class="content">
-                       <p>second row light Front End Development projects - view code on github</p>
-                     </div>
-                    
-                   </li>
-                   <li>
-                     <div class="content">
-                       <a href="mailto:money2tad@gmail.com">contact me</a>
-                     </div>
-                     </li>
-                </ul>
-      </div>
-   
- <!--about me-->
-     <div class="about-me" id="about">
-       <p class="text">Who am I</p>
-       <p>
-         I'm a formal Recreational Therapist turned UI Designer with light Front End Development skills. 
-       </p>
-   </div>
-  
-  <!--figma projects-->
-    <div class="web-design"  id="figma--projects">
-            <div class="col">
-            <a class="btn" href="bangaltiger.html" class="portfolio-item">
-              <img src="../tdportfolio\image/low fidelity wireframe.png" alt="bangal tiger"
-              width="200" height="200">
-            </a>
+}
+.row{
+    padding: 3%;
+}
+#contact{
+line-height: 20px;
+padding: 3%;
+font-size: 15px;
+color:#303840;
+}
+#contact img{
+    float: left;
+    margin: 1em;
+}
+#contact p{
+    padding-top: 9%;
+    margin-left: 1em;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(229, 240, 241);
+    font-size: 10px;
+    font-style:italic;
+    font-weight: 800;
+}
+</style>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+               <img src="bnlogo.png" alt=""> 
             </div>
-   
-          <div class="col">
-            <a class="btn" href="recipe.html" class="portfolio-item">
-             <img src=" ../tdportfolio\image/recipe.png" alt="recipe"
-             width="200" height="200">
-            </a>
-          </div>
-  
-          <div class="col">
-             <a class="btn" href="splashscreen.html" class="portfolio-item">
-             <img src="../tdportfolio\image/mykeyapp.png" alt=""
-              width="200" height="200">
-            </a>
-          </div>
-   </div>
- <!--web design projects-->
-    <div class="web-design"  id="portfolio-work">
-         <div class="service">
-              <a class="btn" href="todo.html">
-                <img src="../tdportfolio\image/gradient.png" alt="javascript project" width="200" height="200">
-               </a>
+        </header>
+        <div id="banner">
+            <img src="livingroom.jfif" alt="">
+        </div>
+        <div class="one-class">
+          <h1>new in <span style="color:#2d6194">november</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint deleniti officiis deserunt ab quidem unde molestias, accusamus corrupti? Est!</p>
+          <div class="btn">shop now</div>
         </div>
 
-        <div class="service">
-              <a class="btn" href="challenge4index.html">
-                <img src="../tdportfolio\image/sand.jpg" alt="" width="200" height="200">
-              </a>
+        <div class="col">
+        <img src="drawer.jfif" alt="" width="200">
+        <div class="row">
+        <h2>blog post one</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, placeat.</p>
+        </div>
         </div>
 
-          <div class="service">
-                <a class="btn" href="recent.html">
-                  <img src="../tdportfolio\image/redflower.jpg" alt="" width="200" height="200">
-                </a>
-          </div>
-   </div>
+        <div class="col">
+        <img src="table.jfif" alt="" width="200">
+        <div class="row"> 
+        <h2>blog post two</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ducimus.</p>
+        </div>
+        </div>
 
+        <div class="col">
+        <img src="coach.jfif" alt="" width="200">
+        <div class="row">
+        <h2>blog post three</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, illum.</p>
+        </div>
+        </div>
+        </div>
+    
+
+    <div id="contact">
+        <img src="bnlogo.png" alt="" width="100">
+        <p>
+            2202 street dr.<br/>
+            city, state zip<br/>
+            800-243-7272<br/>
+        </p>
+        </div>
+    <footer>
+        <p>
+            @copy all rights reserved
+        </p>
+
+    </footer>
 </body>
 </html>
