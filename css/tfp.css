@@ -273,11 +273,11 @@ a.social-list--link{
 ul.social-list{
 display: flex;
 justify-content: flex-end;
-margin: 2em;
-position: absolute;
 right: 20px;
 color: #ffffff;
 text-transform: Capitalize;
+cursor: pointer;
+ 
  } 
 
  li.social-list-item{
@@ -313,7 +313,7 @@ img.portfolio-img{
   margin-top: 2em;
 }
 footer.footer-btn{
-  color: #000;
+  color: #fff;
   margin: 2em;
 }
 
