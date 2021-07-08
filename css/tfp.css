@@ -19,10 +19,10 @@ p.text
   font-family:pompiere;
   font-size: 3em;
 }
-.text
-{
-  font-family: pompiere;
-}
+/* .text */
+/* { */
+/*   font-family: pompiere; */
+/* } */
 .skills
  {
   display: flex;
