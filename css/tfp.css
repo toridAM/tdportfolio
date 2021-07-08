@@ -19,10 +19,10 @@ p.text
   font-family:pompiere;
   font-size: 2em;
 }
-/* .text */
-/* { */
-/*   font-family: pompiere; */
-/* } */
+.text
+{
+  font-family: pompiere;
+}
 .skills
  {
   display: flex;
@@ -174,9 +174,7 @@ h2.text
   position: relative;
   bottom: 20px;
   padding-left: 1.5em;
-  font-family: pompiere;
-  
-}
+ }
 
 h2 
 {
