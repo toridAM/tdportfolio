@@ -83,7 +83,7 @@ p.text
   opacity: 1;
   transform: translateX(-50%) translateY(0px); 
   } 
- #about-me
+ .about-me
 {
   margin-bottom: 1em;
   color: #d04939;
