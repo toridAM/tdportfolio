@@ -17,7 +17,7 @@ body
 p.text 
 {
   font-family:pompiere;
-  font-size: 3em;
+  font-size: 2em;
 }
 /* .text */
 /* { */
@@ -238,6 +238,7 @@ div#portfolio-work, div#figma--projects
 {
   margin: 0.1em;
   background-color: #434040;
+  width: 100px;
   }
 .box1
 {
