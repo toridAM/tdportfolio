@@ -85,8 +85,9 @@ p.text
   } 
  .about-me
 {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   color: #d04939;
+  font-size: 2em;
 }
 .content p 
 {
@@ -99,6 +100,7 @@ a
 {
   color: #ffffff;
   text-align: center;
+  cursor: pointer;
 }
 .col
 {
