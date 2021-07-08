@@ -272,7 +272,10 @@ ul.social-list{
 display: flex;
 justify-content: flex-end;
 margin: 2em;
+  position: absolute;
+  right: 20px;
  } 
+
  li.social-list-item{
   padding: 1em;
 }
@@ -313,6 +316,8 @@ ul.social-list{
   color: #ffffff;
   text-transform: Capitalize;
 }
+
+  
 
 
 
