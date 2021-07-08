@@ -227,18 +227,19 @@ p.subtitle-text:hover
    text-decoration: none;
 }
 
-/* div#portfolio-work, div#figma--projects */
-/* { */
-/*   display: flex; */
-/*   justify-content: center; */
-/* } */
-
-.portfolio-work
+div#portfolio-work, div#figma--projects
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* .portfolio-work */
+/* { */
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+/*   justify-content: center; */
+/* } */
 .portfolio-item 
 {
   margin: 0.1em;
