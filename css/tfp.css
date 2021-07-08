@@ -171,6 +171,7 @@ ul li a
 p 
 {
   line-height: 1.6;
+  margin-bottom: 1em;
 }
 h2.text
 {
@@ -226,11 +227,11 @@ p.subtitle-text:hover
    text-decoration: none;
 }
 
-div#portfolio-work, div#figma--projects
-{
-  display: flex;
-  justify-content: center;
-}
+/* div#portfolio-work, div#figma--projects */
+/* { */
+/*   display: flex; */
+/*   justify-content: center; */
+/* } */
 
 .portfolio-work
 {
@@ -277,6 +278,7 @@ right: 20px;
 color: #ffffff;
 text-transform: Capitalize;
 cursor: pointer;
+  padding: 1em;
  
  } 
 
