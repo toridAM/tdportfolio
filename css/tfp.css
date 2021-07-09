@@ -20,8 +20,8 @@ p.text
 {
   margin-bottom: 4em;
 }
-----
-div.skills
+
+.skills
  {
 
    margin-left: 39%;
@@ -82,7 +82,7 @@ div.skills
   opacity: 1;
   transform: translateX(-50%) translateY(0px); 
   } 
------
+
  .about-me
 {
   margin-bottom: 1em;
