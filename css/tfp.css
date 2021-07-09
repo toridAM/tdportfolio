@@ -26,9 +26,10 @@ p.text
 ----
 .skills
  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+   margin-left: 39%;
   }
  .skills ul
   {
