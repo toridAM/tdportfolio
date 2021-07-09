@@ -21,11 +21,11 @@ p.text
   margin-bottom: 4em;
 }
 ----
-.skills
+div.skills
  {
 
    margin-left: 39%;
-   margin-bottom: 4em;
+   margin-bottom: 2em;
   
   }
  .skills ul
@@ -201,6 +201,7 @@ h3{
 h3.intro{
   color: #e86b5c;
   margin-bottom: 0.5em;
+  font-size: 3em;
 }
 
 .subtitle-text{
