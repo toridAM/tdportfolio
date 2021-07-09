@@ -231,7 +231,7 @@ p.subtitle-text:hover
    text-decoration: none;
 }
 
-#portfolio-work, #figma--projects
+div#portfolio-work, div#figma--projects
 {
   display: flex;
   flex-wrap: wrap;
