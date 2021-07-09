@@ -14,12 +14,11 @@ body
 
 p.text 
 {
-  font-family:pompiere;
   font-size: 2em;
 }
 .text
 {
-  font-family: pompiere;
+/*   font-family: pompiere; */
 }
 ----
 .skills
@@ -28,6 +27,7 @@ p.text
 /*   justify-content: center;  */
 /*   align-items: center;  */
    margin-left: 39%;
+   margin-bottom: 4em;
   
   }
  .skills ul
@@ -173,10 +173,10 @@ ul li a
 p 
 {
   line-height: 1.6;
-  margin-bottom: 4em;
   margin: 0 auto;
   font-size: 1em;
   width: 70%;
+  padding-bottom: 4em;
 }
 h2.text
 {
@@ -241,7 +241,6 @@ div#portfolio-work, div#figma--projects
 .portfolio-item 
 {
   margin: 0.1em;
-/*   background-color: #434040; */
   width: 100px;
   }
 .box1
@@ -277,8 +276,7 @@ right: 20px;
 color: #ffffff;
 text-transform: Capitalize;
 cursor: pointer;
-  padding: 1em;
- 
+padding: 1em;
  } 
 
  li.social-list-item{
