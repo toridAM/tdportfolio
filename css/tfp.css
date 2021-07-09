@@ -30,13 +30,13 @@ p.text
   justify-content: center;
   align-items: center;
   }
- ul
+ .skills ul
   {
   margin: 0;
   padding: 0;
   display: flex;
   }
-  ul li 
+  .skills ul li 
 {
   position: relative;
   list-style-type: none;
@@ -48,12 +48,12 @@ p.text
   transition: 0.5s;
   cursor: pointer;
 }
- ul li:hover
+ .skills ul li:hover
 {
   background-color: #e86b5c;
   box-shadow: 0 0 0 4px #333, 0 0 0 6px #e86b5c;
 }
- ul li .content
+ .skills ul li .content
 {
   position: absolute;
   bottom: 55px;
@@ -67,7 +67,7 @@ p.text
   transition: 0.5s;
   transform: translateX(-50%) translateY(0px);
   }
-   ul li .content::before
+   .skills ul li .content::before
   {
      content: '';
   position: absolute;
@@ -78,7 +78,7 @@ p.text
   left: 194px;
   transform: rotate(45deg);
 }
- ul li:hover .content 
+ .skills ul li:hover .content 
   {
   visibility: visible;
   opacity: 1;
