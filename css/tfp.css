@@ -89,8 +89,9 @@ margin-bottom: 2em;
   color: #d04939;
   font-size: 3em;
   font-weight: 400;
-  
-}
+   margin-left: 20%;
+  text-transform: capitalize;
+ }
 .content p 
 {
   font-size: 1em;
@@ -127,13 +128,6 @@ a.btn
 {
  text-align: center;
 }
-/* h1 { */
-/*   font-size: 1.5em; */
-/*   font-weight: 100; */
-/*   text-transform: lowercase; */
-/*   color: #e86b5c; */
-/*   margin-left: 4em; */
-/*   } */
 
 header {
   margin: auto;
@@ -204,7 +198,7 @@ h2
   font-size: 4em;
   color: #e86b5c;
   letter-spacing: 20px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0.5em;
   margin: auto;
   }
@@ -212,7 +206,7 @@ h2
 h3{
   text-transform: lowercase;
   font-size: 1em;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
   letter-spacing: 15px;
   margin: auto;
@@ -221,9 +215,7 @@ h3.intro{
   color: #e86b5c;
   margin-bottom: 0.5em;
   font-size: 3em;
-  margin-left: 20%;
-  text-transform: capitalize;
-  font-weight: 400;
+ 
 }
 
 .subtitle-text{
