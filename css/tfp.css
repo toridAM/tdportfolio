@@ -183,6 +183,9 @@ h2.text
   bottom: 20px;
   padding-left: 1.5em;
  }
+.logo{
+  margin: 0 auto;
+}
 
 h1{
   text-transform: lowercase;
@@ -195,14 +198,17 @@ h2
   font-size: 2em;
 /*   margin-left: 6em; */
   color: #ffffff;
+  letter-spacing: 10px;
+  font-weight: 200;
   }
 
 h3{
   text-transform: lowercase;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 100;
 /*   margin-left: 1em; */
   color: #ffffff;
+  letter-spacing: 10px;
   }
 h3.intro{
   color: #e86b5c;
@@ -269,9 +275,9 @@ right: 150px;
 }
 a.social-list--link{
   font-size: 1em;
-    color: #ffffff;
-  letter-spacing: 5%;
+  color: #ffffff;
   text-transform: uppercase;
+  font-weight: lighter;
 }
 .social-list
 {
@@ -285,6 +291,7 @@ color: #ffffff;
 text-transform: Capitalize;
 cursor: pointer;
 padding: 1em;
+letter-spacing: 0.2em;
  } 
 
  li.social-list-item{
