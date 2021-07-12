@@ -189,17 +189,20 @@ h2.text
 
 h1{
   text-transform: lowercase;
-  letter-spacing: 5%;
+  letter-spacing: 5px;
+  margin-bottom: 1em;
+  color: #ffffff;
 }
 
 h2 
 {
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 4em;
 /*   margin-left: 6em; */
-  color: #ffffff;
-  letter-spacing: 10px;
-  font-weight: 200;
+  color: #e86b5c;
+  letter-spacing: 20px;
+  font-weight: 100;
+  margin-bottom: 1em;
   }
 
 h3{
@@ -208,7 +211,7 @@ h3{
   font-weight: 100;
 /*   margin-left: 1em; */
   color: #ffffff;
-  letter-spacing: 10px;
+  letter-spacing: 15px;
   }
 h3.intro{
   color: #e86b5c;
