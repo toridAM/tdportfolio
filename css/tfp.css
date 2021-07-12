@@ -4,7 +4,7 @@
   padding: 0px;
   list-style-type: none;
   box-sizing: border-box;
-  font-family: 'popins', sans-serif;
+  font-family: 'raleway', sans-serif;
 }
 body
 {
@@ -125,13 +125,14 @@ a.btn
 {
  text-align: center;
 }
-h1 {
-  font-size: 1.5em;
-  font-weight: 100;
-  text-transform: lowercase;
-  color: #e86b5c;
-  margin-left: 4em;
-  }
+/* h1 { */
+/*   font-size: 1.5em; */
+/*   font-weight: 100; */
+/*   text-transform: lowercase; */
+/*   color: #e86b5c; */
+/*   margin-left: 4em; */
+/*   } */
+
 header {
   margin: auto;
   padding: 60px;
@@ -183,19 +184,24 @@ h2.text
   padding-left: 1.5em;
  }
 
+h1{
+  text-transform: lowercase;
+  letter-spacing: 5%;
+}
+
 h2 
 {
   text-transform: uppercase;
   font-size: 2em;
-  margin-left: 6em;
+/*   margin-left: 6em; */
   color: #ffffff;
   }
 
 h3{
-  text-transform: uppercase;
-  font-size: 5em;
-  font-weight: 700;
-  margin-left: 1em;
+  text-transform: lowercase;
+  font-size: 1em;
+  font-weight: 600;
+/*   margin-left: 1em; */
   color: #ffffff;
   }
 h3.intro{
@@ -264,6 +270,8 @@ right: 150px;
 a.social-list--link{
   font-size: 1em;
     color: #ffffff;
+  letter-spacing: 5%;
+  text-transform: uppercase;
 }
 .social-list
 {
