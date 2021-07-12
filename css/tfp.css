@@ -194,34 +194,35 @@ h1{
   letter-spacing: 10px;
   margin-bottom: 0.5em;
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 200;
+  margin: auto;
 }
 
 h2 
 {
   text-transform: uppercase;
   font-size: 4em;
-/*   margin-left: 6em; */
   color: #e86b5c;
   letter-spacing: 20px;
   font-weight: 300;
   margin-bottom: 0.5em;
+  margin: auto;
   }
 
 h3{
   text-transform: lowercase;
   font-size: 1em;
-  font-weight: 100;
-/*   margin-left: 1em; */
+  font-weight: 200;
   color: #ffffff;
   letter-spacing: 15px;
+  margin: auto;
   }
 h3.intro{
   color: #e86b5c;
   margin-bottom: 0.5em;
   font-size: 3em;
   margin-left: 20%;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 400;
 }
 
