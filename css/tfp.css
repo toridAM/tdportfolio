@@ -89,6 +89,7 @@ margin-bottom: 2em;
   color: #d04939;
   font-size: 3em;
   font-weight: 400;
+  
 }
 .content p 
 {
@@ -190,9 +191,10 @@ h2.text
 
 h1{
   text-transform: lowercase;
-  letter-spacing: 5px;
-  margin-bottom: 1em;
+  letter-spacing: 10px;
+  margin-bottom: 0.5em;
   color: #ffffff;
+  font-weight: 300;
 }
 
 h2 
@@ -202,8 +204,8 @@ h2
 /*   margin-left: 6em; */
   color: #e86b5c;
   letter-spacing: 20px;
-  font-weight: 100;
-  margin-bottom: 1em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
   }
 
 h3{
@@ -218,6 +220,9 @@ h3.intro{
   color: #e86b5c;
   margin-bottom: 0.5em;
   font-size: 3em;
+  margin-left: 20%;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .subtitle-text{
