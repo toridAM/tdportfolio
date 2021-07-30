@@ -280,7 +280,7 @@ right: 150px;
 a.social-list--link{
   font-size: 1em;
   color: #ffffff;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: lighter;
 }
 .social-list
