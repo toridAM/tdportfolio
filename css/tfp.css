@@ -292,7 +292,7 @@ display: flex;
 justify-content: flex-end;
 right: 20px;
 color: #ffffff;
-text-transform: Capitalize;
+text-transform: lowercase;
 cursor: pointer;
 padding: 1em;
 letter-spacing: 0.2em;
