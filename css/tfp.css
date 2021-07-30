@@ -188,7 +188,7 @@ h1{
   letter-spacing: 10px;
   margin-bottom: 0.5em;
   color: #ffffff;
-  font-weight: 200;
+  font-weight: 100;
   margin: auto;
 }
 
@@ -280,7 +280,7 @@ right: 150px;
 a.social-list--link{
   font-size: 1em;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: lighter;
 }
 .social-list
