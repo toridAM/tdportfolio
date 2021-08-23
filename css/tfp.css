@@ -308,11 +308,11 @@ h1.case1{
   margin: 2em auto;
   
 }
-h2.case1{
-  font-weight: 100;
-  color: #f86c07;
-  text-transform: capitalize;
-  margin: 0.5em;
+/* h2.case1{ */
+/*   font-weight: 100; */
+/*   color: #f86c07; */
+/*   text-transform: capitalize; */
+/*   margin: 0.5em; */
 }
 h1.case2{
   color: #7b1e77;
@@ -337,10 +337,10 @@ footer.footer-btn{
 .container{
   display: flex;
 }
-.sidenav ul{
-  margin: 1em;
+.sidenav ul li{
+  margin: 2em;
 }
-.sidenav ul li a{
+.sidenav li a{
   color: #000;
 }
 .text-container{
