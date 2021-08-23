@@ -350,12 +350,14 @@ footer.footer-btn{
   text-transform: capitalize;
   letter-spacing: 5px;
   color: #000;
+  }
+.headerone{
   margin: 1em;
-  padding-left: 1.5em;
+  padding-left: 1.5em
 }
 .text-container p{
   text-transform: capitalize;
-  margin-bottom: 1em:
+/*   margin-bottom: 1em: */
 }
   
   
