@@ -360,7 +360,7 @@ footer.footer-btn{
   text-transform: capitalize;
 /*   margin-bottom: 1em: */
 }
- a#myrole h1#myrole.headerone{
+ sidenav a#myrole, h1#myrole.headerone{
    color: #e86b5c;
 }
 
