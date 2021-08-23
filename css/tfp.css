@@ -339,6 +339,7 @@ footer.footer-btn{
 }
 .sidenav ul li{
   margin: 2em;
+  text-transform: capitalize;
 }
 .sidenav li a{
   color: #000;
@@ -359,7 +360,7 @@ footer.footer-btn{
   text-transform: capitalize;
 /*   margin-bottom: 1em: */
 }
- a#myrole, h1#myrole.headerone{
+ a#myrole h1#myrole.headerone{
    color: #e86b5c;
 }
 
