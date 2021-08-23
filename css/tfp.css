@@ -334,7 +334,29 @@ footer.footer-btn{
   color: #fff;
   margin: 2em;
 }
-
+.container{
+  display: flex;
+}
+.sidenav ul{
+  margin: 1em;
+}
+.sidenav ul li a{
+  color: #000;
+}
+.text-container{
+  margin: 1em;
+}
+.text-container h1{
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  color: #000;
+}
+.text-container p{
+  text-transform: capitalize;
+  margin-bottom: 1em:
+}
+  
+  
 
   
 
