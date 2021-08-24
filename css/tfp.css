@@ -384,10 +384,12 @@ h1#futuresteps{
 }
 .aboutpage{
   display: flex;
-  justify-content: flex-end;
+  
 }
 .btnback{
   color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
   
 
