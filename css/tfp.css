@@ -364,7 +364,18 @@ footer.footer-btn{
   #myrole,.myrole{
    color: #e86b5c;
 }
-
+h1#intro 
+h1#myrole 
+h1#problems 
+h1#goals 
+h1#impact 
+h1#earlyideation 
+h1#testing 
+h1#finaldesign 
+h1#development 
+h1#futuresteps{
+  margin: 0.5em;
+}
   
 
 
