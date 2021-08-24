@@ -342,7 +342,8 @@ footer.footer-btn{
   text-transform: capitalize;
 }
 .sidenav li a{
-  color: #000;
+  color: #666;
+  font-weight: 400;
 }
 .text-container{
 /*   margin: 0.5em; */
