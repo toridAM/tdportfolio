@@ -362,8 +362,11 @@ footer.footer-btn{
   text-transform: capitalize;
   margin-bottom: 0.5em:
 }
-  #myrole .myrole{
+  #myrole{
    color: #e86b5c;
+}
+li.myrole a{
+  color:#e86b5c;
 }
 h1#intro 
 h1#myrole 
