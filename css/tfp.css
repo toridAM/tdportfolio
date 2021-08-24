@@ -345,7 +345,7 @@ footer.footer-btn{
   color: #000;
 }
 .text-container{
-  margin: 0.5em;
+/*   margin: 0.5em; */
 }
 .text-container h1{
   text-transform: capitalize;
@@ -353,7 +353,7 @@ footer.footer-btn{
   color: #000;
   }
 .headerone{
-  margin: 1em;
+  margin: 0.5em;
   padding-left: 1.5em;
   font-weight: 400;
 }
