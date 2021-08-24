@@ -382,6 +382,13 @@ h1#futuresteps{
   margin: 0.5em;
   color: #666;
 }
+.aboutpage{
+  display: flex;
+  justify-content: flex-end;
+}
+.btnback{
+  color: #fff;
+}
   
 
 
