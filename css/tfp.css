@@ -384,6 +384,7 @@ h1#futuresteps{
 }
 .aboutpage{
   display: flex;
+  justify-content: flex-end;
   
 }
 .btnback{
