@@ -394,12 +394,12 @@ p.timeline {
   font-weight: 400;
 }
 
-h1.job {
+div h1.job {
   color: #404040;
   text-transform: uppercase;
  }
 
-p.job {
+div p.job {
   color: #404040;
   text-transform: uppercase;
   
