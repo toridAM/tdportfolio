@@ -320,7 +320,7 @@ footer.footer-btn{
   display: flex;
 }
 .sidenav ul li {
-  margin: 1.5em;
+  margin: 1em;
   text-transform: capitalize;
   font-weight: 300;
 }
@@ -361,6 +361,7 @@ h1#development
 h1#futuresteps{
   margin: 0.5em;
   color: #666;
+  font-weight: 400;
 }
 .aboutpage{
   display: flex;
