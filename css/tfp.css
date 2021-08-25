@@ -391,6 +391,10 @@ p.job{
   text-transform: uppercase;
   
 }
+.container-time{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
