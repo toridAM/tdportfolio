@@ -381,12 +381,12 @@ h1#futuresteps{
     padding: 2em;
     font-size: 1.5em;
 }
-.timeline{
+h1.timeline{
   color: #e86b5c;
   font-size:1em;
   font-weight: 400;
 }
-.job{
+p.job{
   color: #404040;
   text-transform: uppercase;
   
