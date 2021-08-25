@@ -381,19 +381,19 @@ h1#futuresteps{
     padding: 2em;
     font-size: 1.5em;
 }
-h1.timeline{
+.timeline h1 p{
   color: #e86b5c;
   font-size:1em;
   font-weight: 400;
 }
-p.job{
+.job h1 p{
   color: #404040;
   text-transform: uppercase;
   
 }
 .container-time{
   display: flex;
-  justify-content: space-between;
+  margin-left: 30%;
 }
 
 
