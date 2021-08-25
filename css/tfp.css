@@ -375,7 +375,18 @@ h1#futuresteps{
   text-decoration: none;
   text-transform: uppercase;
 }
-  
+  .solution{
+    text-align: center;
+}
+.timeline{
+  color: #e86b5c;
+  letter-spacing: 0.5em;
+}
+.job{
+  color: #404040;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
 
 
 
