@@ -387,7 +387,19 @@ h1.timeline p.timeline {
   font-size:1em;
   font-weight: 400;
 }
-h1.job p.job {
+
+p.timeline {
+  color: #e86b5c;
+  font-size:1em;
+  font-weight: 400;
+}
+
+h1.job {
+  color: #404040;
+  text-transform: uppercase;
+ }
+
+p.job {
   color: #404040;
   text-transform: uppercase;
   
