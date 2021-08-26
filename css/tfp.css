@@ -386,7 +386,7 @@ h1.title{
   color: #e86b5c;
   font-size:1em;
   font-weight: 400;
-  letter-spacing: 0;
+  letter-spacing: normal;
   text-transform: uppercase;
   
 }
@@ -410,10 +410,10 @@ div p.job {
 }
 .container-time{
   display: flex;
-  justify-content: space-around;
+  justify-content: evenly;
 }
 p.title{
-  width: 0 auto;
+  width: auto;
 }
 
 
