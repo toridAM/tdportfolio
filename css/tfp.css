@@ -386,6 +386,8 @@ h1.title{
   color: #e86b5c;
   font-size:1em;
   font-weight: 400;
+  letter-spacing: 0;
+  text-transform: uppercase;
   
 }
 
@@ -393,6 +395,7 @@ p.timeline {
   color: #e86b5c;
   font-size:1em;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 div h1.job {
@@ -407,7 +410,10 @@ div p.job {
 }
 .container-time{
   display: flex;
-  margin-left: 30%;
+  justify-content: space-around;
+}
+p.title{
+  width: 0 auto;
 }
 
 
