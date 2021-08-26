@@ -401,6 +401,7 @@ p.timeline {
 div h1.job {
   color: #404040;
   text-transform: uppercase;
+ 
  }
 
 div p.job {
@@ -411,6 +412,7 @@ div p.job {
 .container-time{
   display: flex;
   justify-content: space-around;
+  margin-top: 2em;
 }
 p.title{
   width: auto;
