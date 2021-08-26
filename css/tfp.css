@@ -417,6 +417,10 @@ div p.job {
 p.title{
   width: auto;
 }
+a.container-time{
+  color: #404040;
+  font-weight: 400;
+}
 
 
 
