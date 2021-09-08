@@ -227,8 +227,7 @@ h3.intro{
  .col {
     width: 90%;
   }
-  img{
-    width:80%;
+  
 }
 
 p.section-title 
@@ -424,7 +423,7 @@ a.container-time{
   font-weight: 400;
 }
 img{
-  margin-left: 20%;
+  margin:auto;
 }
 
 
