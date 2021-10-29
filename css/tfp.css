@@ -139,7 +139,10 @@ h3.intro {
   font-size: 3em;
   font-weight: 900;
 }
-.skills{
+.skills ul li {
+  margin: 1em;
+}
+footer ul.skills{
   background-color: #3b3636;
   display: flex;
  }
