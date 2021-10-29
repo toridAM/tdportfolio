@@ -37,9 +37,16 @@ p.text
   font-weight: 700;
   
  }
+.description{
+  display: flex;
+  padding; 2em;
+}
+.description ul li{
+  padding: 1em;
+}
 .three-icons{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 ul.social-list-icon{
   display: flex;
@@ -192,6 +199,9 @@ footer.skills ul{
   }
 @media only screen and (max-width: 600px) {
  .col {
+    width: 90%;
+  }
+  footer.skills{
     width: 90%;
   }
   
