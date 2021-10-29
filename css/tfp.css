@@ -37,6 +37,8 @@ p.text
   font-weight: 700;
   
  }
+.description{
+  display: flex
 .content-pink{
   border: 3px solid #fc607c;
 }
