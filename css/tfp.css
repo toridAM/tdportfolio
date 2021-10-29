@@ -218,7 +218,9 @@ footer.skills ul{
     width: 90%;
   }
   footer.skills ul li {
-  width: 100%;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
    
     
   }
