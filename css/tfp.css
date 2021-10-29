@@ -42,7 +42,8 @@ p.text
   padding; 2em;
 }
 .description ul li{
-  padding: 1em;
+  padding: 0.5em;
+  margin-left: 20%;
 }
 .three-icons{
   display: flex;
@@ -50,18 +51,22 @@ p.text
 }
 ul.social-list-icon{
   display: flex;
+  
 }
 li.social-list-icon{
   margin-top: 0.2em;
 }
 i.fa.fa-thumbs-o-up{
   color: #fc607c;
+  width: 20px;
 }
 i.fa.fa-smile-o{
   color: #1d96b0;
+  width: 20px;
 }
 i.fa.fa-heart{
   color:#b01d37;
+  width: 20px;
 }
 .content-pink{
   border: 3px solid #fc607c;
@@ -157,7 +162,7 @@ h1, h2, h3 {
 h1, h3 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-sizee; 0.9em;
+  font-size; 0.9em;
 }
 
 h2.text{
