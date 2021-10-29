@@ -8,7 +8,7 @@
 }
 body
 {
-  color: #434040;
+  color: #2c2f33;
   background-color: #ffffff;
 }
 
@@ -21,7 +21,7 @@ p.text
   margin-bottom: 4em;
 }
 
-.skills
+/* .skills 
  {
 display: flex;
 justify-content: center;
@@ -82,25 +82,26 @@ margin-bottom: 2em;
   opacity: 1;
   transform: translateX(-50%) translateY(0px); 
   } 
-
+*/
  .about-me
 {
   margin-bottom: 1em;
-  color: #d04939;
+  color: #2c2f33;
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 700;
   
  }
 .content p 
 {
   font-size: 1em;
   text-align: center;
-  color: #ffffff;
+  color: #2c22f33;
   text-transform: uppercase;
+  border: 3px solid #fc607c;
 }
 a 
 {
-  color: #ffffff;
+  color: #3c3636;
   text-align: center;
   cursor: pointer;
 }
@@ -131,7 +132,7 @@ a.btn
 header {
   margin: auto;
   padding: 60px;
-  background: #000;
+  background: #fc607c;
 }
 
 header ul {
@@ -172,7 +173,29 @@ p
   width: 70%;
   
 }
-h2.text
+h1, h2, h3 {
+  color: #3c3636;
+}
+h1, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+h2.text{
+  text-transform: capitalize;
+}
+.section{
+  background-color: #3b3636;
+  padding: 1em;
+}
+.title{
+  color: #fc607c;
+  font-weight: 500;
+}
+.hours{
+  color: #ffffff;
+  font-weight: 500;
+}
+/* h2.text 
 {
   position: relative;
   bottom: 20px;
@@ -207,7 +230,7 @@ h3{
   text-transform: lowercase;
   font-size: 1em;
   font-weight: 300;
-  color: #ffffff;
+  color: #ffffff;b
   letter-spacing: 15px;
   margin: auto;
   }
@@ -219,7 +242,7 @@ h3.intro{
   text-transform: capitalize;
   font-weight: 400;
  }
-
+*/
 .subtitle-text{
   text-transform: uppercase;
   }
@@ -284,6 +307,8 @@ a.social-list--link{
   text-transform: uppercase;
   font-weight: lighter;
 }
+.section{
+  background-color: #
 .social-list
 {
     list-style: none;
@@ -319,7 +344,7 @@ footer.footer-btn{
 }
 .container{
   display: flex;
-}
+}b
 .sidenav{
   margin: 1em;
 }
