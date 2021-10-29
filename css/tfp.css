@@ -21,68 +21,7 @@ p.text
   margin-bottom: 4em;
 }
 
-/* .skills 
- {
-display: flex;
-justify-content: center;
-margin-bottom: 2em;
- }
 
- .skills ul
-  {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  }
-  .skills ul li 
-{
-  position: relative;
-  list-style-type: none;
-  width: 20px;
-  height: 20px;
-  background-color: #777;
-  margin: 0 20px; 
-  border-radius: 50%;
-  transition: 0.5s;
-  cursor: pointer;
-}
- .skills ul li:hover
-{
-  background-color: #e86b5c;
-  box-shadow: 0 0 0 4px #333, 0 0 0 6px #e86b5c;
-}
- .skills ul li .content
-{
-  position: absolute;
-  bottom: 55px;
-  width: 400px;
-  background-color: #e86b5c;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-  transform: translateX(-50%) translateY(0px);
-  }
-   .skills ul li .content::before
-  {
-     content: '';
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #e86b5c;
-  bottom: -15px;
-  left: 194px;
-  transform: rotate(45deg);
-}
- .skills ul li:hover .content 
-  {
-  visibility: visible;
-  opacity: 1;
-  transform: translateX(-50%) translateY(0px); 
-  } 
-*/
  .about-me
 {
   margin-bottom: 1em;
@@ -146,7 +85,7 @@ header ul li {
 header ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #3c3636;
   font-weight: 600;
   font-size: 1em;
   padding: 1em;
@@ -197,54 +136,7 @@ h2.text{
   color: #ffffff;
   font-weight: 500;
 }
-/* h2.text 
-{
-  position: relative;
-  bottom: 20px;
-  padding-left: 1.5em;
- }
-.logo{
-  margin: 0 auto;
-  padding: 0.3em 0;
-}
 
-h1{
-  text-transform: lowercase;
-  letter-spacing: 10px;
-  margin-bottom: 0.5em;
-  color: #ffffff;
-  font-weight: 100;
-  margin: auto;
-}
-
-h2 
-{
-  text-transform: uppercase;
-  font-size: 4em;
-  color: #e86b5c;
-  letter-spacing: 20px;
-  font-weight: 400;
-  margin-bottom: 0.5em;
-  margin: auto;
-  }
-
-h3{
-  text-transform: lowercase;
-  font-size: 1em;
-  font-weight: 300;
-  color: #ffffff;b
-  letter-spacing: 15px;
-  margin: auto;
-  }
-h3.intro{
-  color: #e86b5c;
-  margin-bottom: 0.5em;
-  font-size: 3em;
-  margin-left: 20%;
-  text-transform: capitalize;
-  font-weight: 400;
- }
-*/
 .subtitle-text{
   text-transform: uppercase;
   }
@@ -305,7 +197,7 @@ right: 150px;
 }
 a.social-list--link{
   font-size: 1em;
-  color: #ffffff;
+  color: #3c3636;
   text-transform: uppercase;
   font-weight: lighter;
 }
