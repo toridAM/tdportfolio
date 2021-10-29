@@ -37,8 +37,25 @@ p.text
   font-weight: 700;
   
  }
-.description{
-  display: flex
+.three-icons{
+  display: flex;
+  justify-content: flex-end;
+}
+ul.social-list-icon{
+  display: flex;
+}
+li.social-list-icon{
+  margin-top: 0.2em;
+}
+i.fa.fa-thumbs-o-up{
+  color: #fc607c;
+}
+i.fa.fa-smile-o{
+  color: 1d96b0;
+}
+i.fa.fa-heart{
+  color:#b01d37;
+}
 .content-pink{
   border: 3px solid #fc607c;
 }
