@@ -16,6 +16,9 @@ nav {
   top: -230px;
   left: 40px;
 }
+.social-list-link-white{
+  color: #ffffff;
+}
 p.text 
 {
   font-size: 2em;
@@ -38,7 +41,7 @@ p.text
 {
   font-size: 1em;
   text-align: center;
-  color: #2c22f33;
+  color: #2c2f33;
   text-transform: uppercase;
   border: 3px solid #fc607c;
 }
@@ -136,12 +139,15 @@ h3.intro {
   font-size: 3em;
   font-weight: 900;
 }
-.section{
+.skills{
   background-color: #3b3636;
   display: flex;
  }
-ul.section{
+ul.skills{
   padding-left: 300px;
+}
+.content{
+  margin: 1em;
 }
 .title{
   color: #fc607c;
@@ -207,7 +213,7 @@ div#portfolio-work
   margin-bottom: 1em;
   }
 /* icons */
-.footer{
+.icons{
 position: relative;
 top: -100px;
 right: 230px;
