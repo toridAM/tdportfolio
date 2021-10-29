@@ -72,9 +72,16 @@ i.fa.fa-heart{
 }
 .content-pink{
   border: 3px solid #fc607c;
+  width: auto;
 }
 .content-brown{
   border: 3px solid #3c3636;
+  width: auto;
+}
+.content-pink-bg{
+  background-color: #d8415c;
+  border: 3px solid #fc607c;
+  width: auto;
 }
 .content p 
 {
@@ -208,8 +215,11 @@ footer.skills ul{
  .col {
     width: 90%;
   }
-  footer.skills{
-    width: 90%;
+  footer.skills ul li {
+   width: 80%;
+   font-size: 1em;
+    margin: 0;
+    
   }
   
 }
