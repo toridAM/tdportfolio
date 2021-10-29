@@ -55,7 +55,7 @@ a.btn
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
-   color: #000;
+   color: #3c3636;
    cursor: pointer;
    font-weight: 700;
    }
@@ -102,7 +102,7 @@ ul li a
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color:#ffffff;
+  color:#3c3636;
  }
 p 
 {
@@ -117,18 +117,23 @@ h1, h2, h3 {
 }
 h1, h3 {
   text-transform: uppercase;
-  letter-spacing: 1.5em;
+  letter-spacing: 0.5em;
+}
+h1{
+  font-size: 1em;
 }
 h2.text{
   text-transform: capitalize;
   letter-spacing: 0.2em;
   margin: 0.2em;
+  font-size: 4em;
 }
 .section{
   background-color: #3b3636;
   padding: 1em;
   margin: auto;
   display: flex;
+  
  
 }
 .title{
@@ -204,8 +209,7 @@ a.social-list--link{
   text-transform: uppercase;
   font-weight: lighter;
 }
-.section{
-  background-color: #
+
 .social-list
 {
     list-style: none;
@@ -214,15 +218,15 @@ ul.social-list{
 display: flex;
 justify-content: flex-end;
 right: 20px;
-color: #ffffff;
+color: #3c3636;
 text-transform: lowercase;
 cursor: pointer;
-padding: 1em;
+/* padding: 1em; */
 letter-spacing: 0.2em;
  } 
 
  li.social-list-item{
-  padding: 1em;
+  padding: 2em 1em;
 }
 h1.case1{
   color: #f86c07;
