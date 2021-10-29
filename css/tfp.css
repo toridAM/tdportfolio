@@ -11,7 +11,11 @@ body
   color: #2c2f33;
   background-color: #ffffff;
 }
-
+nav {
+  position: relative;
+  top: -230px;
+  left: 40px;
+}
 p.text 
 {
   font-size: 2em;
@@ -194,12 +198,12 @@ div#portfolio-work
   letter-spacing: 0.5em;
   margin-bottom: 1em;
   }
-/*icons*/
-/* .footer{ */
-/* position: relative; */
-/* top: -100px; */
-/* right: 150px; */
-/* } */
+/* icons */
+.footer{
+position: relative;
+top: -100px;
+right: 230px;
+}
 a.social-list--link{
   font-size: 1em;
   color: #3c3636;
