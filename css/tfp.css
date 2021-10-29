@@ -117,11 +117,10 @@ h1, h2, h3 {
 }
 h1, h3 {
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
+  font-sizee; 0.9em;
 }
-h1{
-  font-size: 1em;
-}
+
 h2.text{
   text-transform: capitalize;
   letter-spacing: 0.2em;
@@ -130,19 +129,17 @@ h2.text{
 }
 .section{
   background-color: #3b3636;
-  padding: 1em;
-  margin: auto;
   display: flex;
-  
- 
-}
+ }
 .title{
   color: #fc607c;
-  font-weight: 500;
+  font-weight: 700;
+  padding: 1em 0;
 }
 .hours{
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 700;
+  padding: 1em 0;
 }
 
 .subtitle-text{
@@ -198,11 +195,11 @@ div#portfolio-work
   margin-bottom: 1em;
   }
 /*icons*/
-.footer{
-position: relative;
-top: -100px;
-right: 150px;
-}
+/* .footer{ */
+/* position: relative; */
+/* top: -100px; */
+/* right: 150px; */
+/* } */
 a.social-list--link{
   font-size: 1em;
   color: #3c3636;
