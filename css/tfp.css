@@ -186,6 +186,8 @@ h2.text{
 .section{
   background-color: #3b3636;
   padding: 1em;
+  display: flex;
+  justify-content: space-around;
 }
 .title{
   color: #fc607c;
