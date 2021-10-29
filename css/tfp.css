@@ -131,10 +131,18 @@ h2.text{
   margin: 0.2em;
   font-size: 4em;
 }
+h3.intro {
+  margin-left: 150px;
+  font-size: 3em;
+  font-weight: 900;
+}
 .section{
   background-color: #3b3636;
   display: flex;
  }
+ul.section{
+  padding-left: 300px;
+}
 .title{
   color: #fc607c;
   font-weight: 700;
@@ -143,8 +151,8 @@ h2.text{
 .hours{
   color: #ffffff;
   font-weight: 700;
-  padding: 1em 0;
-}
+  padding: 1em;
+ }
 
 .subtitle-text{
   text-transform: uppercase;
