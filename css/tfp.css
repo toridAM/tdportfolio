@@ -39,11 +39,12 @@ p.text
  }
 .description{
   display: flex;
-  padding; 2em;
+  padding; 0.5em;
 }
 .description ul li{
   padding: 0.5em;
-  margin-left: 20%;
+  margin-left: 50%;
+  
 }
 .three-icons{
   display: flex;
@@ -55,18 +56,19 @@ ul.social-list-icon{
 }
 li.social-list-icon{
   margin-top: 0.2em;
+  width: 20px;
 }
 i.fa.fa-thumbs-o-up{
   color: #fc607c;
-  width: 20px;
+  font-size: 1em;
 }
 i.fa.fa-smile-o{
   color: #1d96b0;
-  width: 20px;
+  font-size: 1em;
 }
 i.fa.fa-heart{
   color:#b01d37;
-  width: 20px;
+  font-size: 1em;
 }
 .content-pink{
   border: 3px solid #fc607c;
