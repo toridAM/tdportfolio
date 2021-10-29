@@ -43,7 +43,7 @@ p.text
 }
 .description ul li{
   padding: 0.5em;
-  margin-left: 50%;
+  width: 70%;
   
 }
 .three-icons{
@@ -81,6 +81,7 @@ i.fa.fa-heart{
 .content-pink-bg{
   background-color: #d8415c;
   border: 3px solid #fc607c;
+  color: #ffffff;
   width: auto;
 }
 .content p 
@@ -216,9 +217,8 @@ footer.skills ul{
     width: 90%;
   }
   footer.skills ul li {
-   width: 80%;
-   font-size: 1em;
-    margin: 0;
+   display: inline-block;
+   
     
   }
   
