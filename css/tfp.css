@@ -40,6 +40,7 @@ p.text
 .description{
   display: flex;
   padding; 0.5em;
+  margin-bottom: 2em;
 }
 .description ul li{
   padding: 0.5em;
@@ -60,15 +61,15 @@ li.social-list-icon{
 }
 i.fa.fa-thumbs-o-up{
   color: #fc607c;
-  font-size: 1em;
+  font-size: 2em;
 }
 i.fa.fa-smile-o{
   color: #1d96b0;
-  font-size: 1em;
+  font-size: 2em;
 }
 i.fa.fa-heart{
   color:#b01d37;
-  font-size: 1em;
+  font-size: 2em;
 }
 .content-pink{
   border: 3px solid #fc607c;
@@ -217,7 +218,7 @@ footer.skills ul{
     width: 90%;
   }
   footer.skills ul li {
-   display: inline-block;
+  width: 100%;
    
     
   }
@@ -247,6 +248,7 @@ div#portfolio-work
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 .portfolio-item 
