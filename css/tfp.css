@@ -37,6 +37,12 @@ p.text
   font-weight: 700;
   
  }
+.content-pink{
+  border: 3px solid #fc607c;
+}
+.content-brown{
+  border: 3px solid #3c3636;
+}
 .content p 
 {
   font-size: 1em;
