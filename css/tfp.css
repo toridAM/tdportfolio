@@ -16,7 +16,7 @@ nav {
   top: -230px;
   left: 40px;
 }
-.social-list-link-white{
+nav.social-list-link-white{
   color: #ffffff;
 }
 p.text 
@@ -139,16 +139,15 @@ h3.intro {
   font-size: 3em;
   font-weight: 900;
 }
-.skills ul li {
+footer.skills ul li {
   margin: 1em;
 }
-footer ul.skills{
+footer.skills ul{
   background-color: #3b3636;
   display: flex;
- }
-ul.skills{
   padding-left: 300px;
-}
+ }
+
 .content{
   margin: 1em;
 }
