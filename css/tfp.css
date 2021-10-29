@@ -117,16 +117,19 @@ h1, h2, h3 {
 }
 h1, h3 {
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 1.5em;
 }
 h2.text{
   text-transform: capitalize;
+  letter-spacing: 0.2em;
+  margin: 0.2em;
 }
 .section{
   background-color: #3b3636;
   padding: 1em;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
+ 
 }
 .title{
   color: #fc607c;
