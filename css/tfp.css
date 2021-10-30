@@ -57,20 +57,6 @@ i.fa.fa-heart{
   color:#b01d37;
   font-size: 2em;
 }
-
-.description li{
-  margin: 0.2em;
-  display: flex-end;
-  justify-content: stretch;
-  }
-.content-brown{
-  border: 2px solid #3c3636;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  padding: 0.5em;
-}
-
 a 
 {
   text-align: center;
