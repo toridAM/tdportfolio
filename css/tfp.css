@@ -12,7 +12,7 @@ body
   background-color: #ffffff;
 }
 
-nav a.social-list-link-white{
+ a.social-list-link-white{
   color: #ffffff;
 }
 p.text 
@@ -21,22 +21,19 @@ p.text
 }
 .mytext
 {
-  margin: 1em;
+  margin-bottom: 1em;
 }
 
 
  .about-me
 {
-  margin: 1em;
+  margin-bottom: 1em;
   font-size: 3em;
   font-weight: 700;
   
  }
 
-/* .three-icons{ */
-/*   display: flex; */
-/*   justify-content: center; */
-/* } */
+
 .three-icons{
   
 position: absolute;
@@ -65,24 +62,21 @@ i.fa.fa-heart{
   color:#b01d37;
   font-size: 2em;
 }
-
+.description{
+  padding: 0;
+}
 .content-brown{
   border: 2px solid #3c3636;
   background-color: #ffffff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0.5em;
 }
 
-/* .content p  */
-/* { */
-/*   font-size: 1em; */
-/*   text-align: center; */
-/*   text-transform: uppercase; */
-/*   border: 3px solid #fc607c; */
-/* } */
+
 a 
 {
-  color: #3c3636;
+/*   color: #3c3636; */
   text-align: center;
   cursor: pointer;
   font-size: 1em;
@@ -156,7 +150,7 @@ p
   
 }
 h1, h2 {
-  color: #3c3636;
+/*   color: #3c3636; */
 }
 h1 {
   text-transform: uppercase;
@@ -183,19 +177,15 @@ footer.skills ul li {
 }
 footer.skills ul{
   background-color: #3b3636;
-  display: flex;
-  padding-left: 300px;
  }
 
 .title{
   color: #ffffff;
   font-weight: 500;
-/*   padding: 1em 0; */
 }
 .hours{
   color: #fc607c;
   font-weight: 500;
-/*   padding: 1em; */
  }
 
 .subtitle-text{
