@@ -16,7 +16,7 @@ nav {
   top: -230px;
   left: 40px;
 }
-nav.social-list-link-white{
+nav a.social-list-link-white{
   color: #ffffff;
 }
 p.text 
@@ -274,7 +274,7 @@ div#portfolio-work
 /* icons */
 .icons{
 position: relative;
-top: -100px;
+top: -120px;
 right: 230px;
 }
 a.social-list--link{
@@ -295,8 +295,9 @@ right: 20px;
 color: #3c3636;
 text-transform: lowercase;
 cursor: pointer;
-/* padding: 1em; */
+padding: 1em;
 letter-spacing: 0.2em;
+  font-size: 2em;
  } 
 
  li.social-list-item{
