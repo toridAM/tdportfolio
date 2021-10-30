@@ -62,12 +62,11 @@ i.fa.fa-heart{
   color:#b01d37;
   font-size: 2em;
 }
-.description{
-  display: flex-end;
-}
+
   
 .description li{
-  margin: 0.3em;
+  margin: 0.2em;
+  display: flex-end;
   justify-content: stretch;
   }
 .content-brown{
