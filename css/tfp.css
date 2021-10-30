@@ -146,8 +146,7 @@ p
   margin: 0 auto;
   font-size: 1em;
   width: 70%;
-  
-}
+  }
 
 h1 {
   text-transform: uppercase;
@@ -254,10 +253,7 @@ cursor: pointer;
 padding: 0.5em;
 } 
 
- li.social-list-item{
-  padding: 2em 1em;
-}
-h1.case1{
+ h1.case1{
   color: #f86c07;
   text-transform: capitalize;
   font-size: 3em;
