@@ -70,21 +70,14 @@ i.fa.fa-heart{
   color:#b01d37;
   font-size: 1em;
 }
-.content-pink{
-  border: 2px solid #fc607c;
-  width: 0 auto;
-}
+
 .content-brown{
   border: 2px solid #3c3636;
-  width: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
 }
-.content-pink-bg a{
-  background-color: #d8415c;
-  border: 3px solid #fc607c;
-  width: auto;
-  color: #ffffff;
-  padding: 1em;
-}
+
 .content p 
 {
   font-size: 1em;
@@ -168,19 +161,18 @@ p
   width: 70%;
   
 }
-h1, h2, h3 {
+h1, h2 {
   color: #3c3636;
 }
-h1, h3 {
+h1 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-size: 0.9em;
 }
 
-h2.text{
-  text-transform: capitalize;
-  letter-spacing: 0.2em;
-  margin: 0.2em;
+h2{
+  
+  letter-spacing: 0.1em;
   font-size: 4em;
 }
 h3.intro {
@@ -190,6 +182,10 @@ h3.intro {
 }
 footer.skills ul li {
   margin: 1em;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2em;
 }
 footer.skills ul{
   background-color: #3b3636;
@@ -197,17 +193,14 @@ footer.skills ul{
   padding-left: 300px;
  }
 
-.content{
-  margin: 1em;
-}
 .title{
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
 /*   padding: 1em 0; */
 }
 .hours{
   color: #fc607c;
-  font-weight: 700;
+  font-weight: 500;
 /*   padding: 1em; */
  }
 
@@ -218,15 +211,7 @@ footer.skills ul{
  .col {
     width: 90%;
   }
-  footer.skills ul li {
-   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-   
-    
-  }
-  
-}
+ }
 
 p.section-title 
 {
@@ -272,11 +257,11 @@ div#portfolio-work
   margin-bottom: 1em;
   }
 /* icons */
-.icons{
-position: relative;
-top: -120px;
-right: 230px;
-}
+/* .icons{ */
+/* position: relative; */
+/* top: -120px; */
+/* right: 230px; */
+/* } */
 a.social-list--link{
   font-size: 1em;
   color: #3c3636;
