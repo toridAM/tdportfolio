@@ -11,19 +11,15 @@ body
   color: #2c2f33;
   background-color: #ffffff;
 }
-
- a.social-list-link-white{
+a.social-list-link-white{
   color: #ffffff;
 }
-
-
 .about-me
 {
   margin-bottom: 1em;
   font-size: 3em;
   font-weight: 700;
  }
-
 .three-icons{
 position: absolute;
 width: 256px;
@@ -33,8 +29,7 @@ left: 592px;
 }
 ul.social-list-icon{
   display: flex;
-  
-}
+  }
 li.social-list-icon{
   margin-top: 0.2em;
   padding: 0.5em;
@@ -123,7 +118,7 @@ ul li a
   margin: auto;
   font-size: 1em;
   width: 70%;
-  padding: 1em;
+  padding: 1.5em;
   }
 
 h1 {
