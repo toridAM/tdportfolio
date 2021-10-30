@@ -120,11 +120,11 @@ ul li a
   margin: auto;
   font-size: 1em;
   width: 70%;
-/*   padding: 1em; */
+  padding-bottom: 1em;
   }
 p {
   width: 70%;
-/*   padding: 1em; */
+  padding-bottom: 1em;
   margin: auto;
   line-height: 1.6;
 }
