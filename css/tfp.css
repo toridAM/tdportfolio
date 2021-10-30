@@ -169,6 +169,11 @@ footer.skills ul {
  flex-wrap: wrap;
  background-color: #3b3636;
 }
+.skills ul{
+   display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
 
 .title{
   color: #ffffff;
