@@ -164,23 +164,25 @@ h3.intro {
   font-weight: 900;
 }
 footer.skills ul li {
-  margin: 1em;
-   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 2em;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+  
 }
 footer.skills ul{
   background-color: #3b3636;
+  
  }
 
 .title{
   color: #ffffff;
   font-weight: 500;
+  margin: 0.5em;
 }
 .hours{
   color: #fc607c;
   font-weight: 500;
+  margin: 0.5em;
  }
 
 .subtitle-text{
