@@ -76,7 +76,6 @@ i.fa.fa-heart{
 
 a 
 {
-/*   color: #3c3636; */
   text-align: center;
   cursor: pointer;
   font-size: 1em;
@@ -149,9 +148,7 @@ p
   width: 70%;
   
 }
-h1, h2 {
-/*   color: #3c3636; */
-}
+
 h1 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -159,7 +156,6 @@ h1 {
 }
 
 h2{
-  
   letter-spacing: 0.1em;
   font-size: 4em;
 }
@@ -240,12 +236,7 @@ div#portfolio-work
   letter-spacing: 0.5em;
   margin-bottom: 1em;
   }
-/* icons */
-/* .icons{ */
-/* position: relative; */
-/* top: -120px; */
-/* right: 230px; */
-/* } */
+
 a.social-list--link{
   font-size: 1em;
   color: #3c3636;
@@ -259,15 +250,9 @@ a.social-list--link{
   }
 ul.social-list{
 display: flex;
-justify-content: space-around;
-/* right: 20px; */
-color: #3c3636;
-/* text-transform: lowercase; */
 cursor: pointer;
 padding: 0.5em;
-/* letter-spacing: 0.2em; */
-  font-size: 1.5em;
- } 
+} 
 
  li.social-list-item{
   padding: 2em 1em;
