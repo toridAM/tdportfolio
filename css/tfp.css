@@ -63,7 +63,7 @@ i.fa.fa-heart{
   font-size: 2em;
 }
 .description li{
-  margin: 0.5em;
+  margin: 0.3em;
   }
 .content-brown{
   border: 2px solid #3c3636;
@@ -163,16 +163,14 @@ h3.intro {
   font-size: 3em;
   font-weight: 900;
 }
-footer.skills ul li {
+footer.skills ul {
  display: flex;
- flex-wrap: wrap;
  justify-content: center;
-  
+ flex-wrap: wrap;
 }
 footer.skills ul{
   background-color: #3b3636;
-  
- }
+  }
 
 .title{
   color: #ffffff;
