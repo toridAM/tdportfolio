@@ -120,11 +120,9 @@ ul li a
   margin: auto;
   font-size: 1em;
   width: 70%;
-  padding-bottom: 1em;
   }
 p {
   width: 70%;
-  padding-bottom: 1em;
   margin: auto;
   line-height: 1.6;
 }
@@ -143,7 +141,7 @@ h3.intro {
   margin-left: 150px;
   font-size: 3em;
   font-weight: 900;
-  padding-top: 1em;
+  padding: 1em 0;
 }
 h3{
   position: relative;
@@ -215,7 +213,7 @@ div#portfolio-work
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 2em;
+  margin: 2em;
 }
 
 .portfolio-item 
