@@ -33,9 +33,17 @@ p.text
   
  }
 
+/* .three-icons{ */
+/*   display: flex; */
+/*   justify-content: center; */
+/* } */
 .three-icons{
-  display: flex;
-  justify-content: center;
+  
+position: absolute;
+width: 256px;
+height: 96.96px;
+left: 592px;
+top: 836px;
 }
 ul.social-list-icon{
   display: flex;
