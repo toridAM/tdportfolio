@@ -62,9 +62,9 @@ i.fa.fa-heart{
   color:#b01d37;
   font-size: 2em;
 }
-.description{
-  padding: 0;
-}
+.description li{
+  margin: 0.5em;
+  }
 .content-brown{
   border: 2px solid #3c3636;
   background-color: #ffffff;
