@@ -148,6 +148,12 @@ h3{
   left: 60px;
   top: 20px;
 }
+hr.solid {
+  border-top: 3px solid #3b3636;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
 footer.icons{
   display: flex;
   justify-content: center;
