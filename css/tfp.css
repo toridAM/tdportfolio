@@ -15,14 +15,12 @@ body
  a.social-list-link-white{
   color: #ffffff;
 }
-p.text 
+/* p */
 {
-  font-size: 2.5em;
-}
-p.mytext
-{
- padding-bottom: 1em;
-}
+/*   font-size: 2.5em; */
+/*   padding: 1em; */
+/* } */
+
 .about-me
 {
   margin-bottom: 1em;
@@ -129,6 +127,7 @@ p
   margin: auto;
   font-size: 1em;
   width: 70%;
+  padding: 1em;
   }
 
 h1 {
