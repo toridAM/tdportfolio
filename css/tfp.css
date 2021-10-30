@@ -114,7 +114,7 @@ ul li a
   font-weight: 600;
   color:#3c3636;
  }
-p, .mytext 
+ .mytext, p 
 {
   line-height: 1.6;
   margin: auto;
