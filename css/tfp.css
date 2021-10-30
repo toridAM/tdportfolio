@@ -19,23 +19,18 @@ p.text
 {
   font-size: 2.5em;
 }
-.mytext
+p.mytext
 {
-  margin-bottom: 1em;
+ padding-bottom: 1em;
 }
-
-
- .about-me
+.about-me
 {
   margin-bottom: 1em;
   font-size: 3em;
   font-weight: 700;
-  
  }
 
-
 .three-icons{
-  
 position: absolute;
 width: 256px;
 height: 96.96px;
@@ -63,7 +58,6 @@ i.fa.fa-heart{
   font-size: 2em;
 }
 
-  
 .description li{
   margin: 0.2em;
   display: flex-end;
@@ -76,7 +70,6 @@ i.fa.fa-heart{
   justify-content: space-around;
   padding: 0.5em;
 }
-
 
 a 
 {
