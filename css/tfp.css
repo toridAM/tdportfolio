@@ -11,11 +11,7 @@ body
   color: #2c2f33;
   background-color: #ffffff;
 }
-nav {
-  position: relative;
-  top: -230px;
-  left: 40px;
-}
+
 nav a.social-list-link-white{
   color: #ffffff;
 }
@@ -32,20 +28,11 @@ p.text
  .about-me
 {
   margin-bottom: 1em;
-  color: #2c2f33;
   font-size: 3em;
   font-weight: 700;
   
  }
-.description{
-  display: flex;
-  margin-bottom: 2em;
-}
-.description ul li{
-  padding: 0.5em;
-  width: 70%;
-  
-}
+
 .three-icons{
   display: flex;
   justify-content: center;
@@ -82,7 +69,6 @@ i.fa.fa-heart{
 {
   font-size: 1em;
   text-align: center;
-  color: #2c2f33;
   text-transform: uppercase;
   border: 3px solid #fc607c;
 }
