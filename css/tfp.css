@@ -21,7 +21,7 @@ nav.social-list-link-white{
 }
 p.text 
 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .mytext
 {
@@ -39,7 +39,6 @@ p.text
  }
 .description{
   display: flex;
-  padding; 0.5em;
   margin-bottom: 2em;
 }
 .description ul li{
@@ -57,32 +56,34 @@ ul.social-list-icon{
 }
 li.social-list-icon{
   margin-top: 0.2em;
-  padding: 1em;
+  padding: 0.5em;
 }
 i.fa.fa-thumbs-o-up{
   color: #fc607c;
-  font-size: 2em;
+  font-size: 1em;
 }
 i.fa.fa-smile-o{
   color: #1d96b0;
-  font-size: 2em;
+  font-size: 1em;
 }
 i.fa.fa-heart{
   color:#b01d37;
-  font-size: 2em;
+  font-size: 1em;
 }
 .content-pink{
-  border: 3px solid #fc607c;
-  width: auto;
+  border: 2px solid #fc607c;
+  width: 0 auto;
 }
 .content-brown{
-  border: 3px solid #3c3636;
-  width: auto;
+  border: 2px solid #3c3636;
+  width: 0 auto;
 }
 .content-pink-bg a{
   background-color: #d8415c;
   border: 3px solid #fc607c;
   width: auto;
+  color: #ffffff;
+  padding: 1em;
 }
 .content p 
 {
@@ -173,7 +174,7 @@ h1, h2, h3 {
 h1, h3 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size; 0.9em;
+  font-size: 0.9em;
 }
 
 h2.text{
@@ -202,12 +203,12 @@ footer.skills ul{
 .title{
   color: #ffffff;
   font-weight: 700;
-  padding: 1em 0;
+/*   padding: 1em 0; */
 }
 .hours{
   color: #fc607c;
   font-weight: 700;
-  padding: 1em;
+/*   padding: 1em; */
  }
 
 .subtitle-text{
