@@ -40,7 +40,7 @@ position: absolute;
 width: 256px;
 height: 96.96px;
 left: 592px;
-top: 836px;
+/* top: 836px; */
 }
 ul.social-list-icon{
   display: flex;
@@ -143,7 +143,7 @@ ul li a
 p 
 {
   line-height: 1.6;
-  margin: 0 auto;
+  margin: auto;
   font-size: 1em;
   width: 70%;
   }
@@ -167,10 +167,8 @@ footer.skills ul {
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
+ background-color: #3b3636;
 }
-footer.skills ul{
-  background-color: #3b3636;
-  }
 
 .title{
   color: #ffffff;
