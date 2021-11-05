@@ -125,7 +125,11 @@ h2{
   
 .vl{
   border-left:4px solid #fc607c;
-  height 100px;
+  height 300px;
+  display:inline;
+  position: relative;
+  top: 80px;
+  left: 110px;
   }
 
 h3.intro {
