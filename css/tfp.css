@@ -110,6 +110,7 @@ p {
   width: 70%;
   margin: auto;
   line-height: 1.6;
+  text-transform: capitalize;
 }
 
 h1 {
@@ -118,15 +119,12 @@ h1 {
   font-size: 0.9em;
 }
 
-h2{
-  letter-spacing: 0.1em;
-  font-size: 4em;
-}
 h3.intro {
   margin-left: 120px;
   font-size: 3em;
   font-weight: 900;
   padding: 1em 0;
+  text-transform: capitalize;
 }
 h3{
   position: relative;
