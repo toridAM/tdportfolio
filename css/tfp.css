@@ -118,6 +118,12 @@ h1 {
   letter-spacing: 0.3em;
   font-size: 0.9em;
 }
+hr{
+  
+  width 3px;
+  height 81px;
+  background: #fc607c;
+}
 
 h3.intro {
   margin-left: 120px;
@@ -126,11 +132,11 @@ h3.intro {
   padding: 1em 0;
   text-transform: capitalize;
 }
-h3{
-  position: relative;
-  left: 60px;
-  top: 20px;
-}
+/* h3{ */
+/*   position: relative; */
+/*   left: 60px; */
+/*   top: 20px; */
+/* } */
 img{
   border-radius: 30px;
 }
