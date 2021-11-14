@@ -113,6 +113,7 @@ h1 {
   letter-spacing: 0.3em;
   font-size: 1em;
   font-weight: 800;
+  color: #ffffff;
 }
 h2{
   font-weight: 300;
@@ -129,9 +130,9 @@ h2{
   }
 
 
-img{
-  border-radius: 30px;
-}
+/* img{ */
+/*   border-radius: 30px; */
+/* } */
 
 footer.icons{
   display: flex;
@@ -240,7 +241,7 @@ footer.footer-btn{
 }
 .container{
   display: flex;
-}b
+}
 .sidenav{
   margin: 1em;
 }
@@ -293,8 +294,8 @@ h1#futuresteps{
   justify-content: flex-end;
   
 }
-.btnback{
-  color: #fff;
+.btn-about{
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
