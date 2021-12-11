@@ -26,47 +26,50 @@
         body{
             background-color: #353535;
             background-image: conic-gradient(#ffffff, #353535);
-            
-        }
+             }
+         h1.title{
+             margin-top:1em;
+         }
          h1{
              color: #ffffff;
              font-size: 4em;
              font-weight: 400;
              text-transform: capitalize;
-             padding: 1em 1em 0;
+             margin-left: 1em;
          }
         
          .container{
              display: flex;
              justify-content: space-around;
          }
-        li{
-            list-style-type: none;
-        }
-        a{
+         
+       li .social-list-link-color {
+            font-size: 2em;
+    }
+         li.social-list-link-color a {
+             color: #ffffff;
+         }
+       
+        .social-list{
+            padding: 1em;
+         }
+         
+         .social-list a{
             text-decoration: none;
             color: #35383B;
+             text-transform: lowercase;
         }
-        
-       
-        
-       
-       section.icons ul li{
-           padding:0.3em;
-       }
-
-            
-        }
-        .social-list-link-color a{
-            color: #ffffff;
-    }
-       
-         
-        
+         .social-list li {
+             list-style-type: none;
+         }
+         .location{
+             font-size: 2em;
+             text-transform: capitalize;
+         }
          </style>
 </head>
 <body>
-    <h1>UI <span style="color:#35383B;">|</span> UX</h1>
+    <h1 class="title">UI <span style="color:#35383B;">|</span> UX</h1>
     <h1>visual designer</h1>
     <h1>web designer</h1>
           
@@ -104,7 +107,7 @@
     <!--nav -->
     <aside class="nav">
          <ul class="social-list">
-                <li><a href="index.html">tori dumitrescu</a></li>
+                <li class="location"><a href="index.html">tori dumitrescu</a></li>
                 <li><a href="tdabout.html">about</a></li>
                 <li><a href="project-work.html">projects</a></li>
                 <li><a href="cv.html">cv</a></li>
