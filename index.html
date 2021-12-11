@@ -16,11 +16,10 @@
       crossorigin="anonymous">
     </script>
      <style>
-         *
+ *
 {
   margin: 0px;
   padding: 0px;
-  list-style-type: none;
   box-sizing: border-box;
   font-family: 'raleway', sans-serif;
 }
@@ -34,7 +33,7 @@
          }
         ul.social-list{
             display: flex;
-            justify-content:flex-end;
+           
            
         }
         li{
@@ -42,194 +41,93 @@
         }
         a{
             text-decoration: none;
-            color: #666666;
+            color: #35383B;
         }
-        .social-list a{
-            text-transform: uppercase;
-            padding: 1em;
-            font-weight: 700;
-             }
+        
        
-        .mytext{
-           font-weight: 500;
-           line-height: 1.5em;
-           font-size: 1em;
-           margin-bottom: 1em;
-            }
+        
 
-        h1.intro{
-            font-size: 4em;
-            text-transform: capitalize;
-             color:#d04939;
-        }
+        
         main{
             margin: auto;
             }
-        button{
-            border: 1px solid #d04939;
-            color: #ffffff;
-            background-color:#151517;
-            text-transform: uppercase;
-            padding: 1em 2em;
-            font-weight: 600;
-            position: relative;
-            top: 50%;
-            left: 50%;
-            margin-bottom: 1em;
-            
-        }
+       
         ul{
             display: flex;
-            justify-content: center;
+/*             justify-content: center; */
         }
         
-        ul li a .social-list-item{
-            color:#eb00ff;
-            
-        }
-        footer.icons{
+        section.icons{
             padding-top: 1em;
             display: flex;
            }
-       footer.icons ul{
-        flex-direction: row;
+       section.icons ul{
+        flex-direction: col;
         margin: 0 auto;
        }
-       footer.icons ul li{
+       section.icons ul li{
            padding:0.3em;
        }
-@media (max-width: 800px){
-            footer.icons ul {
-            flex-direction: column;
-                
-            }
-             .btn-name{
-            flex-direction: column;
-             }
+
+            
         }
         .social-list-link-color {
         text-transform: uppercase;
         text-decoration: none;
-        color: #eb00ff;
+        color: #ffffff;
     }
-        .social-list-link-color-pin a{
-            text-transform: uppercase;
-            text-decoration: none;
-            padding: 1em;
-            color:#ff0000;
-            font-weight: 600;
-            
-        }
-         .social-list-link-color-fmh{
-             margin-top: 5em;
-         }
-       .social-list-link-color-fmh a{
-             color:#eb00ff;
-             text-transform: uppercase;
-             text-decoration: none;
-             padding: 1em;
-             font-weight: 600;
-             font-size: 2em;
-           
-         }
-         .social-list-link-color-white a{
-             color:#ffffff;
-             text-transform: uppercase;
-             text-decoration: none;
-             padding: 1em;
-            font-weight: 600;
-            
-         }
-         .social-list-link-color-liblue a{
-             color:#00fff0;
-             text-transform: uppercase;
-             text-decoration: none;
-             padding: 1em;
-             font-weight: 600;
-           
-         }
-         .social-list-link-color-dkblue a{
-             color:#000aff;
-             text-transform: uppercase;
-             text-decoration: none;
-             padding: 1em;
-             font-weight: 600;
-             
-           }
-          .social-list-link-color-pin, 
-          .social-list-link-color-liblue, 
-          .social-list-link-color-dkblue, 
-          .social-list-link-color-white{
-             font-size: 3em;
-         }
+       
          
-        main.bg{
-           position: absolute;
-            height: 200px;
-            left: 0px;
-            right: 0px;
-            bottom: 0px;
-            background-color: #393838;
-            padding-top: 3em;
-          }
         
-        a.btn-name{
-          font-size: 3em;
-          text-transform: uppercase;
-          color:#eb00ff;
-          font-weight: 700;
-          text-align: center;
-                    
-        }
-         footer.icons{
-             position: relative;
-             top: 240px;
+        
+         section.icons{
+             
          }
     </style>
 </head>
 <body>
-<!--header -->
-    <header class="nav">
-         <ul class="social-list">
-                <li><a href="index.html" class="social-list-link-color">UI designer</a></li>
-                <li><a href="tdabout.html">about</a></li>
-                <li><a href="project-work.html">projects</a></li>
-                <li><a href="cv.html">cv</a></li>
-         </ul>
-    </header>
-          <ul>
-            <li class="social-list-link-color-fmh">
-                <a href="mailto:money2tad@gmail.com">find me here</a>
-            </li>
-        </ul>
-    <footer class="icons">
+
+          
+   <div class="container">         
+    <section class="icons">
     <ul>
-            
-            <li class="social-list-link-color-pin">
+            <li class="social-list-link-color">
+                <a href="mailto:money2tad@gmail.com"></a>
+                 <i class="fab fa-envelope"></i>
+            </li>
+       
+            <li class="social-list-link-color">
                 <a href="https://www.pinterest.com/in/toridumitrescu/">
                     <i class="fab fa-pinterest-p"></i>
                 </a>
             </li>
-            <li class="social-list-link-color-liblue">
+            <li class="social-list-link-color">
                 <a href="https://www.linkedin.com/in/toridumitrescu">
                     <i class="fab fa-linkedin-in"></i>
                     
                 </a>
             </li>
-            <li class="social-list-link-color-dkblue">
+            <li class="social-list-link-color">
                 <a href="https://www.behance.net/herestohavin/">
                     <i class="fab fa-behance"></i>
                 </a>
             </li>
-            <li class="social-list-link-color-white">
+            <li class="social-list-link-color">
                 <a href="https://github.com/toridAM/tdportfolio">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
         </ul>
-    </footer>
-<main class="bg">
-         <center><a href="tdabout.html" class="btn-name">tori dumitrescu</a></center>
-</main>
+    </section>
+    <!--header -->
+    <aside class="nav">
+         <ul class="social-list">
+                <li><a href="index.html">tori dumitrescu</a></li>
+                <li><a href="tdabout.html">about</a></li>
+                <li><a href="project-work.html">projects</a></li>
+                <li><a href="cv.html">cv</a></li>
+         </ul>
+    </aside>
+    </div>
    </body>
 </html>
