@@ -55,19 +55,8 @@
             text-decoration: none;  
             color: #666666;
         }
-        .social-list a  {
-            text-transform: lowercase;
-            padding: 1em;
-            font-weight: 700;
-            font-size: 1.5em;
-           }
-/*         #portfolio-work { */
-/*            display: flex; */
-/*             padding: 1em; */
-/*             margin-top: 2em; */
-/*          } */
         
-        ul {
+ul {
             display: flex;
             justify-content: center;
         }
@@ -91,7 +80,32 @@
         color: #35383b;
     }
          
-        
+      .social-list{
+            padding: 1.5em;
+         }
+         
+         .social-list a{
+            text-decoration: none;
+            color: #151517;
+            text-transform: lowercase;
+            padding: 0.5em;
+            font-size: 1.5em;
+        }
+         .social-list li {
+             list-style-type: none;
+         }   
+        .boxone{
+            color:#151517;
+            text-decoration: none;
+            font-size: 2em;
+        }
+        .boxone:hover{
+            text-decoration: underline;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
      </style>
     </head>
     
@@ -105,6 +119,7 @@
                 <li><a href="cv.html">cv</a></li>
             </ul>
     </header>
+        <div class="container">
          <section class="icons">
     <ul>
             <li class="social-list-link">
@@ -135,11 +150,8 @@
             </li>
         </ul>
     </section>
-            <h2>tori dumitrescu</h2>
-        
-        <div id="portfolio-work">
-                
-                <div class="boxone">
+            
+        <div class="boxone">
                     <a href="../tdportfolio\cskey.html" class="portfolio-item">case study project
 <!--                         <img src="../tdportfolio\image/mykeyapp.png" alt="UX case study project" width="400" height="400"> -->
                     </a>
@@ -160,8 +172,8 @@
 <!--                         <img src="../tdportfolio/image/redflower.jpg" alt="wed design project" width="400" height="400"> -->
                     </a>
                 </div>
-
-            </div>
+        </div>
+            
             
     </body>
 </html>
