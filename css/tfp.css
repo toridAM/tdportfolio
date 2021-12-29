@@ -218,9 +218,10 @@ footer.footer-btn{
   color: #fff;
   margin: 2em;
 }
-.container{
+.img-container{
   display: flex;
-  padding: 1em;
+  justify-content: space-evenly;
+  margin: 2em;
 }
 .sidenav{
   margin: 1em;
