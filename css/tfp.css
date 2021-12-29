@@ -143,11 +143,6 @@ h1#futuresteps{
   color: #666;
   font-weight: 400;
 }
-.aboutpage{
-  display: flex;
-  justify-content: flex-end;
-  
-}
 .btn-about{
   color: #ffffff;
   text-decoration: none;
