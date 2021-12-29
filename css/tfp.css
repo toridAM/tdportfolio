@@ -117,6 +117,9 @@ h2{
 h3{
   margin: 1em;
 }
+table{
+  width: 100%;
+}
 footer.icons{
   display: flex;
   justify-content: center;
