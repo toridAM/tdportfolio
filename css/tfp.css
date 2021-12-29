@@ -116,6 +116,7 @@ h2{
   }
 h3{
   margin: 1em;
+  text-transform: capitalize;
 }
 table th,td{
   width: 100%;
