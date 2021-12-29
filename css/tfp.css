@@ -11,6 +11,10 @@ body
   color: #323233;
   background-color: #ffffff;
 }
+.container{
+  display: flex;
+  justify-content: space-between;
+}
 a 
 {
   text-align: center;
