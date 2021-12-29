@@ -321,11 +321,7 @@ div p.job {
   color: #404040;
   text-transform: uppercase;
   }
-.section{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2em;
-}
+
 p.title{
   width: auto;
 }
