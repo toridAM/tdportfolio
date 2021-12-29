@@ -14,20 +14,6 @@ body
 a.social-list-link-white{
   color: #ffffff;
 }
-
-/* .three-icons{ */
-/* display: flex; */
-/* justify-content: center; */
-/*  } */
-
-/* ul.social-list-icon{ */
-/*   display: flex; */
-/*   } */
-/* li.social-list-icon{ */
-/*   margin-top: 0.2em; */
-/*   padding: 0.3em; */
-/* } */
-
 a 
 {
   text-align: center;
@@ -128,12 +114,9 @@ h2{
   top: 80px;
   left: 110px;
   }
-
-
-/* img{ */
-/*   border-radius: 30px; */
-/* } */
-
+h3{
+  margin: 1em;
+}
 footer.icons{
   display: flex;
   justify-content: center;
@@ -179,25 +162,6 @@ p.subtitle-text:hover
    text-decoration: none;
 }
 
-/* div#portfolio-work 
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 2em;
-  padding-bottom: 1em;
-  
- } */
-
-/* .portfolio-item  
-{
-  margin: 0.1em;
-  width: 100px;
-/*   } */
-/* .box1 
-{
-  padding: 1em;
- } */
 .section-title-project
 {
   text-align: center;
@@ -257,7 +221,6 @@ footer.footer-btn{
 
 .text-container h1{
   text-transform: capitalize;
-/*   letter-spacing: 5px; */
   color: #000;
   }
 .headerone{
@@ -312,8 +275,7 @@ h1.title{
   font-weight: 400;
   letter-spacing: normal;
   text-transform: uppercase;
-  
-}
+  }
 
 p.timeline {
   color: #e86b5c;
@@ -331,8 +293,7 @@ div h1.job {
 div p.job {
   color: #404040;
   text-transform: uppercase;
-  
-}
+  }
 .container-time{
   display: flex;
   justify-content: space-around;
