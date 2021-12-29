@@ -130,8 +130,7 @@ tr{
 table{
   width: 70%;
   border: 1px solid black;
-  border-collapse: collapse;
-}
+ }
 footer.icons{
   display: flex;
   justify-content: center;
@@ -221,7 +220,7 @@ footer.footer-btn{
 .img-container{
   display: flex;
   justify-content: space-evenly;
-  margin: 2em;
+  margin: 1em;
 }
 .sidenav{
   margin: 1em;
