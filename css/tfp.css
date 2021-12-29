@@ -131,6 +131,9 @@ table{
   width: 70%;
   border: 1px solid black;
  }
+.list-container{
+  margin: 1em;
+}
 footer.icons{
   display: flex;
   justify-content: center;
