@@ -32,11 +32,7 @@ a
   margin-top: 1em;
 }
 
-header {
-  margin: auto;
-  padding: 60px;
-  background: #323233;
-}
+
 
 header ul {
   display: flex;
@@ -334,6 +330,11 @@ a
   text-align: center;
   cursor: pointer;
   font-size: 1em;
+}
+header {
+  margin: auto;
+  padding: 60px;
+  background: #323233;
 }
 .aboutpage{
   justify-content: space-between;
