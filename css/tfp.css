@@ -122,6 +122,7 @@ table th,td{
   width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: left;
 }
 footer.icons{
   display: flex;
@@ -211,6 +212,7 @@ footer.footer-btn{
 }
 .container{
   display: flex;
+  justify-content: center;
 }
 .sidenav{
   margin: 1em;
