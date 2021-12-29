@@ -11,34 +11,13 @@ body
   color: #323233;
   background-color: #ffffff;
 }
-a.social-list-link-white{
-  color: #ffffff;
-}
 a 
 {
   text-align: center;
   cursor: pointer;
   font-size: 1em;
 }
-.col
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
- }
-a.btn
-{
-   text-decoration: none;
-   text-transform: uppercase;
-   text-align: center;
-   color: #3c3636;
-   cursor: pointer;
-   font-weight: 700;
-   }
-.service.btn img
-{
-  cursor:pointer;
-}
+
 #home.intro
 {
  text-align: center;
@@ -60,7 +39,7 @@ header {
 
 header ul {
   display: flex;
-  justify-content: flex-end;
+/*   justify-content: space-between; */
   padding: 1em;
 }
 header ul li {
