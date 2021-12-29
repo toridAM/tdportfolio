@@ -13,7 +13,7 @@ body
 }
 .container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 a 
 {
@@ -95,9 +95,7 @@ table{
   width: 70%;
   border: 1px solid black;
  }
-.list{
-  margin: 1em;
-}
+
 .img-container{
   display: flex;
   justify-content: space-evenly;
