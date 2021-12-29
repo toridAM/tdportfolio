@@ -117,8 +117,10 @@ h2{
 h3{
   margin: 1em;
 }
-table{
+table th,td{
   width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 footer.icons{
   display: flex;
