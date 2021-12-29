@@ -120,7 +120,7 @@ h3{
   font-weight: 400;
 }
 table th,td{
-  width: 100%;
+  width: 70%;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
@@ -213,7 +213,7 @@ footer.footer-btn{
 }
 .container{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .sidenav{
   margin: 1em;
@@ -317,6 +317,7 @@ a.container-time{
 }
 img{
   margin:auto;
+  padding: 1em;
 }
 
 
