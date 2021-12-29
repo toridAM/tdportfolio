@@ -117,7 +117,7 @@ h2{
 h3{
   margin: 1em;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 400;
 }
 table th,td{
   width: 70%;
@@ -213,7 +213,7 @@ footer.footer-btn{
 }
 .container{
   display: flex;
-  justify-content: space-evenly;
+  padding: 1em;
 }
 .sidenav{
   margin: 1em;
@@ -317,8 +317,7 @@ a.container-time{
 }
 img{
   margin:auto;
-  padding: 1em;
-}
+  }
 
 
 
