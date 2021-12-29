@@ -131,7 +131,7 @@ table{
   width: 70%;
   border: 1px solid black;
  }
-.list-container{
+.list{
   margin: 1em;
 }
 footer.icons{
@@ -238,7 +238,7 @@ footer.footer-btn{
   
 }
 
-.text-container h1{
+.text h1{
   text-transform: capitalize;
   color: #000;
   }
@@ -247,7 +247,7 @@ footer.footer-btn{
   padding-left: 1.5em;
   font-weight: 400;
 }
-.text-container p{
+.text p{
   text-transform: capitalize;
   margin-bottom: 0.5em:
 }
@@ -313,7 +313,7 @@ div p.job {
   color: #404040;
   text-transform: uppercase;
   }
-.container-time{
+.section{
   display: flex;
   justify-content: space-around;
   margin-top: 2em;
@@ -321,7 +321,7 @@ div p.job {
 p.title{
   width: auto;
 }
-a.container-time{
+a.section{
   color: #404040;
   font-weight: 400;
 }
