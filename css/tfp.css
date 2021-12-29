@@ -185,6 +185,10 @@ p.title{
 img{
   margin:auto;
   }
+.pwandun{
+  display: flex;
+  justify-content: space-evenly;
+}
 
   
   
