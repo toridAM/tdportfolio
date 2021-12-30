@@ -17,7 +17,7 @@ body
   padding: 0 2em;
 }
 .sub-main{
-  padding: 2em;
+  padding-left: 25%;
 }
 
 a 
@@ -79,11 +79,14 @@ h2{
   letter-spacing: 10px;
 }
   
-h3{
+h3.sub-main{
   margin: 1em;
   text-transform: capitalize;
   font-weight: 400;
 }
+p.sub-main{
+  text-transform: capitalize;
+  ]
 td{
  text-align: left;
   padding: 1em;
