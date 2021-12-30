@@ -16,6 +16,9 @@ body
   justify-content: space-evenly;
   padding: 0 2em;
 }
+.sub-main{
+  padding: 2em;
+}
 
 a 
 {
