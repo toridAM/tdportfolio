@@ -13,12 +13,9 @@ body
 }
 .main{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
-.text{
-  display: flex;
-  justify-content: space-around;
-}
+
 a 
 {
   text-align: center;
