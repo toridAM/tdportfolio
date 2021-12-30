@@ -104,6 +104,8 @@ tr{
 table{
   width: 70%;
   border: 1px solid black;
+  margin: auto;
+  padding-top: 1em;
  }
 
 .img-container{
