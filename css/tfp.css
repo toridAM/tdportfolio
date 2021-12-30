@@ -11,7 +11,14 @@ body
   color: #323233;
   background-color: #ffffff;
 }
-
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+.text{
+  display: flex;
+  justify-content: space-around;
+}
 a 
 {
   text-align: center;
