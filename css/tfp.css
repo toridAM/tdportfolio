@@ -87,8 +87,10 @@ h2{
   font-weight: 300;
   letter-spacing: 10px;
 }
+
 h3{
   margin: 1em;
+  text-transform: capitalize;
 }
   
 td{
