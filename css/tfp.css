@@ -92,6 +92,9 @@ h3{
   margin: 1em;
   text-transform: capitalize;
 }
+hr{
+  width: 60%;
+}
   
 tr,td{
  text-align: left;
