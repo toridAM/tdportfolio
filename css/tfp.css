@@ -93,18 +93,19 @@ h3{
   text-transform: capitalize;
 }
   
-td{
+tr,td{
  text-align: left;
   padding: 1em;
+  border: 1px solid black;
 }
 
-tr{
-  text-align: center;
-  padding: 1em;
- }
+/* tr{ */
+/*   text-align: center; */
+/*   padding: 1em; */
+/*  } */
 
 table{
-  width: 50%;
+  width: 60%;
   border: 1px solid black;
   margin: auto;
   padding-top: 1em;
