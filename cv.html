@@ -41,34 +41,41 @@
     ul li.education{
         text-align: left;
     }
-    ul{
-    display: flex;
-    justify-content: space-around;
-    margin: 2em;
-}
-ul li{
-list-style-type: none;
-text-transform: uppercase;
-color:#151517;
-font-weight: 500;
-}
-li.social-list-link{
-     display: inline-flex;
-    padding: 1em;
-    margin-bottom: 2em;
-    }
-    li.social-list-link a{
-        font-size: 2em;
-        color:#35383b;
-    }
-    li.social-list-link a:hover{
-        color: #1618d8;
-    }
-    .social-list{
+    main{
+            width: 70%;
+            margin: 0 auto;
+            padding: 2em;
+            text-align: center;
+        }
+        p{
+           color:#35383b;
+            font-size: 2em;
+            font-weight: 500;
+        }
+        
+         .container{
+             display: flex;
+             justify-content: space-around;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+        ul li{
+            list-style-type: none;
+            text-transform: uppercase;
+            color: #151517;
+            font-weight: 500;
+        }
+         li.social-list-link{
+             display: inline-flex;
+             margin-bottom: 1em;
+             padding: 1em;
+             }
+         .social-list{
             padding: 1.5em;
-            display: inline-flex;
          }
-     
          .social-list a{
             text-decoration: none;
             color: #151517;
@@ -79,16 +86,26 @@ li.social-list-link{
          .social-list li {
              list-style-type: none;
          }
-    
- .location a{
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #fd8a02;
-        font-size: 3em;
-        font-weight: 700;
+      li.social-list-link a {
+             color: #35383b;
+             list-style-type: none;
+             font-size: 2em;
+             padding; 1em;
+        }
+        li.social-list-link a:hover{
+        color: #1618d8;
     }
-     
-      .role{
+        ul.social-list {
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+        .location a{
+             font-size: 3em;
+             text-transform: uppercase;
+             font-weight: 700;
+             color: #fd8a02
+             }
+       .role{
           font-style: italic;
           font-size: 1em;
           color: #151517;
@@ -96,21 +113,12 @@ li.social-list-link{
           margin-top: 0.5em;
     }
     
-p{
-        color:#151517;
-        margin-left: 20%;
-    }
     .first-letter p::first-letter {
     color:#35383b;
     font-size: 3em;
     text-transform: capitalize;
 }
-    .website{
-        font-size: 1.3em;
-        text-align: center;
-        color: #151517;
-        font-weight: 400;
-    }
+    
 .company{
         text-transform: uppercase;
         margin-top: 2em;
@@ -118,22 +126,15 @@ p{
     .job{
         text-transform: capitalize;
     }
-   .left-col{
-       margin: 1em;
-    }
-    .right-col{
-        margin: 1em;
-    }
-    
-    @media screen and (min-width: 480px) {
-
-      .social-list{
-        font-size: 1em;
-         display: flex;
-         flex-wrap: wrap;
-  }                     
-
-}
+   
+         @media screen and (min-width: 480px) {
+            .social-list{
+            font-size: 1em;
+            display: flex;
+            flex-wrap: wrap;
+  }
+ }
+   
 </style>
 </head>
     <body>
@@ -146,17 +147,11 @@ p{
         </ul>
     </aside>
     <body>
-         <div class="container">
-          <div class="left-col">
-              <div class="website">
+        <main>
                 <a href="https://github.com/toridam/tdportfolio" class="website">github.com/toridam/tdportfolio</a>
                 <p class="role">contributions: visual design, UI/UX, html5, css3 </p>
-              </div>
-                     
-   <div class="right-col">
-                  <h2 class="catagories">education <span style="color:#fd8a02;">|</span> skills</h2>
-     
-
+             
+                 <h2 class="catagories">education <span style="color:#fd8a02;">|</span> skills</h2>
                             <p>AURORA UNIVERSITY, BS Therapeutic recreations ~ 97</p>
                             <p>CHIDRE’S TECH TUTORIALS</p>
                             <p>*HTML5~CSS3~JS~C#</p>
@@ -183,8 +178,10 @@ p{
                             </p>
                             <p class="role">contributions: visual design, UI/UX, html5, css3 </p>
 
-      </div>
-         <ul class="icons">
+        </main>
+        <div class="container">
+            <section class="icons">
+                         <ul>
                         <li class="social-list-link">
                           <a href="mailto:money2tad@gmail.com">
                             <i class="fas fa-envelope"></i>
@@ -215,6 +212,7 @@ p{
                             </a>
                           </li>
                   </ul>
+            </section>
          </div>
      </body>
 </html>
