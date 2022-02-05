@@ -87,7 +87,6 @@
        .projects {
   display: flex;
   justify-content: space-around;
-/*            flex-wrap: wrap; */
   margin-top: 5em;
 }
 
@@ -120,23 +119,19 @@ h3{
 .fas fa-arrow-right{
     cursor: pointer;
   }
-        @media screen and (max-width: 480px){
-           .card{
-            display: flex;
-            flex-wrap: wrap;
-        }
-        }
-
-/*        @media screen and (min-width: 480px) { */
-            .social-list{
-            font-size: 1em;
-            display: flex;
-            flex-wrap: wrap;
+        @media screen and (max-width: 480px) {
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
   }
-          
- }
-        
-  </style>
+            .social-list{
+                font-size: 1em;
+                display: flex;
+                flex-wrap: wrap;
+            }
+}
+
+</style>
     </head>
     
     <body>
