@@ -100,9 +100,33 @@
              font-size: 3em;
              text-transform: uppercase;
              font-weight: 700;
-             color: #fd8a02
+             color: #fd8a02;
              }
-       
+        
+       .projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3,
+p {
+  text-transform: capitalize;
+}
+
+.card {
+  background-color: #fff;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 4px;
+  box-shadow: 1px 2px 5px black;
+}
+
+.iconbutton {
+  background-color: #fd8a02;
+    color: #ffffff;
+  padding: 1em 2em;
+}
+
        @media screen and (min-width: 480px) {
             .social-list{
             font-size: 1em;
@@ -123,12 +147,69 @@
                 <li><a href="cv.html">cv</a></li>
             </ul>
     </aside>
-        <main>
-            <a href="../tdportfolio\cskey.html">case study project</a>
-            <a href="../tdportfolio\blogpost.html">blog publication</a>
-            <a href="../tdportfolio\goldskateboards.html">ecommerce project</a>
-            <a href="../tdportfolio\home.html">web design project</a>
-        </main>
+<!--         <main> -->
+<!--             <a href="../tdportfolio\cskey.html">case study project</a> -->
+<!--             <a href="../tdportfolio\blogpost.html">blog publication</a> -->
+<!--             <a href="../tdportfolio\goldskateboards.html">ecommerce project</a> -->
+<!--             <a href="../tdportfolio\home.html">web design project</a> -->
+<!--         </main> -->
+        <main class="projects">
+   <div class="card">
+     <a href="../tdportfolio\cskey.html"></a>
+     <i class="fab fa-app-store"></i>
+     <h3>
+       case study
+     </h3>
+     <p>
+       mykey is an app that unlocks the building complex and renters unit with their phone.
+     </p>
+     <button class="iconbutton">
+       <i class="fas fa-arrow-right"></i>
+     </button>
+   </div>
+
+   <div class="card">
+     <a href="../tdportfolio\blogpost.html"></a>
+     <i class="fab fa-blogger"></i>
+     <h3>
+       blog publication
+     </h3>
+     <p>
+       html emails are helpful to get the word out about what is going on in your business.
+     </p>
+     <button class="iconbutton">
+       <i class="fas fa-arrow-right"></i>
+     </button>
+   </div>
+   <div class="card">
+     <a href="../tdportfolio\goldskateboards.html"></a>
+     <i class="fas fa-shopping-cart"></i>
+     <h3>
+       ecommerce
+     </h3>
+     <p>
+       this is a website application which is interactive for results to collect data from the user.
+     </p>
+     <button class="iconbutton">
+       <i class="fas fa-arrow-right"></i>
+     </button>
+   </div>
+
+   <div class="card">
+     <a href="../tdportfolio\home.html"> </a>
+     <i class="fal fa-code"></i>
+     <h3>
+       web design
+     </h3>
+     <p>
+       this is a portfolio website where you can obtain information about the organization.
+     </p>
+     <button class="iconbutton">
+       <i class="fas fa-arrow-right"></i>
+     </button>
+   </div>
+ </main>
+
         <div class="container">
         <section class="icons">
             <ul>
