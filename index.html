@@ -97,12 +97,18 @@
          a:hover{
              color:#fd8a02;
          }
-       
-       @media screen and (min-width: 480px) {
-            .social-list{
-            font-size: 1em;
-            display: flex;
-            flex-wrap: wrap;
+       @media all and (max-width: 400px){
+           .social-list{
+               flex-wrap: wrap;
+           }
+           .social-list > li{
+               flex: 1 1 50%;
+           }
+         }
+       @media all and (min-width: 400px) {
+            .social-list > li{
+                flex: 1 1 100%;
+            
   }
  }
         
