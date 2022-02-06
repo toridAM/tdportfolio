@@ -119,26 +119,28 @@ h3{
 .fas fa-arrow-right{
     cursor: pointer;
   }
-        @media screen and (max-width: 700px){
-            .projects{
-                display: flex;
-/*                 flex-wrap: wrap; */
-                flex-direction: column;
-                margin: auto;
-            }
-        }
-        @media screen and (max-width: 480px) {
-  .projects{
-    display: flex;
-    flex-wrap: wrap;
-      flex-direction: column;
+       
+  @media all and (max-width: 600px){
+           .social-list{
+               flex-wrap: wrap;
+           }
+           .social-list > li{
+               flex: 1 1 50%;
+           }
+           .location{
+               font-size: 1em;
+           }
+         }
+       @media all and (min-width: 400px) {
+            .social-list > li{
+                flex: 1 1 100%;
+            
   }
-            .social-list{
-                font-size: 1em;
-                display: flex;
-                flex-wrap: wrap;
-            }
-}
+          .location{
+               font-size: 1em;
+           } 
+ }
+          
 
 </style>
     </head>
