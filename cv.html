@@ -22,8 +22,7 @@
 }
     body {
         background: #353535;
-        background-image: conic-gradient(#ffffff, #353535);
-        color:#151517;
+        color:#fff;
        }
     
    li {
@@ -85,7 +84,7 @@
              list-style-type: none;
          }
       li.social-list-link a {
-             color: #35383b;
+             color: #fff;
              list-style-type: none;
              font-size: 2em;
              padding; 1em;
@@ -97,24 +96,14 @@
         display: inline-flex;
         justify-content: space-evenly;
     }
-        .location a{
-             text-transform: uppercase;
-             font-weight: 700;
-             color: #fd8a02;
-             }
+        
        .role{
           font-style: italic;
           margin-top: 0.5em;
            font-size: 1.5em;
     }
     
-    .first-letter p::first-letter {
-    color:#35383b;
-    font-size: 3em;
-    text-transform: capitalize;
-}
-    
-.company{
+    .company{
         text-transform: uppercase;
         margin-top: 2em;
     }
@@ -122,12 +111,12 @@
         text-transform: capitalize;
     }
     a{
-        color: #151517;
+        color: #fff;
         font-size: 1.5em;
     }
     a:hover{
-        color: #fd8a02;
-    }
+        text-decoration: underline;
+       }
    @media all and (max-width: 600px){
            .social-list{
                flex-wrap: wrap;
@@ -141,14 +130,7 @@
                 flex: 1 1 100%;
             }
         }
-  @media all and (min-width: 400px){
-               .location {
-               order: 1;
-           } 
- }     
-
-   
-</style>
+  </style>
 </head>
     <body>
         <aside class="nav">
@@ -156,7 +138,7 @@
             <li><a href="index.html">tori</a></li>
             <li><a href="tdabout.html">about</a></li>
             <li><a href="project-work.html" >projects</a></li>
-            <li class="location"><a href="cv.html">cv</a></li>
+            <li><a href="cv.html">cv</a></li>
         </ul>
     </aside>
     <body>
