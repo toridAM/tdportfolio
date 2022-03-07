@@ -161,9 +161,10 @@ img{
   justify-content: space-around;
   margin: 2em;
 }
-.listunpw{
+.listunpw, .pwandun{
   display: flex;
-}
+  justify-content: space-around;
+ }
 
 @media all and (max-width: 600px){
            .nav{
