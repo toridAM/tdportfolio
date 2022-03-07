@@ -71,14 +71,14 @@ ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color: #3c3636;
+  color: #932ebe;
 }
 .logo{
   display: flex;
   justify-content: space-around;
 }
 .title{
-  color: #3c3636;
+  color: #932ebe;
 }
 .product{
   padding: 1.5em;
@@ -129,11 +129,11 @@ hr {
 }
 
 #myrole {
-  color: #e86b5c;
+  color: #932ebe;
 }
 
 li.myrole a {
-  color: #e86b5c;
+  color: #932ebe;
 }
 
 h1#intro h1#myrole h1#problems h1#goals h1#impact h1#earlyideation h1#testing h1#finaldesign h1#development h1#futuresteps {
@@ -159,7 +159,7 @@ p.solution, p.problem {
 }
 
 .title {
-  color: #e86b5c;
+  color: #932ebe;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: normal;
