@@ -1,5 +1,4 @@
-*
-{
+* {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
@@ -7,37 +6,34 @@
   font-family: 'raleway', sans-serif;
 }
 
-body
-{
+body {
   color: #323233;
   background-color: #ffffff;
 }
-
-.main{
+.me{
+  margin-bottom: 2em;
+}
+.nav{
+  display: flex;
+}
+.nav a{
+  color: #fff;
+}
+.main-container{
+  margin: 0 auto;
+  width: 80%;
+}
+.main {
   display: flex;
   justify-content: space-evenly;
   padding: 0 2em;
-}
+  }
 
-.sub-main{
-  padding-left: 25%;
-}
-
-a 
-{
+a {
   text-align: center;
   cursor: pointer;
   font-size: 1em;
-}
-
-.aboutpage{
-  justify-content: space-between;
-}
-
-.jobrole{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 1em;
+  
 }
 
 header {
@@ -46,35 +42,33 @@ header {
   background: #323233;
 }
 
-header ul li {
+ ul li {
   list-style-type: none;
 }
 
-header ul li a {
+ a {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 600;
   font-size: 1em;
   padding: 1em;
-  }
+}
 
-ul li 
-{
+ul li {
   list-style-type: none;
   font-size: 1em;
   display: block;
-  }
+}
 
-ul li a 
-{
+ul li a {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color:#3c3636;
- }
-  
+  color: #3c3636;
+}
+
 h1 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -83,154 +77,102 @@ h1 {
   color: #ffffff;
 }
 
-h2{
+ h2{
   font-weight: 300;
   letter-spacing: 10px;
 }
 
-h3{
+h3 {
   margin: 1em;
   text-transform: capitalize;
 }
-hr{
-  width: 60%;
-}
-  
-tr,td{
- text-align: left;
-  padding: 1em;
-  border: 1px solid black;
+
+hr {
+  width: 30%;
+  margin: 0.5em;
 }
 
-/* tr{ */
-/*   text-align: center; */
-/*   padding: 1em; */
-/*  } */
-
-table{
-  width: 60%;
-  border: 1px solid black;
-  margin: auto;
-  padding-top: 1em;
- }
-
-.container{
+/* .container {
   display: flex;
   justify-content: space-evenly;
   margin: 1em;
-}
+} */
 
-.sidenav{
-  margin: 1em;
-}
-
-.sidenav ul li {
+.sidenav li a {
+  color: #ffffff;
   text-transform: capitalize;
-  font-weight: 300;
-  margin: 1em;
 }
 
-.sidenav li a{
-  color: #404040;
-  }
-.text h1{
+.text h1 {
   text-transform: capitalize;
   color: #000;
-  }
+}
 
-.headerone{
+.headerone {
   margin: 0.5em;
   padding-left: 1.5em;
   font-weight: 400;
 }
 
-.text p{
+.text p {
   text-transform: capitalize;
   margin-bottom: 0.5em:
 }
 
-  #myrole{
-   color: #e86b5c;
+#myrole {
+  color: #e86b5c;
 }
 
-li.myrole a{
-  color:#e86b5c;
+li.myrole a {
+  color: #e86b5c;
 }
 
-h1#intro 
-h1#myrole 
-h1#problems 
-h1#goals 
-h1#impact 
-h1#earlyideation 
-h1#testing 
-h1#finaldesign 
-h1#development 
-h1#futuresteps{
+h1#intro h1#myrole h1#problems h1#goals h1#impact h1#earlyideation h1#testing h1#finaldesign h1#development h1#futuresteps {
   margin: 1em;
   color: #666;
   font-weight: 400;
 }
 
-.btn-about{
+.btn-about {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-  p.solution{
-    text-align: center;
-    text-transform: capitalize;
-    padding: 2em;
-    font-size: 1.5em;
+p.solution, p.problem {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2em;
+  font-size: 1.5em;
+  background-color: #ccc;
+  margin: 1em;
 }
 
-h1.title{
+.title {
   color: #e86b5c;
-  font-size:1em;
+  font-size: 1em;
   font-weight: 400;
   letter-spacing: normal;
   text-transform: uppercase;
-  }
-
-p.timeline {
-  color: #e86b5c;
-  font-size:1em;
-  font-weight: 400;
-  text-transform: uppercase;
+  
 }
-
-div h1.job {
-  color: #404040;
-  text-transform: uppercase;
- }
-
-div p.job {
-  color: #404040;
-  text-transform: uppercase;
-  }
-
-p.title{
-  width: auto;
-}
-
 img{
   display: flex;
   justify-content: space-around;
-  }
-
-.pwandun{
-  display: flex;
-  justify-content: space-evenly;
-}
-.listunpw{
-  padding: 1em;
-  position: relative;
-  top: 20%;
 }
 
-  
+
+
+
+
+
+
+
+
+
+
+
   
  
   
