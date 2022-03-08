@@ -15,14 +15,8 @@ body {
   margin: 0 auto;
   width: 80%;
 }
-.social-list-link{
-             display: inline-flex;
-             margin-bottom: 1em;
-             padding: 1em;
-             }
-         .social-list{
-            padding: 1.5em;
-         }
+
+        
          .social-list a{
             text-decoration: none;
             text-transform: capitalize;
@@ -33,22 +27,13 @@ body {
          .social-list li {
              list-style-type: none;
          }
-      .social-list-link a {
-             color: #fff;
-             list-style-type: none;
-             font-size: 2em;
-             padding; 1em;
-        }
+      
         .social-list-link a:hover{
         color:#f8f4ef;
         opacity: 0.7;
     }
         
-     .role{
-          font-style: italic;
-          margin-top: 0.5em;
-           font-size: 1.5em;
-    }
+     
     .nav{
   display: flex;
   justify-content: flex-end;
@@ -57,17 +42,14 @@ body {
   color: #fff;
 }
 
-.main {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 2em;
-  }
-
 a {
   text-align: center;
   cursor: pointer;
   font-size: 1em;
   
+}
+aside{
+  display: block;
 }
 
 header {
@@ -80,16 +62,7 @@ header {
   list-style-type: none;
 }
 
- a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 1em;
-  padding: 1em;
-}
-
-ul li {
+ ul li {
   list-style-type: none;
   font-size: 1em;
   display: block;
@@ -114,22 +87,10 @@ h1 {
   font-weight: 300;
   letter-spacing: 10px;
 }
-
-h3 {
-  margin: 1em;
-  text-transform: capitalize;
-}
-
 hr {
   width: 30%;
   margin: 0.5em;
 }
-
-.sidenav li a {
-  color: #ffffff;
-  text-transform: capitalize;
-}
-
 .btn-about {
   color: #ffffff;
   text-decoration: none;
