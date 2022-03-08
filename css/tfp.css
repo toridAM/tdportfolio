@@ -89,6 +89,10 @@ hr {
  .me{ 
   margin-bottom: 2em;
 }
+aside.nav{
+  display: flex;
+  justify-content: flex-end;
+}
 /*
 .product{
   font-size: 4em;
