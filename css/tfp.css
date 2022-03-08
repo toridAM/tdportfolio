@@ -14,7 +14,42 @@ img{
  margin: 0 auto;
  
 }
-.me{
+.social-list-link{
+             display: inline-flex;
+             margin-bottom: 1em;
+             padding: 1em;
+             }
+         .social-list{
+            padding: 1.5em;
+         }
+         .social-list a{
+            text-decoration: none;
+            text-transform: capitalize;
+            padding: 0.5em;
+            font-size: 1.5em;
+            color: #fff;
+        }
+         .social-list li {
+             list-style-type: none;
+         }
+      .social-list-link a {
+             color: #fff;
+             list-style-type: none;
+             font-size: 2em;
+             padding; 1em;
+        }
+        .social-list-link a:hover{
+        color:#f8f4ef;
+        opacity: 0.7;
+    }
+        
+     .role{
+          font-style: italic;
+          margin-top: 0.5em;
+           font-size: 1.5em;
+    }
+    
+/* .me{ 
   margin-bottom: 2em;
 }
 .product{
@@ -189,7 +224,7 @@ p.solution, p.problem {
   }
          }
 
-
+*/
 
 
 
