@@ -49,15 +49,7 @@ body {
           margin-top: 0.5em;
            font-size: 1.5em;
     }
-    
-/* .me{ 
-  margin-bottom: 2em;
-}
-.product{
-  font-size: 4em;
-  color: #932ebe;
-}
-.nav{
+    .nav{
   display: flex;
   justify-content: flex-end;
 }
@@ -110,17 +102,6 @@ ul li a {
   font-weight: 600;
   color: #932ebe;
 }
-.logo{
-  display: flex;
-  justify-content: space-around;
-}
-.title{
-  color: #932ebe;
-}
-.product{
-  padding: 1.5em;
-  font-size: 3em;
-}
 h1 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -147,6 +128,32 @@ hr {
 .sidenav li a {
   color: #ffffff;
   text-transform: capitalize;
+}
+
+.btn-about {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* .me{ 
+  margin-bottom: 2em;
+}
+.product{
+  font-size: 4em;
+  color: #932ebe;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-around;
+}
+.title{
+  color: #932ebe;
+}
+.product{
+  padding: 1.5em;
+  font-size: 3em;
 }
 
 .text h1 {
@@ -179,12 +186,7 @@ h1#intro h1#myrole h1#problems h1#goals h1#impact h1#earlyideation h1#testing h1
   font-weight: 400;
 }
 
-.btn-about {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-}
+
 
 p.solution, p.problem {
   text-align: center;
