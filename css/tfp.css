@@ -10,6 +10,10 @@ body {
   color: #323233;
   background-color: #ffffff;
 }
+img{
+ margin: 0 auto;
+ 
+}
 .me{
   margin-bottom: 2em;
 }
@@ -166,11 +170,7 @@ p.solution, p.problem {
   text-transform: uppercase;
   
 }
-img{
-  display: flex;
-  justify-content: space-around;
- 
-}
+
 .listunpw, .pwandun{
   display: flex;
   justify-content: space-around;
