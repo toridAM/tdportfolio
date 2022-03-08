@@ -10,9 +10,10 @@ body {
   color: #323233;
   background-color: #ffffff;
 }
-img{
- margin: 0 auto;
- 
+
+.main{
+  margin: 0 auto;
+  width: 80%;
 }
 .social-list-link{
              display: inline-flex;
@@ -63,10 +64,7 @@ img{
 .nav a{
   color: #fff;
 }
-.main-container{
-  margin: 0 auto;
-  width: 80%;
-}
+
 .main {
   display: flex;
   justify-content: space-evenly;
