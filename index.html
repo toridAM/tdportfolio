@@ -11,270 +11,263 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
-    <script
+    <script>
       src="https://kit.fontawesome.com/69c51c18cf.js"
       crossorigin="anonymous">
     </script>
-     <style>* {
-   margin: 0px;
-   padding: 0px;
-   list-style-type: none;
-   box-sizing: border-box;
-   font-family: 'raleway', sans-serif;
- }
+    * {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'raleway', sans-serif;
+}
 
- body {
-   background: #fff;
-   color: #172530;
- }
+body {
+  background: #fff;
+  color: #172530;
+}
 
- .icons {
-   display: flex;
-   justify-content: space-around;
+.icons {
+  display: flex;
+  justify-content: space-around;
 
- }
+}
 
- ul {
-   display: flex;
-   justify-content: space-around;
-   margin-top: 2em;
- }
+a {
+  color: #fff;
+  text-decoration: none;
+}
 
- ul li {
-   list-style-type: none;
-   text-transform: uppercase;
-   color: #172530;
-   font-weight: 700;
- }
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
 
- li.social-list-link {
-   display: inline-flex;
-   margin-bottom: 1em;
-   padding: 1em;
- }
+ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #172530;
+  font-weight: 500;
+}
 
- .social-list {
-   padding: 1.5em;
- }
+li.social-list-link {
+  display: inline-flex;
+  margin-bottom: 1em;
+  padding: 1em;
+}
 
- .social-list a {
-   text-decoration: none;
-   color: #172530;
-   text-transform: capitalize;
-   padding: 0.5em;
-   font-size: 1.5em;
- }
+.social-list {
+  padding: 1.5em;
+}
 
- .social-list a:hover {
-   color: #f8f4ef;
-   opacity: 0.7;
- }
+.social-list a {
+  text-decoration: none;
+  color: #172530;
+  text-transform: capitalize;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
 
- .social-list li {
-   list-style-type: none;
- }
+.social-list li {
+  list-style-type: none;
+}
 
- .social-list-link a {
-   color: #172530;
-   list-style-type: none;
-   font-size: 2em;
-   padding;
-   1em;
- }
+.social-list-link a {
+  color: #172530;
+  list-style-type: none;
+  font-size: 2em;
+  padding: 1em;
+}
 
- .social-list-link a:hover {
-   color: #f8f4ef;
-   opacity: 0.7;
- }
+.social-list a:hover {
+  color: #666;
+  opacity: 0.7;
+}
 
- .projects {
-   display: flex;
-   flex-wrap: wrap;
-/*    margin-top: 5em; */
- }
+.social-list-link a:hover {
+  color: #666;
+  opacity: 0.7;
+}
 
- h3,
- p {
-   text-transform: capitalize;
- }
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5em;
+}
 
- h3 {
-   margin-top: 1em;
- }
+h3,
+p {
+  text-transform: capitalize;
+}
 
- p {
-   margin: 1em;
-   color: #212121;
- }
+h3 {
+  margin-top: 1em;
+}
 
- .card {
-   background-color: #172530;
-   border-radius: 4px;
-   width: 200px;
-   height: 300px;
-   margin: auto;
-   padding: 2em;
+p {
+  margin: 1em;
+  color: #fff;
+  text-transform: lowercase;
+}
 
- }
+.card {
+  background-color: #666;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+}
 
+.iconbutton {
+  background-color: #cb188e;
+  color: #fff;
+  padding: 0.5em 2em;
+  border: none;
+  cursor: pointer;
+}
 
- .iconbutton {
-   background-color: #cb188e;
-   color: #fff;
-   padding: 0.5em 2em;
-   border: none;
-   cursor: pointer;
- }
+.fas fa-arrow-right {
+  color: #cb188e;
+  font-size: 1.5em;
+}
 
- .fas fa-arrow-right {
-   color: #fff;
-   font-size: 1.5em;
- }
+.fab fa-blogger,
+.fab fa-app-store,
+.fas fa-shopping-cart,
+.fas fa-code {
+  color: #cb188e;
+}
 
- .fab fa-blogger,
- .fab fa-app-store,
- .fas fa-shopping-cart,
- .fas fa-code {
-   color:#cb188e;
- }
+@media all and (max-width: 600px) {
+  .social-list {
+    flex-wrap: wrap;
+  }
 
- a {
-   color: #cb188e;
-   text-decoration: none;
- }
+  .social-list>li {
+    flex: 1 1 50%;
+  }
 
- .icons {
-   position: relative;
-   bottom: 40px;
- }
+  .projects {
+    flex: 1 1 50%;
+    margin-bottom: 1em;
+  }
+}
 
- @media all and (max-width: 600px) {
-   .social-list {
-     flex-wrap: wrap;
-   }
+@media all and (max-width: 400px) {
+  .social-list>li {
+    flex: 1 1 100%;
 
-   .social-list>li {
-     flex: 1 1 50%;
-   }
+  }
 
-   .projects {
-     flex: 1 1 50%;
-     margin-bottom: 1em;
-   }
- }
+  .projects {
+    flex: 1 1 100%;
+  }
+}
 
- @media all and (max-width: 400px) {
-   .social-list>li {
-     flex: 1 1 100%;
+    <body>
+  <aside class="nav">
+    <ul class="social-list">
+      <li><a href="index.html">projects</a></li>
+    </ul>
+  </aside>
 
-   }
+  <main class="projects">
+    <div class="card">
+      <i class="fab fa-blogger"></i>
+      <h3>
+        blog
+      </h3>
+      <a href="../tdportfolio\blogpost.html">
+        <p>
+          HTML emails are helpful to get the word out about what is going on in your business.
+        </p>
+        <button class="iconbutton">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </a>
+    </div>
 
-   .projects {
-     flex: 1 1 100%;
-   }
- }
+    <div class="card">
+      <i class="fas fa-shopping-cart"></i>
+      <h3>
+        ecommerce
+      </h3>
+      <a href="../tdportfolio\goldskateboards.html">
+        <p>
+          This is a website application which is interactive for results to collect data from the user.
+        </p>
+        <button class="iconbutton">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </a>
+    </div>
 
- </style>
-  </head>
-<body>
-   <aside class="nav">
-     <ul class="social-list">
-       <li><a href="index.html">projects</a></li>
-     </ul>
-   </aside>
+    <div class="card">
+      <i class="fas fa-code"></i>
+      <h3>
+        web design
+      </h3>
+      <a href="../tdportfolio\home.html">
+        <p>
+          This is a portfolio website where you can obtain information about the organization.
+        </p>
+        <button class="iconbutton">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </a>
+    </div>
+    <div class="card">
+      <i class="fab fa-app-store"></i>
+      <h3>
+        case study
+      </h3>
+      <a href="../tdportfolio\cskey.html">
+        <p>
+          Mykey is an app that unlocks the building complex and renters unit with their phone.
+        </p>
+        <button class="iconbutton">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </a>
+    </div>
+  </main>
 
-   <main class="projects">
-     <div class="card">
-       <i class="fab fa-blogger"></i>
-       <h3>
-         blog
-       </h3>
-       <a href="../tdportfolio\blogpost.html">
-         <p>
-           html emails are helpful to get the word out about what is going on in your business.
-         </p>
-         <button class="iconbutton">
-           <i class="fas fa-arrow-right"></i>
-         </button>
-       </a>
-     </div>
+  <section class="icons">
+    <ul>
+      <li class="social-list-link">
+        <a href="mailto:money2tad@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
 
-     <div class="card">
-       <i class="fas fa-shopping-cart"></i>
-       <h3>
-         ecommerce
-       </h3>
-       <a href="../tdportfolio\spanishdress.html">
-         <p>
-           this is a website application which is interactive for results to collect data from the user.
-         </p>
-         <button class="iconbutton">
-           <i class="fas fa-arrow-right"></i>
-         </button>
-       </a>
-     </div>
+      <li class="social-list-link">
+        <a href="https://www.pinterest.com/in/toridumitrescu/">
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+      </li>
+      <li class="social-list-link">
+        <a href="https://www.linkedin.com/in/toridumitrescu">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li class="social-list-link">
+        <a href="https://www.behance.net/toriadm/">
+          <i class="fab fa-behance"></i>
+        </a>
+      </li>
+      <li class="social-list-link">
+        <a href="https://github.com/toridAM/tdportfolio">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+</body>
 
-     <div class="card">
-       <i class="fas fa-code"></i>
-       <h3>
-         web design
-       </h3>
-       <a href="../tdportfolio\home.html">
-         <p>
-           this is a portfolio website where you can obtain information about the organization.
-         </p>
-         <button class="iconbutton">
-           <i class="fas fa-arrow-right"></i>
-         </button>
-       </a>
-     </div>
-     <div class="card">
-       <i class="fab fa-app-store"></i>
-       <h3>
-         case study
-       </h3>
-       <a href="../tdportfolio\cskey.html">
-         <p>
-           mykey is an app that unlocks the building complex and renters unit with their phone.
-         </p>
-         <button class="iconbutton">
-           <i class="fas fa-arrow-right"></i>
-         </button>
-       </a>
-     </div>
-   </main>
-
-   <section class="icons">
-     <ul>
-       <li class="social-list-link">
-         <a href="mailto:money2tad@gmail.com">
-           <i class="fas fa-envelope"></i>
-         </a>
-       </li>
-
-       <li class="social-list-link">
-         <a href="https://www.pinterest.com/in/toridumitrescu/">
-           <i class="fab fa-pinterest-p"></i>
-         </a>
-       </li>
-       <li class="social-list-link">
-         <a href="https://www.linkedin.com/in/toridumitrescu">
-           <i class="fab fa-linkedin-in"></i>
-         </a>
-       </li>
-       <li class="social-list-link">
-         <a href="https://www.behance.net/toriadm/">
-           <i class="fab fa-behance"></i>
-         </a>
-       </li>
-       <li class="social-list-link">
-         <a href="https://github.com/toridAM/tdportfolio">
-           <i class="fab fa-github"></i>
-         </a>
-       </li>
-     </ul>
-   </section>
- </body>
 </html>
 
 
