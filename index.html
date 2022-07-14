@@ -15,125 +15,233 @@
       src="https://kit.fontawesome.com/69c51c18cf.js"
       crossorigin="anonymous">
     </script>
-    <style>* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: 'raleway', sans-serif;
-}
+     <style>* {
+   margin: 0px;
+   padding: 0px;
+   list-style-type: none;
+   box-sizing: border-box;
+   font-family: 'raleway', sans-serif;
+ }
 
-body {
-  background-color: #35383b;
-  color: #fff;
-}
+ body {
+   background: #35383b;
+   color: #fff;
+ }
 
-h2 {
+ .icons {
+   display: flex;
+   justify-content: space-around;
 
-  font-size: 2em;
-  text-align: center;
-  color: orange;
-}
+ }
 
-main {
-  margin: auto;
-  width: 70%;
-}
+ ul {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 2em;
+ }
 
-.icons {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1em;
-}
+ ul li {
+   list-style-type: none;
+   text-transform: uppercase;
+   color: #fff;
+   font-weight: 500;
+ }
 
-ul {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2em;
-}
+ li.social-list-link {
+   display: inline-flex;
+   margin-bottom: 1em;
+   padding: 1em;
+ }
 
-ul li {
-  list-style-type: none;
-  text-transform: uppercase;
-  font-weight: 500;
-}
+ .social-list {
+   padding: 1.5em;
+ }
 
-.social-list-link {
-  display: inline-flex;
-  margin-bottom: 1em;
-  padding: 1em;
-}
+ .social-list a {
+   text-decoration: none;
+   color: #fff;
+   text-transform: capitalize;
+   padding: 0.5em;
+   font-size: 1.5em;
+ }
 
-.social-list {
-  padding: 1.5em;
-}
+ .social-list a:hover {
+   color: #f8f4ef;
+   opacity: 0.7;
+ }
 
-.social-list a {
-  text-decoration: none;
-  text-transform: capitalize;
-  padding: 0.5em;
-  font-size: 1.5em;
-  color: #fff;
-}
+ .social-list li {
+   list-style-type: none;
+ }
 
-.social-list a:hover {
-  color: #f8f4ef;
-  opacity: 0.7;
-}
+ .social-list-link a {
+   color: #fff;
+   list-style-type: none;
+   font-size: 2em;
+   padding;
+   1em;
+ }
 
-.social-list li {
-  list-style-type: none;
-}
+ .social-list-link a:hover {
+   color: #f8f4ef;
+   opacity: 0.7;
+ }
 
-.social-list-link a {
-  color: #fff;
-  list-style-type: none;
-  font-size: 2em;
-  padding;
-  1em;
-}
+ .projects {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 5em;
+ }
 
-.social-list-link a:hover {
-  color: #f8f4ef;
-  opacity: 0.7;
-}
+ h3,
+ p {
+   text-transform: capitalize;
+ }
 
-.icons {
-  position: relative;
-  bottom: 40px;
-}
+ h3 {
+   margin-top: 1em;
+ }
 
-@media all and (max-width: 600px) {
-  .social-list {
-    flex-wrap: wrap;
-  }
+ p {
+   margin: 1em;
+   color: #fff;
+ }
 
-  .social-list>li {
-    flex: 1 1 50%;
-  }
+ .card {
+   background-color: #35383b;
+   border-radius: 4px;
+   box-shadow: 1px 2px 5px #151517;
+   width: 200px;
+   margin: auto;
+   padding: 2em;
 
-}
+ }
 
-@media all and (max-width: 400px) {
-  .social-list>li {
-    flex: 1 1 100%;
 
-  }
-}
+ .iconbutton {
+   background-color: #8c2922;
+   color: #fff;
+   padding: 0.5em 2em;
+   border: none;
+   cursor: pointer;
+ }
 
-</style>
-</head>
-     <body>
-   <!--nav -->
+ .fas fa-arrow-right {
+   color: #fff;
+   font-size: 1.5em;
+ }
+
+ .fab fa-blogger,
+ .fab fa-app-store,
+ .fas fa-shopping-cart,
+ .fas fa-code {
+   color: #fff;
+ }
+
+ a {
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .icons {
+   position: relative;
+   bottom: 40px;
+ }
+
+ @media all and (max-width: 600px) {
+   .social-list {
+     flex-wrap: wrap;
+   }
+
+   .social-list>li {
+     flex: 1 1 50%;
+   }
+
+   .projects {
+     flex: 1 1 50%;
+     margin-bottom: 1em;
+   }
+ }
+
+ @media all and (max-width: 400px) {
+   .social-list>li {
+     flex: 1 1 100%;
+
+   }
+
+   .projects {
+     flex: 1 1 100%;
+   }
+ }
+
+ </style>
+  </head>
+<body>
    <aside class="nav">
      <ul class="social-list">
-       <li><a href="index.html">about me</a></li>
-       <li><a href="project-work.html">projects</a></li>
-       <li><a href="cv.html">cv</a></li>
+       <li><a href="index.html">projects</a></li>
      </ul>
    </aside>
-   <main>
-     <h2>HI,
-     I like to find solutions to things that don't work. Let's talk!</h2>
+
+   <main class="projects">
+     <div class="card">
+       <i class="fab fa-blogger"></i>
+       <h3>
+         blog
+       </h3>
+       <a href="../tdportfolio\blogpost.html">
+         <p>
+           html emails are helpful to get the word out about what is going on in your business.
+         </p>
+         <button class="iconbutton">
+           <i class="fas fa-arrow-right"></i>
+         </button>
+       </a>
+     </div>
+
+     <div class="card">
+       <i class="fas fa-shopping-cart"></i>
+       <h3>
+         ecommerce
+       </h3>
+       <a href="../tdportfolio\goldskateboards.html">
+         <p>
+           this is a website application which is interactive for results to collect data from the user.
+         </p>
+         <button class="iconbutton">
+           <i class="fas fa-arrow-right"></i>
+         </button>
+       </a>
+     </div>
+
+     <div class="card">
+       <i class="fas fa-code"></i>
+       <h3>
+         web design
+       </h3>
+       <a href="../tdportfolio\home.html">
+         <p>
+           this is a portfolio website where you can obtain information about the organization.
+         </p>
+         <button class="iconbutton">
+           <i class="fas fa-arrow-right"></i>
+         </button>
+       </a>
+     </div>
+     <div class="card">
+       <i class="fab fa-app-store"></i>
+       <h3>
+         case study
+       </h3>
+       <a href="../tdportfolio\cskey.html">
+         <p>
+           mykey is an app that unlocks the building complex and renters unit with their phone.
+         </p>
+         <button class="iconbutton">
+           <i class="fas fa-arrow-right"></i>
+         </button>
+       </a>
+     </div>
    </main>
 
    <section class="icons">
@@ -167,4 +275,12 @@ ul li {
      </ul>
    </section>
  </body>
- </html>
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Securit
+       
+    
