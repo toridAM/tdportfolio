@@ -16,242 +16,119 @@
       crossorigin="anonymous">
     </script>
     <style>
-    * {
-  margin: 0px;
-  padding: 0px;
+  
+/* .fab fa-blogger, */
+/* .fab fa-app-store, */
+/* .fas fa-shopping-cart, */
+/* .fas fa-code { */
+/*   color: #cb188e; */
+/* } */
+
+* {
+
   list-style-type: none;
   box-sizing: border-box;
   font-family: 'raleway', sans-serif;
 }
 
-body {
-  background: #fff;
-  color: #172530;
-}
-        .nav{
-            margin: 1em;
-         }
-        ul.social-list{
-            display: flex;
-        }
-        li{
-            list-style-type: none;
-        }
-        a{
-            text-decoration: none;
-            color: #151517;
-        }
-        .social-list a{
-            text-transform: uppercase;
-            padding: 1em;
-            font-weight: 700;
-        }
-        .social-list-link-color{
-            text-transform: uppercase;
-            text-decoration: none;
-            padding: 0.3em;
-            color:#eb00ff;
-        }
------
-.icons {
-  display: flex;
-  justify-content: space-around;
-
-}
-
-a {
-  color: #172530;
-  text-decoration: none;
-}
-
-ul {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2em;
-}
-
-ul li {
-  list-style-type: none;
-  text-transform: uppercase;
-  color: #172530;
-  font-weight: 500;
-}
-
-li.social-list-link {
-  display: inline-flex;
-  margin-bottom: 1em;
-  padding: 1em;
-}
-
-.social-list {
-  padding: 1.5em;
-}
-
-.social-list a {
-  text-decoration: none;
+h1 {
   color: #172530;
   text-transform: capitalize;
-  padding: 0.5em;
-  font-size: 1.5em;
+  text-align: center;
 }
 
-.social-list li {
-  list-style-type: none;
-}
-
-.social-list-link a {
-  color: #172530;
-  list-style-type: none;
-  font-size: 2em;
-  padding: 1em;
-}
-
-.social-list-link a:hover {
-  color: #666;
-  opacity: 0.7;
+h3 {
+  color: #cb188e;
+  text-transform: capitalize;
 }
 
 .projects {
   display: flex;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
   flex-wrap: wrap;
-  margin-top: 5em;
+  font-size: 30px;
+  text-align: center;
 }
 
-h3
- {
-  text-transform: capitalize;
+.flex-item-left {
+  background-color: #172530;
+  padding: 10px;
+  flex: 50%;
 }
 
-h3 {
-  margin-top: 1em;
+.flex-item-right {
+  background-color: #172530;
+  padding: 10px;
+  flex: 50%;
 }
 
 p {
-  margin: 1em;
-  color: #172530;
-  text-transform: lowercase;
-}
-
-.card {
-  background-color: #fff;
-  border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 250px;
-  height: 250px;
-}
-
-.iconbutton {
-  background-color: #172530;
   color: #fff;
-  padding: 0.5em 2em;
-  border: none;
-  cursor: pointer;
+  text-decoration: none;
 }
 
-.fas fa-arrow-right {
-  color: #cb188e;
-  font-size: 1.5em;
-}
-
-.fab fa-blogger,
-.fab fa-app-store,
-.fas fa-shopping-cart,
-.fas fa-code {
-  color: #cb188e;
-}
-
-/* @media all and (max-width: 600px) {
-  .social-list {
-    flex-wrap: wrap;
+.icons{
+  display: flex;
   }
-
-  .social-list>li {
-    flex: 1 1 50%;
+  
+  .social-list-link{
+    color: #172530;
   }
+        <body>
+  <h1>
+    projects
+  </h1>
 
-  .projects {
-    flex: 1 1 50%;
-    margin-bottom: 1em;
-  }
-}
-
-@media all and (max-width: 400px) {
-  .social-list>li {
-    flex: 1 1 100%;
-
-  }
-
-  .projects {
-    flex: 1 1 100%;
-  }
-} */
-    </style>
-    <body>
-  <header class="nav">
-    <ul class="social-list">
-      <li><a href="index.html">projects</a></li>
-    </ul>
-  </header>
-
-  <main class="projects">
-    <div class="card">
+  <main class="flex-container">
+    <div class="flex-item-left">
       <i class="fab fa-blogger"></i>
       <h3>
-        html emails
+        html email
       </h3>
       <a href="../tdportfolio\blogpost.html">
         <p>
-          Let's get the word out.
+          Let's get the word out!
         </p>
-        <button class="iconbutton">
-          <i class="fas fa-arrow-right"></i>
-        </button>
       </a>
     </div>
 
-    <div class="card">
+    <div class="flex-item-left">
       <i class="fas fa-shopping-cart"></i>
       <h3>
         blog / portfolio
       </h3>
-      <a href="../tdportfolio\challenge4index.html">
+      <a href="../tdportfolio\goldskateboards.html">
         <p>
-           Read about the person or organization.
+          Let's read about the person or organization
         </p>
-        <button class="iconbutton">
-          <i class="fas fa-arrow-right"></i>
-        </button>
       </a>
     </div>
 
-    <div class="card">
+    <div class="flex-item-right">
       <i class="fas fa-code"></i>
       <h3>
-         three page blog 
+        3 page blog
       </h3>
       <a href="../tdportfolio\home.html">
         <p>
-          Let's move within your site.
+          let's move within your site.
         </p>
-        <button class="iconbutton">
-          <i class="fas fa-arrow-right"></i>
-        </button>
       </a>
+
     </div>
-    <div class="card">
+    <div class="flex-item-right">
       <i class="fab fa-app-store"></i>
       <h3>
         case study
       </h3>
       <a href="../tdportfolio\cskey.html">
         <p>
-          An app to unlock doors using your phone.
+          an app that unlocks doors.
         </p>
-        <button class="iconbutton">
-          <i class="fas fa-arrow-right"></i>
-        </button>
       </a>
     </div>
   </main>
@@ -287,7 +164,6 @@ p {
     </ul>
   </section>
 </body>
-
 </html>
 
 
