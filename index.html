@@ -28,7 +28,31 @@ body {
   background: #fff;
   color: #172530;
 }
-
+        .nav{
+            margin: 1em;
+         }
+        ul.social-list{
+            display: flex;
+        }
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: #151517;
+        }
+        .social-list a{
+            text-transform: uppercase;
+            padding: 1em;
+            font-weight: 700;
+        }
+        .social-list-link-color{
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 0.3em;
+            color:#eb00ff;
+        }
+-----
 .icons {
   display: flex;
   justify-content: space-around;
@@ -82,11 +106,6 @@ li.social-list-link {
   padding: 1em;
 }
 
-.social-list a:hover {
-  color: #666;
-  opacity: 0.7;
-}
-
 .social-list-link a:hover {
   color: #666;
   opacity: 0.7;
@@ -98,8 +117,8 @@ li.social-list-link {
   margin-top: 5em;
 }
 
-h3,
-p {
+h3
+ {
   text-transform: capitalize;
 }
 
@@ -109,12 +128,12 @@ h3 {
 
 p {
   margin: 1em;
-  color: #fff;
+  color: #172530;
   text-transform: lowercase;
 }
 
 .card {
-  background-color: #666;
+  background-color: #fff;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
@@ -124,7 +143,7 @@ p {
 }
 
 .iconbutton {
-  background-color: #cb188e;
+  background-color: #172530;
   color: #fff;
   padding: 0.5em 2em;
   border: none;
@@ -143,7 +162,7 @@ p {
   color: #cb188e;
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
   .social-list {
     flex-wrap: wrap;
   }
@@ -167,14 +186,14 @@ p {
   .projects {
     flex: 1 1 100%;
   }
-}
+} */
     </style>
     <body>
-  <aside class="nav">
+  <header class="nav">
     <ul class="social-list">
       <li><a href="index.html">projects</a></li>
     </ul>
-  </aside>
+  </header>
 
   <main class="projects">
     <div class="card">
@@ -184,7 +203,7 @@ p {
       </h3>
       <a href="../tdportfolio\blogpost.html">
         <p>
-          HTML emails are helpful to get the word out about what is going on in your business.
+          Let's get the word out.
         </p>
         <button class="iconbutton">
           <i class="fas fa-arrow-right"></i>
@@ -199,7 +218,7 @@ p {
       </h3>
       <a href="../tdportfolio\challenge4index.html">
         <p>
-           where you read about the person or organization.
+           Read about the person or organization.
         </p>
         <button class="iconbutton">
           <i class="fas fa-arrow-right"></i>
@@ -214,7 +233,7 @@ p {
       </h3>
       <a href="../tdportfolio\home.html">
         <p>
-          This is a three page website.
+          Let's move within your site.
         </p>
         <button class="iconbutton">
           <i class="fas fa-arrow-right"></i>
@@ -228,7 +247,7 @@ p {
       </h3>
       <a href="../tdportfolio\cskey.html">
         <p>
-          Mykey is an app that unlocks the building complex and renters unit with their phone.
+          An app to unlock doors using your phone.
         </p>
         <button class="iconbutton">
           <i class="fas fa-arrow-right"></i>
