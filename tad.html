@@ -174,17 +174,22 @@
 </div>
     <body>
     <style>
+        #wrapper2{
+            background-color: #fff;
+        }
           body{
             font-family: "open sans";
-            background-color: #fff;
             font-size: 15px;
             margin: 0 auto;
            } 
-        #header{
-            background-color: #fff;
+         .social{
             display: flex;
-            justify-content: space between;
+            justify-content: flex-end;
         }
+        .social ul{
+            display: flex;
+           }
+       
         #banner img{
             width: 100%;
         }
@@ -204,17 +209,10 @@
             
         }
         
-        .social{
-            flex: end;
-            padding: 10px;
-          }
         .a {
-            font-size: 24px;
+            font-size: 32px;
         }
-        .company{
-           flex: start;
-            padding: 10px;
-        }
+
         .flex-container{
            display: flex;
            flex-direction: row;
@@ -257,7 +255,7 @@
         
     </style>
         <div id="wrapper2">
-           <div class="flex-container">
+           <div class="header">
                <div class="company">
                 <h1>modern</h1>
                 </div>
@@ -265,7 +263,7 @@
                 <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/toridumitrescu/">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                     </a>
                 </li>
                  <li>
@@ -275,22 +273,22 @@
                 </li>
                  <li>
                     <a href="https://www.linkedin.com/in/toridumitrescu/">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
                     </a>
                 </li>
                  <li>
                     <a href="https://www.linkedin.com/in/toridumitrescu/">
-                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
                     </a>
                 </li>
                  <li>
                     <a href="https://www.linkedin.com/in/toridumitrescu/">
-                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
                     </a>
                 </li>
                  <li>
                     <a href="https://www.linkedin.com/in/toridumitrescu/">
-                        <i class="fab fa-snapchat"></i>
+                        <i class="fab fa-snapchat" aria-hidden="true"></i>
                     </a>
                 </li>
             </ul>
@@ -306,7 +304,7 @@
             </div>
     
             <div class="col">
-                 <i class="fab fa-envelope"></i>
+                 <i class="fa fa-envelope" aria-hidden="true"></i>
                   <div class="row">
                     <h2>ecommerce</h2>
                     <p>send an email to your clients to generate more business.</p>
@@ -314,7 +312,7 @@
             </div>
     
             <div class="col">
-                 <i class="fab fa-file"></i>
+                <i class="fa fa-file-text" aria-hidden="true"></i>
                 <div class="row">
                     <h2>web design</h2>
                     <p>the place or type of surroundings where something is positioned.</p>
@@ -323,7 +321,7 @@
     
             <div class="col">
                 <div class="row">
-                     <i class="fab fa-email"></i>
+                     <i class="fa fa-home" aria-hidden="true"></i>
                     <h2>html email</h2>
                     <p>an HTML email is use of the subset to provide formatting that are not available in plain text.</p>
                 </div>
