@@ -206,8 +206,22 @@
             
         }
         
-        .col{
-            display: flex;
+        .flex-container{
+           display: flex;
+           flex-direction: row;
+           text-align: center;
+        }
+            
+        .flex-item-left{
+            flex: 50%;
+            padding: 10px;
+          }
+            .flex-item-right{
+                flex: 50%;
+                padding: 10px;
+            }
+            
+            
             
         }
         .btn-dk{
@@ -308,12 +322,16 @@
                 </div>
             </div>
         </div>
-    <div id="contact-dark">
-        <h2>create custom designs</h2>
-        <img src="../tdportfolio\image/colorkeyboard.png" alt="colorkeyboard">
-        <p>over the years we have built up a massive portfolio for our client website and email designs.
+    <div class="flex-container">
+        <div class="flex-item-left">
+       <img src="../tdportfolio\image/colorkeyboard.png" alt="colorkeyboard">
+        </div>
+        <div class="flex-item-right">
+       <h2>create custom designs</h2>
+       <p>over the years we have built up a massive portfolio for our client website and email designs.
         </p>
         <a class="btn-lt" href="">read more</a>
+        </div>
     </div>
     
         <div id="contact-light">
