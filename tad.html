@@ -183,7 +183,7 @@
         #header{
             background-color: #fff;
             display: flex;
-            justify-content: justify;
+            justify-content: space between;
         }
         #banner img{
             width: 100%;
@@ -205,7 +205,18 @@
             color: #fff;
             
         }
-        
+        .header-container{
+            display: flex;
+            flex-direction: row;
+        }
+        .social{
+            flex: 50%;
+            padding: 10px;
+        }
+        .company{
+            flex: 50%;
+            padding: 10px;
+        }
         .flex-container{
            display: flex;
            flex-direction: row;
@@ -248,10 +259,12 @@
         
     </style>
         <div id="wrapper2">
-           <div id="header">
+           <div class="header-container">
+               <div class="company">
                 <h1>modern</h1>
-                 <ul id="social">
-            <ul>
+                </div>
+            <div class="social">
+                <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/toridumitrescu/">
                         <i class="fab fa-linkedin-in"></i>
@@ -284,6 +297,7 @@
                 </li>
             </ul>
                </div>
+           </div>
             <div id="banner">
                 <img src="../tdportfolio\image/forestbythelake.png" alt="forestbythelake">
             </div>
