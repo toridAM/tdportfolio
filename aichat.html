@@ -51,4 +51,135 @@
      Already have an account? <a href="#">Login</a>
    </p>
  </body>
+    ------------------
+    <style>
+      body {
+   background-color: #fff;
+   margin: 0 auto;
+   font-family: sans-serif;
+ }
+
+ h1 {
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+ h2 {
+   text-align: center;
+   text-decoration: capitalize;
+ }
+
+ p {
+   margin: auto;
+   padding: 10%;
+ }
+
+ .btn {
+   background-color: #043b88;
+   border: none;
+   border-radius: 4px;
+   color: #fff;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 17px;
+   padding: 10px 20px;
+   width: 50%;
+   cursor: pointer;
+ }
+
+ a {
+   text-align: center;
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: capitalize;
+ }
+
+ .typewriter {
+
+   display: inline-block;
+   overflow: hidden;
+   border-right: 0.15em solid black;
+   /* Cursor */
+   white-space: nowrap;
+   margin: 0 auto;
+   letter-spacing: 0.15em;
+   animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+ }
+
+ @keyframes typing {
+   from {
+     width: 0;
+   }
+
+   to {
+     width: 100%;
+   }
+ }
+
+ @keyframes blink-caret {
+
+   from,
+   to {
+     border-color: transparent;
+   }
+
+   50% {
+     border-color: black;
+   }
+ }
+   
+    </style>
+   --------------
+document.addEventListener("DOMContentLoaded", function() {
+    const text = "Hello, this is a typing effect!";
+    let index = 0;
+    const typingText = document.getElementById("typing-text");
+
+    function type() {
+        if (index < text.length) {
+            typingText.textContent += text.charAt(index);
+            index++;
+            setTimeout(type, 100); // Adjust the speed here
+        }
+    }
+
+    type();
+});
+
+-------------
+    
+    <!--
+    <body>
+   <h1>
+     ai chat
+   </h1>
+   <h2>
+     ecocrate
+   </h2>
+   <h2>
+     product designer
+   </h2>
+   <p>
+     why do you think you’d be a good fit for this position?
+   </p>
+   <div class="robot">
+     <i></i>
+     <p>
+       generate your ai pitch.
+     </p>
+   </div>
+   <p class="typewriter">
+     I’m excited to apply my experience from designing a habit formation ios app and a personal journey website to the innovative projects at ecocrate. My work improving user satisfaction and increasing website visit volume through tailored designs and agile collaboration fits perfectly with your mission. My skills in figma, user testing, and creating responsive websites are ready to contribute to creating eco-friendly, user-centric designs that drive ecocrate’s success.
+   </p>
+   <div class="btn">
+     <a href="#">submit</a>
+   </div>
+
+
+
+ </body>
+-->
+
 
