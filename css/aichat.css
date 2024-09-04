@@ -33,7 +33,7 @@
  }
 
  input {
-   width: 510px;
+   width: 50%;
    padding: 10px;
  }
 
@@ -44,14 +44,10 @@
    color: #fff;
    padding: 10px 20px;
    width: 50%;
-   display: flex;
-   justify-content: center;
-   align-item: center;
    cursor: pointer;
    text-decoration: none;
    font-size: 17px;
-  
- }
+   }
 
  .robot {
    display: flex;
