@@ -49,15 +49,11 @@
    color: #fff;
    padding: 16px 30px;
    width: 50%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-   
+   display: flex;
+   justify-content: center;
+   align-item: center;
    cursor: pointer;
-   
    text-decoration: none;
-  
    font-size: 17px;
   
  }
