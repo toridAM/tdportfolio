@@ -49,12 +49,15 @@
    color: #fff;
    padding: 16px 30px;
    width: 50%;
-   position: absolute;
-   left: 30%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+   
    cursor: pointer;
-   text-align: center;
+   
    text-decoration: none;
-   display: inline-block;
+  
    font-size: 17px;
   
  }
