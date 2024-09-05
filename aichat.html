@@ -10,77 +10,84 @@
     <link rel="stylesheet" tyle="text/css" href="css/aichat.css"/>
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <title>AI Chat</title>
+    
     <style>
-   body {
-   background-color: #fff;
-   margin: 0 auto;
-   font-family: sans-serif;
- }
+         body {
+    background-color: #fff;
+    margin: 0 auto;
+    font-family: sans-serif;
 
- h1 {
-   text-align: center;
-   text-transform: uppercase;
- }
+  }
 
- h2 {
-   text-align: center;
-   text-transform: capitalize;
- }
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
 
- p {
-   text-align: center;
-   margin: 0;
- }
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
 
- form {
-   
- }
+  p {
+    text-align: center;
+    margin: 0;
+  }
 
- label {
-   text-transform: capitalize;
-   font-weight: bold;
+  form {
+    position: relative;
+    left: 25%;
 
- }
+  }
 
- input {
-   width: 50%;
-   padding: 10px;
- }
+  label {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
 
- button {
-   background-color: #043b88;
-   border: none;
-   border-radius: 4px;
-   color: #fff;
-   padding: 10px 20px;
-   width: 50%;
-   cursor: pointer;
-   text-decoration: none;
-   font-size: 17px;
-   text-align: center;
+  input {
+    width: 50%;
+    padding: 10px;
+  }
+
+  button {
+    background-color: #043b88;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 20px;
+    width: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+
+  }
+
+  .robot {
     display: flex;
     justify-content: center;
-    align-items: center;
-   }
+    background-color: #e3e5e7;
+    padding: 12px;
+    margin: 20px;
+  }
 
- .robot {
-   display: flex;
-   justify-content: center;
-   background-color: #e3e5e7;
-   padding: 12px;
-   margin: 20px;
- }
+  a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
 
- a {
-   text-align: center;
-   color: #fff;
-   text-decoration: none;
-   font-weight: bold;
-   text-transform: capitalize;
- }
- </style>
+  .footertext {
+    text-align: center;
+    padding: 15px;
+
+  }
+</style>
     
- <body>
+  <body>
    <h1>
      ai chat
    </h1>
@@ -112,10 +119,11 @@
      <br><br>
      <input type="text" id="email" name="email">
      <br><br>
-  </form>
-       <button>
-     <a href="#">next</a>
-    </button>
+     <button>
+       <a href="#">next</a>
+     </button>
+   </form>
+
    <p class="footertext">
      Already have an account? <a href="#">Login</a>
    </p>
